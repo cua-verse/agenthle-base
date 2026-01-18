@@ -19,10 +19,8 @@ classifiers = [
 
 dependencies = [
     "python-dotenv",
-
     # OSWorld
     "desktop_env",
-
     # cua
     "cua-core",
     "cua-computer",
@@ -30,7 +28,9 @@ dependencies = [
     "cua-computer-server",
     "cua-som",
     "cua-mcp-server",
-    "cua-bench[all]"
+    "cua-bench[all]",
+    "ipykernel>=7.1.0",
+    "ipywidgets>=8.1.8",
 ]
 
 
