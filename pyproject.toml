@@ -19,9 +19,6 @@ classifiers = [
 
 dependencies = [
     "python-dotenv",
-    # OSWorld
-    "desktop_env",
-    # cua
     "cua-core[telemetry]",  # Include telemetry optional dependencies
     "cua-computer",
     "cua-agent[all]",
@@ -49,7 +46,6 @@ package = false
 members = []
 
 [tool.uv.sources]
-desktop_env = { path = "submodules/OSWorld" }
 # cua packages are managed by the cua workspace, so we reference them via the workspace root
 cua-core = { path = "submodules/cua/libs/python/core", editable = true }
 cua-computer = { path = "submodules/cua/libs/python/computer", editable = true }
