@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Environment variables
+# .env
+.env.local
+**/.env
+# .gcp_vm_info.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs and results
+*.log
+results/
+
+# cua-bench config
+trycua/.cua/*.yaml
+trycua/demonstrations/
+trycua/cua-bench
+
+uv.lock
