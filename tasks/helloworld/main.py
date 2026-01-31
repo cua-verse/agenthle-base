@@ -2,35 +2,56 @@
 
 import asyncio
 import logging
+import os
+from dataclasses import dataclass
 
 import cua_bench as cb
+from tasks.common_config import GeneralTaskConfig
 
 logger = logging.getLogger(__name__)
 
-# Task constants
-MILESTONE_PATH = r"C:\Users\User\Desktop\step1_opened.png"
-MILESTONE_DESCRIPTION = "Test"
+#################################################################
+############################# Setup #############################
+#################################################################
 
+@dataclass
+class TaskConfig(GeneralTaskConfig):
+    TASK_TAG: str = "HELLOWORLD"
+    TASK_CATEGORY: str = "tasks"
+    
+    @property
+    def milestone_path(self) -> str:
+        return fr"{self.REMOTE_ROOT_DIR}\step1_opened.png"
+
+    @property
+    def task_description(self) -> str:
+        return f"""
+Goal: Save a milestone screenshot.
+1. Save milestone: save_milestone_screenshot(path="{self.milestone_path}", description="Test")
+
+Verification: The task is successful if the milestone screenshot file exists.
+"""
+
+    def to_metadata(self) -> dict:
+        metadata = super().to_metadata()
+        metadata.update({
+            "milestone_path": self.milestone_path,
+        })
+        return metadata
+
+config = TaskConfig()
 
 @cb.tasks_config(split="train")
 def load():
     """Define the test milestone task."""
     return [
         cb.Task(
-            description=f"""
-Goal: Save a milestone screenshot.
-1. Save milestone: save_milestone_screenshot(path="{MILESTONE_PATH}", description="{MILESTONE_DESCRIPTION}")
-
-Verification: The task is successful if the milestone screenshot file exists.
-""",
-            metadata={
-                "milestone_path": MILESTONE_PATH,
-                "milestone_description": MILESTONE_DESCRIPTION,
-            },
+            description=config.task_description,
+            metadata=config.to_metadata(),
             computer={
                 "provider": "computer",
                 "setup_config": {
-                    "os_type": "windows",
+                    "os_type": config.OS_TYPE,
                 }
             }
         )
@@ -51,15 +72,8 @@ async def evaluate(task_cfg, session: cb.DesktopSession) -> list[float]:
     milestone_path = task_cfg.metadata["milestone_path"]
     
     try:
-        # Use PowerShell to check if the milestone screenshot file exists (Windows-compatible)
-        check_file_cmd = f'powershell -Command "if (Test-Path \'{milestone_path}\') {{ Write-Output \'FILE_EXISTS\' }} else {{ Write-Output \'FILE_NOT_EXISTS\' }}"'
-        file_result = await session.run_command(check_file_cmd)
-
-        print(file_result)
-        
-        stdout = file_result.get("stdout", "") if isinstance(file_result, dict) else str(file_result)
-        
-        if "FILE_EXISTS" in stdout:
+        # Use session.exists to check if the milestone screenshot file exists
+        if await session.exists(milestone_path):
             logger.info(f"Evaluation: Success! Milestone screenshot found at {milestone_path}")
             return [1.0]
         else:

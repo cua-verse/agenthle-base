@@ -4,9 +4,11 @@ import asyncio
 import base64
 import logging
 import os
+from dataclasses import dataclass
 
 import cua_bench as cb
 from cua_bench import replay_trajectory
+from tasks.common_config import GeneralTaskConfig
 
 logger = logging.getLogger(__name__)
 
@@ -14,18 +16,38 @@ logger = logging.getLogger(__name__)
 ############################# Setup #############################
 #################################################################
 
+@dataclass
+class TaskConfig(GeneralTaskConfig):
+    TASK_CATEGORY: str = "game"
+    TASK_TAG: str = "GAME_MOTA_24_EZ"
+    GAME_TAG: str = "mota-24"
 
-# Task constants
-# We use the local path if it's the standard on the target environment
+    @property
+    def game_url(self) -> str:
+        return fr"{self.task_dir}\input\{self.GAME_TAG}.swf"
 
-TASK_TAG = "GAME_MOTA_24_EZ"
-GAME_TAG = "mota-24"
-GAME_URL = fr"C:\Users\User\Desktop\mota\mota_swfs\{GAME_TAG}.swf"
+    @property
+    def task_description(self) -> str:
+        return f"""
+Goal: Launch Magic Tower and navigate to the 3rd floor.
+1. Open the game at {self.game_url} on Ruffle (the game should be opened automatically).
+2. Wait for the game to load and enter the game.
+3. Navigate to the 3rd floor.
 
-# Evaluation file paths
-TARGET_FILE_PATH = fr"C:\Users\User\Desktop\mota\mota_tasks\{TASK_TAG}"
-REFERENCE_FILE_PATH = fr"C:\Users\User\Desktop\mota\mota_tasks\{TASK_TAG}_REF"
+Verification: 
+1. When steps in each new floor, you should save milestone screenshot with `save_milestone_screenshot(path="{self.remote_output_dir}\$FLOOR_NUMBER$.png")`, where $FLOOR_NUMBER$ is the floor number you reached.
+2. The task is successful if the screenshots exists and it demonstrates the floor you reached.
+"""
 
+    def to_metadata(self) -> dict:
+        metadata = super().to_metadata()
+        metadata.update({
+            "game_tag": self.GAME_TAG,
+            "game_url": self.game_url,
+        })
+        return metadata
+
+config = TaskConfig()
 
 # This task needs to be launched on a GPU work station.
 
@@ -34,27 +56,12 @@ def load():
     """Define the Magic Tower demo task."""
     return [
         cb.Task(
-            description=f"""
-Goal: Launch Magic Tower and navigate to the 3rd floor.
-1. Open the game at {GAME_URL} on Ruffle (the game should be opened automatically).
-2. Wait for the game to load and enter the game.
-3. Navigate to the 3rd floor.
-
-Verification: 
-1. When steps in each new floor, you should save milestone screenshot with `save_milestone_screenshot(path="{TARGET_FILE_PATH}\$FLOOR_NUMBER$.png")`, where $FLOOR_NUMBER$ is the floor number you reached.
-2. The task is successful if the screenshots exists and it demonstrates the floor you reached.
-""",
-            metadata={
-                "task_tag": TASK_TAG,
-                "game_tag": GAME_TAG,
-                "game_url": GAME_URL,
-                "target_file": TARGET_FILE_PATH,
-                "reference_file": REFERENCE_FILE_PATH,
-            },
+            description=config.task_description,
+            metadata=config.to_metadata(),
             computer={
                 "provider": "computer",
                 "setup_config": {
-                    "os_type": "windows",
+                    "os_type": config.OS_TYPE,
                 }
             }
         )
@@ -71,12 +78,12 @@ async def start(task_cfg, session: cb.DesktopSession):
     """Initialize the environment by opening the game and replaying a trajectory."""
     logger.info(f"Setting up task: {task_cfg.metadata['game_url']}")
     game_url = task_cfg.metadata['game_url']
-    target_path = task_cfg.metadata["target_file"]
+    remote_output_path = task_cfg.metadata["remote_output_dir"]
     try:
         await session.run_file(game_url)
         logger.info("Game launched successfully")
-        await session.remove_file(target_path)
-        await session.makedirs(target_path)
+        await session.remove_file(remote_output_path)
+        await session.makedirs(remote_output_path)
     except Exception as e:
         logger.warning(f"Failed to launch game via session: {e}")
 
@@ -113,15 +120,15 @@ async def evaluate(task_cfg, session: cb.DesktopSession) -> list[float]:
     """Score the task based on the existence and content of the demo file."""
     from utils.evaluation import evaluate_milestone_mode
     
-    target_path = task_cfg.metadata["target_file"]
-    reference_path = task_cfg.metadata["reference_file"]
+    remote_output_path = task_cfg.metadata["remote_output_dir"]
+    reference_path = task_cfg.metadata["reference_dir"]
     task_tag = task_cfg.metadata.get("task_tag", "unknown")
     
     try:
         # Use the common milestone evaluation mode
         final_score, _ = await evaluate_milestone_mode(
             session=session,
-            target_path=target_path,
+            target_path=remote_output_path,
             reference_path=reference_path,
             task_tag=task_tag,
             comparison_fn=query_milestone,
@@ -133,7 +140,3 @@ async def evaluate(task_cfg, session: cb.DesktopSession) -> list[float]:
     except Exception as e:
         logger.error(f"Evaluation error: {e}")
         return [0.0]
-
-
-
-
