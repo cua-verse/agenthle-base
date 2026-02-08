@@ -58,7 +58,13 @@ async def llm_vision_judge(
     try:
         # Initialize OpenAI client
         api_key = api_key or os.environ.get("OPENAI_API_KEY")
-        client = AsyncOpenAI(api_key=api_key)
+        api_base = os.environ.get("OPENAI_API_BASE")
+        
+        # Create client with base_url if OPENAI_API_BASE is set (e.g., for LiteLLM)
+        if api_base:
+            client = AsyncOpenAI(api_key=api_key, base_url=api_base)
+        else:
+            client = AsyncOpenAI(api_key=api_key)
 
         # Build content array
         primary_b64 = base64.b64encode(image_bytes).decode('utf-8')

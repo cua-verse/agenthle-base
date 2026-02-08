@@ -46,7 +46,7 @@ uv run python -m cua_bench.batch.solver $LOCAL_TASK_DIR \
     --agent agenthle-agent \
     --model openai/computer-use-preview \
     --max-steps 500 \
-    --dump \
+    --evaluate-only \
     --output-dir $EVALUATION_OUTPUT_DIR
 
 
