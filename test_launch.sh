@@ -3,30 +3,14 @@
 ########## READ THIS FIRST ##########
 ### After you implement the task, you need to set the LOCAL_TASK_DIR to the local directory of the task.
 
-: "${LOCAL_TASK_DIR:=YOUR IMPLEMENTED TASK LOCAL DIR}" # e.g. ./tasks/game/magic_24
+export LOCAL_TASK_DIR="YOUR IMPLEMENTED TASK LOCAL DIR" # e.g. ./tasks/game/magic_24
 
 # **UNCOMMENT THIS IF YOU ARE ASSIGNED WITH A LITELLM KEY**
 # export OPENAI_API_BASE="https://litellm-991596698159.us-west1.run.app"
 
-: "${OPENAI_API_KEY:=YOUR_OPENAI_API_KEY}"
-: "${CUA_ENV_API_URL:=http://YOUR_REMOTE_MACHINE_IP:8000}"
+export OPENAI_API_KEY="YOUR_OPENAI_API_KEY"
+export CUA_ENV_API_URL="http://YOUR_REMOTE_MACHINE_IP:5000"
 
-if [[ "$LOCAL_TASK_DIR" == "YOUR IMPLEMENTED TASK LOCAL DIR" ]]; then
-  echo "ERROR: LOCAL_TASK_DIR is not set. Please set it to your task folder (e.g. ./tasks/game/magic_24)." >&2
-  exit 1
-fi
-if [[ ! -d "$LOCAL_TASK_DIR" ]]; then
-  echo "ERROR: LOCAL_TASK_DIR does not exist: $LOCAL_TASK_DIR" >&2
-  exit 1
-fi
-if [[ "$OPENAI_API_KEY" == "YOUR_OPENAI_API_KEY" ]]; then
-  echo "ERROR: OPENAI_API_KEY is not set." >&2
-  exit 1
-fi
-if [[ "$CUA_ENV_API_URL" == "http://YOUR_REMOTE_MACHINE_IP:8000" ]]; then
-  echo "ERROR: CUA_ENV_API_URL is not set (example: http://<REMOTE_MACHINE_IP>:8000)." >&2
-  exit 1
-fi
 
 ###### ONLY CHANGE THE FOLLOWING CODE WHEN NECESSARY ######
 

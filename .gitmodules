@@ -1,3 +1,4 @@
 [submodule "submodules/cua"]
 	path = submodules/cua
 	url = git@github.com:cua-verse/cua.git
+    branch = main

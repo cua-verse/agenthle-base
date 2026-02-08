@@ -14,7 +14,7 @@ logger = logging.getLogger(__name__)
 @dataclass
 class TaskConfig(GeneralTaskConfig):
     TASK_TAG: str = "mota_24"
-    TASK_BASE_DIR: str = "game"
+    TASK_CATEGORY: str = "game"
     MAX_LAYER: int = 3
     
     @property
@@ -85,10 +85,10 @@ async def start(task_cfg, session: cb.DesktopSession):
         # Clean up previous runs
         await session.remove_file(task_cfg.metadata['remote_output_dir'])
         await session.makedirs(task_cfg.metadata['remote_output_dir'])
-        await session.copy_file(task_cfg.metadata['template_url'], task_cfg.metadata['remote_output_dir'])
+        await session.copy_folder(task_cfg.metadata['template_url'], task_cfg.metadata['remote_output_dir'])
 
         # Open the template project on RPGMakerXP
-        await session.run_file(fr"{task_cfg.metadata['remote_output_dir']}\Game.rxproj")
+        await session.run_file(fr"{task_cfg.metadata['remote_output_dir']}\mota_template\Game.rxproj")
     except Exception as e:
         logger.warning(f"Failed to setup tasks {config.TASK_TAG} via session: {e}")
 
