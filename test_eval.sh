@@ -3,14 +3,14 @@
 ########## READ THIS FIRST ##########
 ### After you implement the task, you need to set the LOCAL_TASK_DIR to the local directory of the task.
 
-export LOCAL_TASK_DIR="./tasks/earth_science_tasks/GEE_downloading_terraclimate_conus" # e.g. ./tasks/game/magic_24
-export REMOTE_OUTPUT_DIR="output_test_pos"  # change to the output directory you want to test if the eval function is working correctly
+export LOCAL_TASK_DIR="YOUR IMPLEMENTED TASK LOCAL DIR" # e.g. ./tasks/game/magic_24
+export REMOTE_OUTPUT_DIR="output_test"  # change to the output directory you want to test if the eval function is working correctly
 
 # **UNCOMMENT THIS IF YOU ARE ASSIGNED WITH A LITELLM KEY**
-export OPENAI_API_BASE="https://litellm-991596698159.us-west1.run.app"
+# export OPENAI_API_BASE="https://litellm-991596698159.us-west1.run.app"
 
-export OPENAI_API_KEY="sk-8Fruc3f6X4T9zbQeTz7fSg"
-export CUA_ENV_API_URL="http://34.171.201.44:5000"
+export OPENAI_API_KEY="YOUR_OPENAI_API_KEY"
+export CUA_ENV_API_URL="http://YOUR_REMOTE_MACHINE_IP:5000"
 
 ###### ONLY CHANGE THE FOLLOWING CODE WHEN NECESSARY ######
 
