@@ -15,6 +15,10 @@ ENV/
 **/.env
 # .gcp_vm_info.json
 
+# GCP / GEE credentials (never commit service account keys)
+**/input/*-gee-*.json
+**/agenthle-data-gee*.json
+
 # IDE
 .vscode/
 .idea/
