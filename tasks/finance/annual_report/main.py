@@ -38,7 +38,7 @@ class TaskConfig(GeneralTaskConfig):
 Goal: Download and extract ChiNext (创业板) company financial reports from East Money (东方财富网).
 
 Tasks:
-1. Download ALL ChiNext company annual reports and prospectuses for the past 5 years (2019-2024)
+1. Download ALL ChiNext company annual reports and prospectuses for the past 6 years (2019-2024)
    - Target file list provided in: {self.file_list_url} (2993 files). Your output should match this list.
    - Save to: {self.download_url}
 
