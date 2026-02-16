@@ -354,6 +354,9 @@ async def verify_data_remote(session: cb.DesktopSession, output_dir: str, refere
                 correct += 1
             elif len(mismatches) < 20:
                 mismatches.append({"row_id": row_id, "column": col, "match_type": mtype, "expected": exp, "actual": act})
+        except KeyError as e:
+            if len(mismatches) < 20:
+                mismatches.append({"error": f"Lookup failed for key: {e}", "sample": s})
         except Exception as e:
             if len(mismatches) < 20:
                 mismatches.append({"error": str(e), "sample": s})
