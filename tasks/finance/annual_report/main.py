@@ -315,8 +315,9 @@ async def verify_data_remote(session: cb.DesktopSession, output_dir: str, refere
         return 0.0
 
     try:
-        df_idx = df.set_index("识别码", drop=False)
-    except Exception:
+        df_idx = df.set_index("识别码", drop=False, verify_integrity=True)
+    except Exception as e:
+        logger.warning(f"Failed to set '识别码' as a unique index: {e}. This may indicate duplicate entries and will cause slow lookups.")
         df_idx = df
 
     correct = 0
