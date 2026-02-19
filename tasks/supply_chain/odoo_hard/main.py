@@ -57,26 +57,24 @@ class TaskConfig(GeneralTaskConfig):
 
         return f"""
 Goal:
-Complete a full end-to-end Odoo workflow spanning Sales, Purchase, Inventory, Manufacturing (2-level),
-Subcontracting, Landed Costs, Invoicing/Accounting, and Expenses, with a final verifiable business state.
+Complete an end-to-end Odoo workflow that spans Sales, Purchase, Inventory, Manufacturing (2-level), Subcontracting,
+Landed Costs, Invoicing/Accounting, and Expenses. All documents must be traceable and verifiable.
 
 Inputs / Environment:
-- Odoo Web will be opened automatically.
-- A fresh database named "{db_name}" will be created at task start.
+- Odoo Web URL will be opened automatically.
+- A fresh database named "{db_name}" will be created at task start".
 - You must work ONLY inside database "{db_name}".
-- Use the run tag "{tag}" in a searchable field (Reference / Notes / Customer Ref / Vendor Ref)
-  for all key documents you create manually (SO/PO/Bills/Invoices/Credit Note/Landed Cost).
+- Use the run tag "{tag}" in a searchable field (Reference / Notes / Customer Ref / Vendor Ref) for EVERY key document.
+- Use the existing warehouses:
+  - Inbound warehouse: code "WH"  (stock location tree rooted at "WH/Stock")
+  - Production & Shipping warehouse: code "My Co" (rooted at "My Co/Stock")
 
-Warehouses:
-- Inbound warehouse code: "WH" (location tree rooted at "WH/Stock")
-- Production & Shipping warehouse code: "My Co" (rooted at "My Co/Stock")
-
-Required workflow (must be completed):
-1) Global config:
+Required workflow (must be completed in order):
+1) Global config (in "{db_name}"):
    - Company currency USD; enable EUR and CNY; lock FX rates:
        1 EUR = 1.20 USD; 1 CNY = 0.125 USD
    - Inventory valuation for stockable items: FIFO + Automated valuation
-   - Warehouse steps:
+   - Warehouse routes/steps:
        - "WH": 2-step receipts (Vendors -> Input -> Stock)
        - "My Co": 3-step delivery (Pick -> Pack -> Ship)
 
@@ -103,12 +101,13 @@ Required workflow (must be completed):
 
 3) Sales:
    - Create an EUR pricelist: FP-1000=200 EUR, ACC-900=30 EUR
-   - Create SO for FP-1000×3 and ACC-900×3; include tag "{tag}"; Confirm.
-   - SO must trigger: FP-1000 via MTO->Manufacture, ACC-900 via Dropship.
+   - Create SO for FP-1000×3 and ACC-900×3; include tag "{tag}" in SO reference/notes; Confirm.
+   - Confirm must trigger: FP-1000 via MTO->Manufacture, ACC-900 via Dropship.
 
-4) Purchases (all must include tag "{tag}"):
+4) Purchases:
+   Create & confirm these POs (all must include tag "{tag}" in a searchable field):
    - PO-CN-001 (CNY): RM-010×10 @96; RM-020×10 @64
-   - PO-US-001 (USD): RM-030×3 @20
+   - PO-US-001 (USD): RM-030×3 @20   (intentionally short; needed for later shortage)
    - PO-US-002 (USD): RM-040×5 @7
    - PO-SUB-001 (USD): SC-300×3 @25 (subcontract fee)
    - PO-DS-001 (USD): ACC-900×3 @10 (Dropship)
@@ -123,16 +122,16 @@ Required workflow (must be completed):
    - Transfer RM-010 and RM-020 from WH warehouse to "My Co" warehouse (internal transfer done).
 
 6) Subcontracting:
-   - Ensure RM-040 is received and transferred to "My Co".
+   - Ensure RM-040 is received and transferred to "My Co" warehouse.
    - Resupply subcontractor with RM-040×3 (done).
    - Receive SC-300×3; assign serials: CS-0001, CS-0002, CS-0003.
 
 7) Manufacturing (2-level) + mandatory shortage recovery:
-   - Produce SA-200×3 in "My Co" warehouse.
+   - Produce SA-200×3 in "My Co" warehouse using SMT operation.
    - During SA production, scrap RM-030 qty 1 (done) causing shortage.
-   - Resolve shortage by creating an extra PO for RM-030×1 (include tag "{tag}"), receive it and transfer to "My Co",
+   - Resolve shortage by creating an extra PO for RM-030×1 (must include tag "{tag}"), receive it and transfer to "My Co",
      then finish SA-200×3.
-   - Produce FP-1000×3; assign serials: SSK-0001, SSK-0002, SSK-0003.
+   - Produce FP-1000×3 using Assembly operation; assign serials: SSK-0001, SSK-0002, SSK-0003.
 
 8) Delivery (from "My Co" using 3-step delivery):
    - Partially deliver FP-1000: ship 2 units first (SSK-0001, SSK-0002), generate backorder for 1.
@@ -144,24 +143,30 @@ Required workflow (must be completed):
    - After second delivery: create/post invoice #2 total 230 EUR; register payment to Paid.
 
 10) Vendor bills:
-   - Create/post vendor bills for all POs + freight; mark them paid/reconciled.
+   - Create/post vendor bills for all POs + freight; pay/reconcile.
 
 11) Expenses:
    - Create analytic account: AN-odoo_hard
    - Create expense: "Travel to Berlin" 123.45 USD, linked to AN-odoo_hard
    - Submit -> Approve -> Post -> Pay
 
-Mandatory return/refund:
+12) Mandatory return/refund:
 - Return serial SSK-0002 back into STOCK of warehouse "My Co".
 - Create/post a credit note for 200 EUR (FP only) and mark it paid.
 
-Output (submit for full credit):
+Output (what to submit for full credit):
 Save these files into: {out_dir}
-1) lc_split.png
-2) invoices.png
-3) return_credit.png
-4) stock_wh.png
-5) submission.txt
+1) lc_split.png       - Screenshot showing Landed Cost allocation
+2) invoices.png       - Screenshot showing two PAID customer invoices
+3) return_credit.png  - Screenshot showing return of SSK-0002 AND paid credit note
+4) stock_wh.png       - Screenshot showing warehouse on-hand distribution:
+                        WH: RM-010=0 and RM-020=0
+                        My Co: RM-010=4 and RM-020=7
+5) submission.txt     - A short text file listing the key document numbers you created (SO/POs/MOs/Invoices/Credit Note/Landed Cost)
+                        and confirming you used tag "{tag}" everywhere.
+
+Verification:
+The task is considered successful if the workflow is completed exactly as specified and the required output files are present and consistent with the final expected business state. The {db_name} database must contain all the expected documents with the run tag "{tag}" in searchable fields, and the screenshots must match the expected states.
 """
 
     def to_metadata(self) -> dict:
@@ -305,7 +310,7 @@ async def start(task_cfg, session: cb.DesktopSession):
     try:
         await session.remove_file(out_dir)
     except Exception:
-        pass
+        logger.warning(f"Failed to remove existing output directory '{out_dir}', it may not exist or be a file. Attempting to continue.")
     await session.makedirs(out_dir)
 
     try:
@@ -841,6 +846,6 @@ Answer with ONLY "YES" or "NO".
     try:
         await session.write_file(os.path.join(out_dir, "autograde_report.json"), json.dumps(report, indent=2))
     except Exception:
-        pass
+        logger.warning(f"Failed to write autograde_report.json: {e}")
 
     return [report["final_score"]]
