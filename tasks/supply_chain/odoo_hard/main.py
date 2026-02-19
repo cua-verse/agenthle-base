@@ -1,5 +1,5 @@
 """
-odoo_hard - End-to-End Verifiable Odoo Supply Chain Task (Manufacturing / Supply Chain)
+odoo_hard - End-to-End Verifiable Odoo Supply Chain Task (Supply Chain)
 
 Updates in this version:
 - Schema-robust grading: detect stock_move_line qty column (qty_done/quantity/product_uom_qty), purchase_order_line qty column, and stock_scrap qty column.
