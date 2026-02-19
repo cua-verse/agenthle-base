@@ -337,8 +337,8 @@ async def start(task_cfg, session: cb.DesktopSession):
             os.path.join(out_dir, "README_AUTOGRADE.txt"),
             "Submit: lc_split.png, invoices.png, return_credit.png, stock_wh.png, submission.txt\n"
         )
-    except Exception:
-        pass
+    except Exception as e:
+        logger.warning(f"Failed to write README_AUTOGRADE.txt: {e}")
 
 
 def _float_eq(a, b, tol=0.01) -> bool:
