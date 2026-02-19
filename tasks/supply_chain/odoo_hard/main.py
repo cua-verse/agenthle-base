@@ -47,7 +47,7 @@ class TaskConfig(GeneralTaskConfig):
     DEFAULT_PG_RESTORE_PATH: str = "pg_restore"
 
     DEFAULT_PSQL_ARGS: str = "-h 127.0.0.1 -p 5432 -U openpg"
-    DEFAULT_PG_PASSWORD: str = "openpgpwd"
+    DEFAULT_PG_PASSWORD: str = os.environ.get("ODOO_PG_PASSWORD", "openpgpwd")
 
     @property
     def task_description(self) -> str:
