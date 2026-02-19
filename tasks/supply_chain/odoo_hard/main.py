@@ -235,8 +235,8 @@ async def _reset_db(session: cb.DesktopSession, *, dropdb_path: str, createdb_pa
         terminate_sql = f"SELECT pg_terminate_backend(pid) FROM pg_stat_activity WHERE datname='{target_db}' AND pid<>pg_backend_pid();"
         await _run_psql_json(session, psql_path, psql_args, "postgres", "SELECT json_build_object('ok', true)::text;", work_dir, pg_password)
         await _run_psql_json(session, psql_path, psql_args, "postgres", f"SELECT json_build_object('terminated', (SELECT COUNT(*) FROM ({terminate_sql}) t))::text;", work_dir, pg_password)
-    except Exception:
-        pass
+    except Exception as e:
+        logger.warning(f"Failed to terminate connections to DB '{target_db}': {e}")
 
     cmd_drop = (
         'powershell -NoProfile -Command '
