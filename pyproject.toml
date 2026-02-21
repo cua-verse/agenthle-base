@@ -28,6 +28,7 @@ dependencies = [
     "cua-bench[all]",
     "ipykernel>=7.1.0",
     "ipywidgets>=8.1.8",
+    "openpyxl"
 ]
 
 
@@ -37,6 +38,7 @@ dev = [
     "black",
     "ruff",
     "ipykernel>=7.1.0",
+    "isort",
 ]
 
 [tool.uv]
