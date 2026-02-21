@@ -1,6 +1,6 @@
 # Agenthle
 
-This is the base repository for Agenthle. It contains the core code and submodules for the project, which is [Cua](https://cua.ai/docs/cua/guide/get-started/what-is-cua). 
+This is the onboarding repository for Agenthle engineers. It contains the most basic code and submodules for the project, which is [Cua](https://cua.ai/docs/cua/guide/get-started/what-is-cua). 
 
 ## Structure
 
