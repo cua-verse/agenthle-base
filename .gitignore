@@ -40,3 +40,4 @@ trycua/demonstrations/
 trycua/cua-bench
 
 uv.lock
+*.Identifier
