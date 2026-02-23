@@ -194,9 +194,12 @@ If you cannot find the information, use null for that field.
             logger.info(f"[task {task_id:02d}] extraction={extraction_details}")
 
             # Parse extracted data
-            json_match = re.search(r'\{[^}]+\}', str(extraction_details))
+            json_match = re.search(r'\{.*\}', str(extraction_details), re.DOTALL)
             if json_match:
-                extracted = json.loads(json_match.group(0))
+                try:
+                    extracted = json.loads(json_match.group(0))
+                except json.JSONDecodeError:
+                    extracted = {}
             else:
                 extracted = {}
 
