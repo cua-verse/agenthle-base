@@ -2,6 +2,10 @@
 
 > **Living doc.** Agent updates this at the end of every session. First thing a resumed agent reads.
 
+## Branch
+- **Git branch:** `<yourname>/<task_name>`
+- **Python interpreter:** `python` (do NOT use `python3` or `conda`)
+
 ## Current State
 <!-- One paragraph: what phase we're in, what's working, what's not -->
 

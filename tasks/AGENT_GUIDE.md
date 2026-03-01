@@ -5,11 +5,27 @@
 
 ---
 
+## ⛔ Hard Rules (Non-Negotiable)
+
+1. **NEVER delete data on remote VM or local machine.** No `rm -rf`, no `delete_dir` on any `input/`, `output/`, `reference/`, `software/`, or user data directories. Only delete files you explicitly created (e.g., temp scripts in `C:\tmp\`). If you need to clean an `output/` dir during `start()`, only remove contents *you generated in that run*, or confirm with the user first.
+2. **Python interpreter: use `python` only.** Do not use `python3`, `conda run`, or any other variant — on both local and remote machines. The environments are set up so `python` points to the correct interpreter.
+3. **Never loop on the same error.** If the same error or obstacle occurs 2–3 times in a row, STOP and ask the user for help. Do not keep retrying the same approach. Report what you tried, what failed, and ask for guidance.
+
+---
+
 ## Step 0 — Bootstrap a New Task
 
 The user gives you **1–2 sentences** describing a new task (domain, what the agent does, what software is used).
 
-**Immediately scaffold the task folder:**
+**Step 0a — Create the git branch FIRST:**
+
+```bash
+git checkout -b <yourname>/<task_name>
+```
+
+Record this branch name in `CONTEXT.md` (see below).
+
+**Step 0b — Scaffold the task folder:**
 
 ```
 tasks/<category>/<task_name>/
@@ -95,3 +111,5 @@ Phase 6  Write README.md, DATA_PIPELINE.md, commit, submit     → 05_DOCS_CONVE
 | Key design decision (thresholds, scoring) | Ask user to confirm |
 | Unexpected VM state | Report finding, ask how to proceed |
 | Found a generic bug (not task-specific) | Add to `guides/KNOWN_ISSUES.md` |
+| **Same error repeats 2-3 times** | **STOP immediately. Report what you tried and ask user for help. Do NOT keep retrying.** |
+| Development complete | Clean up all `/tmp/` and remote temp files before wrapping up |

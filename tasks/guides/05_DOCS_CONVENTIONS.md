@@ -44,6 +44,8 @@ tasks/<category>/<task_name>/
 - `test_eval_local.sh` / `test_launch_local.sh` (credentials)
 - `/tmp/` scratch files
 
+> ⚠️ **Cleanup obligation:** Before wrapping up development, delete all temp files you created in `/tmp/` (local) and `C:\tmp\` / `C:\Users\User\AppData\Local\Temp\` (remote). Do not leave scratch scripts behind.
+
 ---
 
 ## `README.md` — Written in Phase 6 (Required Sections)

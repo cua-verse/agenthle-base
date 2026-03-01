@@ -2,6 +2,10 @@
 
 > **When to read:** When exploring the remote VM, writing data pipeline scripts, or writing eval scripts that run on the VM.
 
+> ⛔ **DATA SAFETY:** NEVER delete user data, `input/`, `reference/`, or `software/` directories on the remote VM. Only delete files/folders you explicitly created (temp scripts, test outputs). When in doubt, ask the user.
+
+> ⚠️ **Python interpreter:** Always use `python` (not `python3`, not `conda run`) on both local and remote machines.
+
 ---
 
 ## Connecting for Exploration
@@ -145,6 +149,8 @@ When a VM script will take >30s (e.g., batch processing data for all variants):
 4. Resume once the user confirms it finished
 
 Do not try to `await` a long-running command inline — it will time out.
+
+> ⚠️ **Cleanup:** After development is finished, delete all temp scripts you uploaded to `C:\tmp\` or `C:\Users\User\AppData\Local\Temp\`. Do not leave debris on the VM.
 
 ---
 
