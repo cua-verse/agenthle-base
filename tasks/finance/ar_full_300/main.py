@@ -1,4 +1,21 @@
-"""Finance subtask: ar_full_300 (full-flow, file+data verification)."""
+"""
+
+Expert Note:
+`ar_full_300` evaluates full-flow extraction on a mid-size corpus.
+
+What is truly hard in this benchmark:
+- File coverage degrades with scale; missed PDFs propagate to many missing rows.
+- Extraction consistency across heterogeneous reports is difficult.
+- Rule violations (wrongly included/excluded rows) are common.
+
+Why this matters:
+Mid-scale performance is a strong predictor of production readiness.
+
+Scale Reality:
+- Task scope includes 300 report files.
+- Many files are hundreds of pages with inconsistent table and heading structures.
+- Evidence lookup is effectively needle-in-a-haystack document search before row extraction.
+"""
 
 import logging
 from dataclasses import dataclass

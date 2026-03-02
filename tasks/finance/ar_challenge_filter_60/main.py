@@ -1,4 +1,22 @@
-﻿"""Finance subtask: ar_challenge_filter_60 (challenge filter+aggregation)."""
+"""
+
+Expert Note:
+`ar_challenge_filter_60` focuses on filter-heavy extraction and aggregation.
+
+What is truly hard in this benchmark:
+- Correctly implementing all filter predicates on personnel rows.
+- Ensuring extracted records truly satisfy conditions before aggregation.
+- Avoiding missing qualified rows.
+
+Why this matters:
+This task directly measures rule-execution fidelity, a core failure mode in
+financial information extraction.
+
+Scale Reality:
+- Report scope for this task contains 62 files.
+- Source reports are often hundreds of pages with non-uniform structures.
+- Filter-consistent extraction requires finding rare qualifying rows in long documents.
+"""
 
 import logging
 from dataclasses import dataclass

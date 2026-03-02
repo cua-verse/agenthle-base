@@ -1,4 +1,22 @@
-"""Finance subtask: ar_full_1500 (full-flow, file+data verification)."""
+"""
+
+Expert Note:
+`ar_full_1500` is the large-scale full extraction stress test.
+
+What is truly hard in this benchmark:
+- Large-scale PDF retrieval completeness.
+- High-volume structured extraction with minimal???.
+- Maintaining rule-consistent outputs under long-tail report formats.
+
+Why this matters:
+It approximates enterprise conditions where coverage and filter fidelity dominate
+system quality.
+
+Scale Reality:
+- Task scope includes 1500 report files.
+- Many files are hundreds of pages with inconsistent table and heading structures.
+- Evidence lookup is effectively needle-in-a-haystack document search before row extraction.
+"""
 
 import logging
 from dataclasses import dataclass

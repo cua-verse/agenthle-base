@@ -1,4 +1,21 @@
-"""Finance subtask: ar_challenge_filter_300 (challenge filter+aggregation)."""
+"""
+
+Expert Note:
+`ar_challenge_filter_300` increases filter complexity with subgroup metrics.
+
+What is truly hard in this benchmark:
+- Building A/B groups with exact predicate compliance.
+- Preventing??? errors that corrupt CAGR/CV outputs.
+- Keeping multi-year extraction complete for valid computation.
+
+Why this matters:
+Subgroup analytics are highly sensitive to filter correctness.
+
+Scale Reality:
+- Report scope for this task contains 302 files.
+- Source reports are often hundreds of pages with non-uniform structures.
+- Filter-consistent extraction requires finding rare qualifying rows in long documents.
+"""
 
 import logging
 from dataclasses import dataclass

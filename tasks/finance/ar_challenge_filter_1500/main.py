@@ -1,4 +1,22 @@
-"""Finance subtask: ar_challenge_filter_1500 (challenge filter+aggregation)."""
+"""
+
+Expert Note:
+`ar_challenge_filter_1500` is the large-scale comparative filter benchmark.
+
+What is truly hard in this benchmark:
+- High-scale PDF retrieval and condition-consistent extraction.
+- Correct C/D grouping without including non-qualified rows.
+- Stable gap/ratio metrics under strict filter validity.
+
+Why this matters:
+This is the closest setting to enterprise-grade filter-driven compensation
+analysis.
+
+Scale Reality:
+- Report scope for this task contains 1502 files.
+- Source reports are often hundreds of pages with non-uniform structures.
+- Filter-consistent extraction requires finding rare qualifying rows in long documents.
+"""
 
 import logging
 from dataclasses import dataclass

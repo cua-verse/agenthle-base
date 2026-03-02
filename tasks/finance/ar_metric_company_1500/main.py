@@ -1,4 +1,22 @@
-"""Finance subtask: ar_metric_company_1500 (metric aggregation task)."""
+"""
+
+Expert Note:
+`ar_metric_company_1500` is the highest-scale target-company aggregation task.
+
+What is truly hard in this benchmark:
+- Full retrieval coverage across many target companies.
+- Correct filter-constrained extraction feeding derived indicators and ranking.
+- Avoiding missed files, missed data, and missed conditions at scale.
+
+Why this matters:
+Large-batch analytics are only trustworthy when retrieval and filtering are both
+strictly correct.
+
+Scale Reality:
+- Report scope for this task contains 1502 files.
+- Source reports are often hundreds of pages and not format-uniform.
+- Metric correctness depends on finding sparse evidence in very long documents.
+"""
 
 import logging
 from dataclasses import dataclass
@@ -16,10 +34,6 @@ class TaskConfig(GeneralTaskConfig):
     TASK_CATEGORY: str = "finance"
 
     @property
-    def file_list_url(self) -> str:
-        return win_join(self.task_dir, "input", "file_list.txt")
-
-    @property
     def target_companies_url(self) -> str:
         return win_join(self.task_dir, "input", "target_companies.json")
 
@@ -35,14 +49,11 @@ Task Type:
 
 Goal:
 - For each target company, compute required personnel statistics from annual-report-derived data.
-- Source annual reports should be obtained from East Money (东方财富) using file names in `file_list.txt`.
+- Annual reports should be located by the model from public disclosures (e.g., East Money).
 
 Input Files:
-1) {self.file_list_url}
-   - PDF filename list (context of report scope).
-2) {self.target_companies_url}
+1) {self.target_companies_url}
    - JSON array, one object per company.
-   - Required keys: `证券代码`, `股票简称`.
 
 Output File:
 1) {self.output_url}
@@ -50,19 +61,16 @@ Output File:
    - One row per target company.
    - Required columns in exact order:
      "证券代码", "股票简称", "Core Technical Staff Count", "2019-2023 Avg Salary"
-- "2019-2023 Salary Std", "2019-2023 Avg Shareholding", "2024 Avg Salary".
-- "Salary Growth 2019->2023 (%)", "Salary Rank".
+     "2019-2023 Salary Std", "2019-2023 Avg Shareholding", "2024 Avg Salary".
+     "Salary Growth 2019->2023 (%)", "Salary Rank".
 
 Aggregation Rules:
 - Use numeric aggregation only (no text placeholders).
 - Use 2019-2023 columns exactly where requested.
-- For numeric output values, keep at least 3 decimal places (0.001 precision) when applicable.
-- Valid year definition:
-  - A year is valid only if that company-year report exists in the task `file_list.txt`.
-  - For salary/shareholding, only numeric values > 0 are valid.
+- For salary/shareholding, only numeric values > 0 are valid.
 - Period-based averages are computed over valid years only (no interpolation / no backfilling).
-- For each average metric, validity is checked only on that metric's required year window.
-- `2019-2023 Salary Std` (if required by this task) uses population standard deviation (ddof=0).
+- `2019-2023 Salary Std` uses population standard deviation (ddof=0).
+- For numeric output values, keep at least 3 decimal places (0.001 precision) when applicable.
 
 Scoring:
 - Full score requires all conditions below to be satisfied:
@@ -76,7 +84,6 @@ Scoring:
         md = super().to_metadata()
         md.update(
             {
-                "file_list_url": self.file_list_url,
                 "target_companies_url": self.target_companies_url,
                 "output_url": self.output_url,
             }

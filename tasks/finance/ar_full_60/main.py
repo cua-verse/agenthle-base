@@ -1,4 +1,22 @@
-"""Finance subtask: ar_full_60 (full-flow, file+data verification)."""
+"""
+
+Expert Note:
+`ar_full_60` evaluates the full workflow on a compact scale.
+
+What is truly hard in this benchmark:
+- Download every required PDF without???.
+- Extract person-level fields without??? and keep schema-normalized output.
+- Keep extracted values consistent with task rules.
+
+Why this matters:
+This is the smallest realistic setting to expose retrieval and extraction
+failures before scaling.
+
+Scale Reality:
+- Task scope includes 60 report files.
+- Many files are hundreds of pages with inconsistent table and heading structures.
+- Evidence lookup is effectively needle-in-a-haystack document search before row extraction.
+"""
 
 import logging
 from dataclasses import dataclass
