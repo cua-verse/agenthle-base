@@ -1,0 +1,2402 @@
+[
+  {
+    "sample_id": 1,
+    "row_id": "圣湘生物周俊",
+    "company_code": "688289",
+    "person_name": "周俊",
+    "column": "性别",
+    "value": "女",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 2,
+    "row_id": "中科星图张敬亮",
+    "company_code": "688568",
+    "person_name": "张敬亮",
+    "column": "最高学历",
+    "value": 1.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 3,
+    "row_id": "天能股份郭志刚",
+    "company_code": "688819",
+    "person_name": "郭志刚",
+    "column": "2023薪酬",
+    "value": 83.73,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 4,
+    "row_id": "仕佳光子张晓光",
+    "company_code": "688313",
+    "person_name": "张晓光",
+    "column": "2021持股",
+    "value": 720000.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 5,
+    "row_id": "华润微何波涌",
+    "company_code": "688396",
+    "person_name": "何波涌",
+    "column": "证券代码",
+    "value": "688396",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 6,
+    "row_id": "仕佳光子胡炎彰",
+    "company_code": "688313",
+    "person_name": "胡炎彰",
+    "column": "证券代码",
+    "value": "688313",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 7,
+    "row_id": "普元信息甄强",
+    "company_code": "688118",
+    "person_name": "甄强",
+    "column": "国籍",
+    "value": "中国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 8,
+    "row_id": "ST诺泰朱伟英",
+    "company_code": "688076",
+    "person_name": "朱伟英",
+    "column": "姓名",
+    "value": "朱伟英",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 9,
+    "row_id": "中科星图张敬亮",
+    "company_code": "688568",
+    "person_name": "张敬亮",
+    "column": "股票简称",
+    "value": "中科星图",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 10,
+    "row_id": "普元信息王克强",
+    "company_code": "688118",
+    "person_name": "王克强",
+    "column": "简历",
+    "value": "男，1974 年生，中国国籍，无境外永久居留权。1995 年毕业于杭州电子科技大学计算机软件专业，获学士学位。曾任山东和华电子信息有限公司工程师、台湾凌阳科技公司工程师、朗新科技股份有限公司工程师、普元软件项目经理。2003 年至今，一直任职于普元信息，曾任软件产品部总经理，现任发行人政企事业群总经理（分管技术）、苏州普元执行董事和总经理。王克强曾荣获“上海市科学技术进步奖二等奖（2011 年）”、“浦东新区科技进步奖一等奖（2011年）”。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 11,
+    "row_id": "华熙生物马守伟",
+    "company_code": "688363",
+    "person_name": "马守伟",
+    "column": "姓名",
+    "value": "马守伟",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 12,
+    "row_id": "天能股份李国华",
+    "company_code": "688819",
+    "person_name": "李国华",
+    "column": "年龄",
+    "value": 63.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 13,
+    "row_id": "圣湘生物周俊",
+    "company_code": "688289",
+    "person_name": "周俊",
+    "column": "性别",
+    "value": "女",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 14,
+    "row_id": "天能股份向德波",
+    "company_code": "688819",
+    "person_name": "向德波",
+    "column": "股票简称",
+    "value": "天能股份",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 15,
+    "row_id": "奥特维刘伟",
+    "company_code": "688516",
+    "person_name": "刘伟",
+    "column": "2024持股",
+    "value": 13009.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 16,
+    "row_id": "普元信息甄强",
+    "company_code": "688118",
+    "person_name": "甄强",
+    "column": "姓名",
+    "value": "甄强",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 17,
+    "row_id": "中科星图张敬亮",
+    "company_code": "688568",
+    "person_name": "张敬亮",
+    "column": "2021薪酬",
+    "value": 55.35,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 18,
+    "row_id": "仕佳光子黄永光",
+    "company_code": "688313",
+    "person_name": "黄永光",
+    "column": "国籍",
+    "value": "中国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 19,
+    "row_id": "华熙生物陶文文",
+    "company_code": "688363",
+    "person_name": "陶文文",
+    "column": "最高学历",
+    "value": 1.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 20,
+    "row_id": "普元信息刘相",
+    "company_code": "688118",
+    "person_name": "刘相",
+    "column": "年龄",
+    "value": 44.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 21,
+    "row_id": "华熙生物李奕恒",
+    "company_code": "688363",
+    "person_name": "李奕恒",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 22,
+    "row_id": "时代电气王业流",
+    "company_code": "688187",
+    "person_name": "王业流",
+    "column": "2023持股",
+    "value": 1000.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 23,
+    "row_id": "仕佳光子李程",
+    "company_code": "688313",
+    "person_name": "李程",
+    "column": "最高学历",
+    "value": 3.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 24,
+    "row_id": "华熙生物赵毅",
+    "company_code": "688363",
+    "person_name": "赵毅",
+    "column": "股票简称",
+    "value": "华熙生物",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 25,
+    "row_id": "仕佳光子张晓光",
+    "company_code": "688313",
+    "person_name": "张晓光",
+    "column": "姓名",
+    "value": "张晓光",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 26,
+    "row_id": "仕佳光子李程",
+    "company_code": "688313",
+    "person_name": "李程",
+    "column": "股票简称",
+    "value": "仕佳光子",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 27,
+    "row_id": "仕佳光子李程",
+    "company_code": "688313",
+    "person_name": "李程",
+    "column": "姓名",
+    "value": "李程",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 28,
+    "row_id": "ST诺泰朱伟英",
+    "company_code": "688076",
+    "person_name": "朱伟英",
+    "column": "证券代码",
+    "value": "688076",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 29,
+    "row_id": "天能股份李国华",
+    "company_code": "688819",
+    "person_name": "李国华",
+    "column": "证券代码",
+    "value": "688819",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 30,
+    "row_id": "华熙生物刘爱华",
+    "company_code": "688363",
+    "person_name": "刘爱华",
+    "column": "2022薪酬",
+    "value": 389.02,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 31,
+    "row_id": "普元信息王克强",
+    "company_code": "688118",
+    "person_name": "王克强",
+    "column": "最高学历",
+    "value": 3.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 32,
+    "row_id": "华熙生物刘建建",
+    "company_code": "688363",
+    "person_name": "刘建建",
+    "column": "2023薪酬",
+    "value": 74.09,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 33,
+    "row_id": "普元信息袁义",
+    "company_code": "688118",
+    "person_name": "袁义",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 34,
+    "row_id": "中科星图张敬亮",
+    "company_code": "688568",
+    "person_name": "张敬亮",
+    "column": "简历",
+    "value": "张敬亮先生，中国国籍，无境外居留权，1979年出生，中国科学院计算技术研究所博士，高级工程师。具有十余年大数据、分布式系统、集群存储及云计算方向技术实践，主要从事大数据平台产品研发及行业解决方案落地工作。2003年至2010年，历任中科蓝鲸信息技术有限公司分布式存储系统开发部研发组长。2010年至2013年，历任华为技术有限公司存储技术开发部负责人，2013年至 2017 年，历任中科院计算所大数据分析技术国家工程实验室、中科院网络大数据重点实验室大数据平台构架组长，中科天玑数据科技股份有限公司大数据产品事业部总经理。2017年至2018 年4月，任北明软件有限公司大数据研究院研发总监。2018年4月至今，历任数字地球研究院（北京）院长、技术总师。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 35,
+    "row_id": "奥特维刘伟",
+    "company_code": "688516",
+    "person_name": "刘伟",
+    "column": "国籍",
+    "value": "中国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 36,
+    "row_id": "仕佳光子王欢",
+    "company_code": "688313",
+    "person_name": "王欢",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 37,
+    "row_id": "仕佳光子张晓光",
+    "company_code": "688313",
+    "person_name": "张晓光",
+    "column": "国籍",
+    "value": "中国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 38,
+    "row_id": "仕佳光子胡炎彰",
+    "company_code": "688313",
+    "person_name": "胡炎彰",
+    "column": "国籍",
+    "value": "中国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 39,
+    "row_id": "仕佳光子徐嘉宏",
+    "company_code": "688313",
+    "person_name": "徐嘉宏",
+    "column": "年龄",
+    "value": 52.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 40,
+    "row_id": "华熙生物刘爱华",
+    "company_code": "688363",
+    "person_name": "刘爱华",
+    "column": "姓名",
+    "value": "刘爱华",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 41,
+    "row_id": "时代电气张东方",
+    "company_code": "688187",
+    "person_name": "张东方",
+    "column": "姓名",
+    "value": "张东方",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 42,
+    "row_id": "天能股份向德波",
+    "company_code": "688819",
+    "person_name": "向德波",
+    "column": "姓名",
+    "value": "向德波",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 43,
+    "row_id": "中科星图林殷",
+    "company_code": "688568",
+    "person_name": "林殷",
+    "column": "年龄",
+    "value": 46.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 44,
+    "row_id": "圣湘生物卓红俞",
+    "company_code": "688289",
+    "person_name": "卓红俞",
+    "column": "2021薪酬",
+    "value": 83.87,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 45,
+    "row_id": "华熙生物马守伟",
+    "company_code": "688363",
+    "person_name": "马守伟",
+    "column": "证券代码",
+    "value": "688363",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 46,
+    "row_id": "华熙生物马守伟",
+    "company_code": "688363",
+    "person_name": "马守伟",
+    "column": "国籍",
+    "value": "中国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 47,
+    "row_id": "仕佳光子胡炎彰",
+    "company_code": "688313",
+    "person_name": "胡炎彰",
+    "column": "股票简称",
+    "value": "仕佳光子",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 48,
+    "row_id": "时代电气刘永江",
+    "company_code": "688187",
+    "person_name": "刘永江",
+    "column": "国籍",
+    "value": "中国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 49,
+    "row_id": "华熙生物刘建建",
+    "company_code": "688363",
+    "person_name": "刘建建",
+    "column": "年龄",
+    "value": 45.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 50,
+    "row_id": "中科星图谢国钧",
+    "company_code": "688568",
+    "person_name": "谢国钧",
+    "column": "2024薪酬",
+    "value": 42.41,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 51,
+    "row_id": "圣湘生物周俊",
+    "company_code": "688289",
+    "person_name": "周俊",
+    "column": "2023薪酬",
+    "value": 97.04,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 52,
+    "row_id": "仕佳光子胡炎彰",
+    "company_code": "688313",
+    "person_name": "胡炎彰",
+    "column": "2021持股",
+    "value": 270000.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 53,
+    "row_id": "仕佳光子张晓光",
+    "company_code": "688313",
+    "person_name": "张晓光",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 54,
+    "row_id": "仕佳光子徐嘉宏",
+    "company_code": "688313",
+    "person_name": "徐嘉宏",
+    "column": "股票简称",
+    "value": "仕佳光子",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 55,
+    "row_id": "中科星图谢国钧",
+    "company_code": "688568",
+    "person_name": "谢国钧",
+    "column": "2021薪酬",
+    "value": 38.23,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 56,
+    "row_id": "仕佳光子孙健",
+    "company_code": "688313",
+    "person_name": "孙健",
+    "column": "国籍",
+    "value": "中国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 57,
+    "row_id": "华润微罗先才",
+    "company_code": "688396",
+    "person_name": "罗先才",
+    "column": "2024持股",
+    "value": 1.96,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 58,
+    "row_id": "中科星图谢国钧",
+    "company_code": "688568",
+    "person_name": "谢国钧",
+    "column": "2022薪酬",
+    "value": 41.29,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 59,
+    "row_id": "圣湘生物刘让蛟",
+    "company_code": "688289",
+    "person_name": "刘让蛟",
+    "column": "国籍",
+    "value": "中国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 60,
+    "row_id": "奥特维刘伟",
+    "company_code": "688516",
+    "person_name": "刘伟",
+    "column": "最高学历",
+    "value": 3.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 61,
+    "row_id": "仕佳光子周天红",
+    "company_code": "688313",
+    "person_name": "周天红",
+    "column": "2021持股",
+    "value": 360000.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 62,
+    "row_id": "仕佳光子胡炎彰",
+    "company_code": "688313",
+    "person_name": "胡炎彰",
+    "column": "姓名",
+    "value": "胡炎彰",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 63,
+    "row_id": "普元信息袁义",
+    "company_code": "688118",
+    "person_name": "袁义",
+    "column": "姓名",
+    "value": "袁义",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 64,
+    "row_id": "天能股份方明学",
+    "company_code": "688819",
+    "person_name": "方明学",
+    "column": "姓名",
+    "value": "方明学",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 65,
+    "row_id": "时代电气张定华",
+    "company_code": "688187",
+    "person_name": "张定华",
+    "column": "2021薪酬",
+    "value": 78.27,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 66,
+    "row_id": "仕佳光子胡炎彰",
+    "company_code": "688313",
+    "person_name": "胡炎彰",
+    "column": "简历",
+    "value": "男，1983 年 11 月出生，中国国籍，无境外永久居留权，毕业于东华理工学院，数控技术及应用专业，大专学历。2005 年 7 月至 2011 年 6 月，任东莞新科时力电子厂工艺工程师；2011 年 6 月至 2011 年 9 月，任凯格精密机械有限公司售后服务工程师；2011 年 9月起至今任职于发行人。现任发行人高级工程师。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 67,
+    "row_id": "仕佳光子胡炎彰",
+    "company_code": "688313",
+    "person_name": "胡炎彰",
+    "column": "年龄",
+    "value": 41.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 68,
+    "row_id": "仕佳光子黄永光",
+    "company_code": "688313",
+    "person_name": "黄永光",
+    "column": "2024薪酬",
+    "value": 86.69,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 69,
+    "row_id": "仕佳光子李程",
+    "company_code": "688313",
+    "person_name": "李程",
+    "column": "最高学历",
+    "value": 3.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 70,
+    "row_id": "天能股份李国华",
+    "company_code": "688819",
+    "person_name": "李国华",
+    "column": "简历",
+    "value": "1987 年 6 月至 1996 年 12 月在天津大学任讲师、副教授，1996 年 12 月至 1998 年 5 月在东京工业大学任研究员，1998 年 6 月至 2017年 8 月在日本索尼株式会社工作，其间 2014 年 9 月至 2017 年 8 月任索尼中国研究院副总经理，2017 年 9 月至 2018 年 8 月任村田上海研究所所长，2018 年 8 月至 2021 年 4 月在中化国际（控股）股份有限公司任新能源研究院院长、新能源事业部首席技术官，2021 年 4月至 2022 年 10 月担任公司首席技术官、锂电研究院院长。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 71,
+    "row_id": "华润微吴泉清",
+    "company_code": "688396",
+    "person_name": "吴泉清",
+    "column": "国籍",
+    "value": "中国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 72,
+    "row_id": "中科星图张敬亮",
+    "company_code": "688568",
+    "person_name": "张敬亮",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 73,
+    "row_id": "仕佳光子李程",
+    "company_code": "688313",
+    "person_name": "李程",
+    "column": "2021持股",
+    "value": 180000.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 74,
+    "row_id": "圣湘生物戴立忠",
+    "company_code": "688289",
+    "person_name": "戴立忠",
+    "column": "简历",
+    "value": "戴立忠的个人简历参见本节“五、持有发行人 5%以上股份的主要股东及实际控制人的基本情况”之“（一）控股股东、实际控制人”。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 75,
+    "row_id": "华熙生物陶文文",
+    "company_code": "688363",
+    "person_name": "陶文文",
+    "column": "年龄",
+    "value": 39.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 76,
+    "row_id": "仕佳光子李程",
+    "company_code": "688313",
+    "person_name": "李程",
+    "column": "2023薪酬",
+    "value": 31.95,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 77,
+    "row_id": "天能股份方明学",
+    "company_code": "688819",
+    "person_name": "方明学",
+    "column": "最高学历",
+    "value": 3.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 78,
+    "row_id": "华熙生物马守伟",
+    "company_code": "688363",
+    "person_name": "马守伟",
+    "column": "最高学历",
+    "value": 2.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 79,
+    "row_id": "华熙生物周贤龙",
+    "company_code": "688363",
+    "person_name": "周贤龙",
+    "column": "证券代码",
+    "value": "688363",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 80,
+    "row_id": "仕佳光子王欢",
+    "company_code": "688313",
+    "person_name": "王欢",
+    "column": "2024薪酬",
+    "value": 47.63,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 81,
+    "row_id": "仕佳光子黄宁博",
+    "company_code": "688313",
+    "person_name": "黄宁博",
+    "column": "2024持股",
+    "value": 270000.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 82,
+    "row_id": "圣湘生物周俊",
+    "company_code": "688289",
+    "person_name": "周俊",
+    "column": "国籍",
+    "value": "中国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 83,
+    "row_id": "仕佳光子李程",
+    "company_code": "688313",
+    "person_name": "李程",
+    "column": "证券代码",
+    "value": "688313",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 84,
+    "row_id": "圣湘生物刘让蛟",
+    "company_code": "688289",
+    "person_name": "刘让蛟",
+    "column": "年龄",
+    "value": 58.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 85,
+    "row_id": "仕佳光子胡炎彰",
+    "company_code": "688313",
+    "person_name": "胡炎彰",
+    "column": "国籍",
+    "value": "中国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 86,
+    "row_id": "普元信息王克强",
+    "company_code": "688118",
+    "person_name": "王克强",
+    "column": "2021薪酬",
+    "value": 66.89,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 87,
+    "row_id": "天能股份向德波",
+    "company_code": "688819",
+    "person_name": "向德波",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 88,
+    "row_id": "仕佳光子孙健",
+    "company_code": "688313",
+    "person_name": "孙健",
+    "column": "最高学历",
+    "value": 1.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 89,
+    "row_id": "仕佳光子胡炎彰",
+    "company_code": "688313",
+    "person_name": "胡炎彰",
+    "column": "年龄",
+    "value": 41.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 90,
+    "row_id": "中科星图张敬亮",
+    "company_code": "688568",
+    "person_name": "张敬亮",
+    "column": "年龄",
+    "value": 46.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 91,
+    "row_id": "普元信息王克强",
+    "company_code": "688118",
+    "person_name": "王克强",
+    "column": "年龄",
+    "value": 50.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 92,
+    "row_id": "华润微陈南翔",
+    "company_code": "688396",
+    "person_name": "陈南翔",
+    "column": "国籍",
+    "value": "中国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 93,
+    "row_id": "时代电气张定华",
+    "company_code": "688187",
+    "person_name": "张定华",
+    "column": "2021薪酬",
+    "value": 78.27,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 94,
+    "row_id": "圣湘生物周俊",
+    "company_code": "688289",
+    "person_name": "周俊",
+    "column": "简历",
+    "value": "1997年9月至2018年6月先后于乌鲁木齐、北京等地三甲医院、研究所、医学中心任职。2018年7月入职圣湘生物，现任公司副总经理。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 95,
+    "row_id": "仕佳光子黄永光",
+    "company_code": "688313",
+    "person_name": "黄永光",
+    "column": "性别",
+    "value": " 男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 96,
+    "row_id": "中科星图胡煜",
+    "company_code": "688568",
+    "person_name": "胡煜",
+    "column": "姓名",
+    "value": "胡煜",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 97,
+    "row_id": "华熙生物刘爱华",
+    "company_code": "688363",
+    "person_name": "刘爱华",
+    "column": "证券代码",
+    "value": "688363",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 98,
+    "row_id": "天能股份郭志刚",
+    "company_code": "688819",
+    "person_name": "郭志刚",
+    "column": "2022薪酬",
+    "value": 85.22,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 99,
+    "row_id": "华熙生物刘喆",
+    "company_code": "688363",
+    "person_name": "刘喆",
+    "column": "简历",
+    "value": "1982年10月出生，中国国籍，无境外永久居留权。毕业于清华大学化学工程专业，博士学历。教育部自然科学奖一等奖获得者，申请 国内外发明专利六十余项，国际SCI论文十余篇。2010年至2021年，曾任美国宝洁公司亚洲研发中心高级科学家与技术带头人。2021 年1月加入公司，现任公司创新研究院院长，主要负责新型递送技术开发，活性物的新应用领域拓展，和新服务模式的创新。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 100,
+    "row_id": "仕佳光子胡炎彰",
+    "company_code": "688313",
+    "person_name": "胡炎彰",
+    "column": "2022持股",
+    "value": 270000.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 101,
+    "row_id": "普元信息王克强",
+    "company_code": "688118",
+    "person_name": "王克强",
+    "column": "2024薪酬",
+    "value": 56.26,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 102,
+    "row_id": "天能股份郭志刚",
+    "company_code": "688819",
+    "person_name": "郭志刚",
+    "column": "2022薪酬",
+    "value": 85.22,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 103,
+    "row_id": "普元信息甄强",
+    "company_code": "688118",
+    "person_name": "甄强",
+    "column": "股票简称",
+    "value": "普元信息",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 104,
+    "row_id": "天能股份郭志刚",
+    "company_code": "688819",
+    "person_name": "郭志刚",
+    "column": "最高学历",
+    "value": 2.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 105,
+    "row_id": "普元信息甄强",
+    "company_code": "688118",
+    "person_name": "甄强",
+    "column": "年龄",
+    "value": 56.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 106,
+    "row_id": "仕佳光子黄永光",
+    "company_code": "688313",
+    "person_name": "黄永光",
+    "column": "股票简称",
+    "value": "仕佳光子",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 107,
+    "row_id": "中科星图张敬亮",
+    "company_code": "688568",
+    "person_name": "张敬亮",
+    "column": "最高学历",
+    "value": 1.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 108,
+    "row_id": "华熙生物刘建建",
+    "company_code": "688363",
+    "person_name": "刘建建",
+    "column": "2021薪酬",
+    "value": 102.07,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 109,
+    "row_id": "华熙生物刘爱华",
+    "company_code": "688363",
+    "person_name": "刘爱华",
+    "column": "2019薪酬",
+    "value": 187.89,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 110,
+    "row_id": "普元信息袁义",
+    "company_code": "688118",
+    "person_name": "袁义",
+    "column": "年龄",
+    "value": 49.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 111,
+    "row_id": "仕佳光子周天红",
+    "company_code": "688313",
+    "person_name": "周天红",
+    "column": "股票简称",
+    "value": "仕佳光子",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 112,
+    "row_id": "华熙生物刘喆",
+    "company_code": "688363",
+    "person_name": "刘喆",
+    "column": "姓名",
+    "value": "刘喆",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 113,
+    "row_id": "普元信息甄强",
+    "company_code": "688118",
+    "person_name": "甄强",
+    "column": "年龄",
+    "value": 56.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 114,
+    "row_id": "中科星图张敬亮",
+    "company_code": "688568",
+    "person_name": "张敬亮",
+    "column": "最高学历",
+    "value": 1.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 115,
+    "row_id": "仕佳光子张晓光",
+    "company_code": "688313",
+    "person_name": "张晓光",
+    "column": "2024薪酬",
+    "value": 46.28,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 116,
+    "row_id": "仕佳光子黄永光",
+    "company_code": "688313",
+    "person_name": "黄永光",
+    "column": "简历",
+    "value": "1981 年 10 月出生，中国国籍，无境外永久居留权，毕业于北京工业大学，光学专业，博士研究生学历。2010 年 7 月起，历任中国科学院半导体研究所助理研究员、副研究员；2016 年 1 月至 2024 年 5 月在公司兼职担任专家顾问；2024 年 6 月起正式任职于公司，现任公司董事、副总经理。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 117,
+    "row_id": "仕佳光子张晓光",
+    "company_code": "688313",
+    "person_name": "张晓光",
+    "column": "股票简称",
+    "value": "仕佳光子",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 118,
+    "row_id": "华润微何波涌",
+    "company_code": "688396",
+    "person_name": "何波涌",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 119,
+    "row_id": "仕佳光子胡炎彰",
+    "company_code": "688313",
+    "person_name": "胡炎彰",
+    "column": "姓名",
+    "value": "胡炎彰",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 120,
+    "row_id": "天能股份郭志刚",
+    "company_code": "688819",
+    "person_name": "郭志刚",
+    "column": "最高学历",
+    "value": 2.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 121,
+    "row_id": "时代电气张敏",
+    "company_code": "688187",
+    "person_name": "张敏",
+    "column": "姓名",
+    "value": "张敏",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 122,
+    "row_id": "华润微Hong Li（李虹）",
+    "company_code": "688396",
+    "person_name": "Hong Li（李虹）",
+    "column": "2023持股",
+    "value": 7.97,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 123,
+    "row_id": "仕佳光子张晓光",
+    "company_code": "688313",
+    "person_name": "张晓光",
+    "column": "股票简称",
+    "value": "仕佳光子",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 124,
+    "row_id": "ST诺泰杨杰",
+    "company_code": "688076",
+    "person_name": "杨杰",
+    "column": "简历",
+    "value": "1968年10月生，美国国籍。上海医科大学（现复旦大学）药物化学专业本科，硕士学位。美国杜肯大学药物化学博士学位。1991年至 1997年，在上海医科大学药学院药物化学教研室担任助教；2008年至2016年，在AlbanyMolecularResearch,Inc担任资深科学家；2016 年至2017年，在AgiosPharmaceuticals担任CMC技术顾问；2017年至2018年，在上海方楠生物医药科技有限公司担任执行副总；2018 年5月至2024年2月，担任杭州澳赛诺生物科技有限公司研发部研发总监。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 125,
+    "row_id": "普元信息甄强",
+    "company_code": "688118",
+    "person_name": "甄强",
+    "column": "证券代码",
+    "value": "688118",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 126,
+    "row_id": "华熙生物赵毅",
+    "company_code": "688363",
+    "person_name": "赵毅",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 127,
+    "row_id": "圣湘生物刘让蛟",
+    "company_code": "688289",
+    "person_name": "刘让蛟",
+    "column": "2021薪酬",
+    "value": 66.22,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 128,
+    "row_id": "圣湘生物刘让蛟",
+    "company_code": "688289",
+    "person_name": "刘让蛟",
+    "column": "2021薪酬",
+    "value": 66.22,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 129,
+    "row_id": "ST诺泰杨杰",
+    "company_code": "688076",
+    "person_name": "杨杰",
+    "column": "最高学历",
+    "value": 1.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 130,
+    "row_id": "华润微吴泉清",
+    "company_code": "688396",
+    "person_name": "吴泉清",
+    "column": "最高学历",
+    "value": 2.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 131,
+    "row_id": "仕佳光子李程",
+    "company_code": "688313",
+    "person_name": "李程",
+    "column": "证券代码",
+    "value": "688313",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 132,
+    "row_id": "圣湘生物卓红俞",
+    "company_code": "688289",
+    "person_name": "卓红俞",
+    "column": "国籍",
+    "value": "中国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 133,
+    "row_id": "仕佳光子孙健",
+    "company_code": "688313",
+    "person_name": "孙健",
+    "column": "简历",
+    "value": "男，1986年2月出生，中国国籍，无境外永久居留权，毕业于吉林大学，微电子学与固体电子学专业，博士研究生学历。2015年7 月起至今任职于发行人。现任发行人工程师。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 134,
+    "row_id": "圣湘生物周俊",
+    "company_code": "688289",
+    "person_name": "周俊",
+    "column": "国籍",
+    "value": "中国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 135,
+    "row_id": "华润微吴泉清",
+    "company_code": "688396",
+    "person_name": "吴泉清",
+    "column": "证券代码",
+    "value": "688396",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 136,
+    "row_id": "中科星图林殷",
+    "company_code": "688568",
+    "person_name": "林殷",
+    "column": "2024薪酬",
+    "value": 55.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 137,
+    "row_id": "时代电气张东方",
+    "company_code": "688187",
+    "person_name": "张东方",
+    "column": "年龄",
+    "value": 45.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 138,
+    "row_id": "圣湘生物周俊",
+    "company_code": "688289",
+    "person_name": "周俊",
+    "column": "2024持股",
+    "value": 89582.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 139,
+    "row_id": "中科星图张敬亮",
+    "company_code": "688568",
+    "person_name": "张敬亮",
+    "column": "最高学历",
+    "value": 1.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 140,
+    "row_id": "天能股份向德波",
+    "company_code": "688819",
+    "person_name": "向德波",
+    "column": "国籍",
+    "value": "中国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 141,
+    "row_id": "圣湘生物周俊",
+    "company_code": "688289",
+    "person_name": "周俊",
+    "column": "2022持股",
+    "value": 38850.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 142,
+    "row_id": "普元信息甄强",
+    "company_code": "688118",
+    "person_name": "甄强",
+    "column": "股票简称",
+    "value": "普元信息",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 143,
+    "row_id": "华润微陈南翔",
+    "company_code": "688396",
+    "person_name": "陈南翔",
+    "column": "简历",
+    "value": "陈南翔先生，1961 年生，中国国籍，无境外长期居留权，北京师范大学低能核物理研究所离子束物理与集成电路应用专业博士。陈先生于 1989 年至 1992 年期间任北京大学计算机科学技术系讲师；于 1992 年至 1994 年期间任德国 Fraunhofer 协会集成电路技术研究所洪堡基金会研究学者；于 1994年至 1995年期间任德国 Max-Planck 协会微结构研究所高级客座科学家；于 1995 年至 2002 年期间任美国加州硅谷 Supertex, Inc技术与研发部主管；于 2002年至 2008年期间历任华润微电子（控股）有限公司副总经理、董事；于 2004 年至 2008 年期间任无锡华润晶芯半导体有限公司总经理；于 2008年至 2016年期间任发行人副总经理；于 2013年至 2014年期间兼任华润微电子研发中心总经理；现任发行人常务副董事长及运营中心总经理、中国半导体行业协会副理事长、中国集成电路产业创新联盟副理事长等职务。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 144,
+    "row_id": "中科星图胡煜",
+    "company_code": "688568",
+    "person_name": "胡煜",
+    "column": "2021薪酬",
+    "value": 82.52,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 145,
+    "row_id": "华润微何波涌",
+    "company_code": "688396",
+    "person_name": "何波涌",
+    "column": "简历",
+    "value": "何波涌先生，1967 年生，中国国籍，拥有澳大利亚境外居留权，美国明尼苏达大学电子工程专业博士。何先生于 2000 年至 2003 年期间任 IBM 研究科学家；于 2003年至 2004年期间任中芯国际资深经理；于 2004年至 2005年期间作为创始合伙人参与创立中国 CiWest半导体有限公司；于 2005年至 2007年期间任新加坡特许半导体制造有限公司资深经理；于 2008年至 2009年期间任上海交通大学副研究员；于 2009年入职无锡华润上华，现任无锡华润上华助理总经理及工艺集成技术研发中心负责人。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 146,
+    "row_id": "仕佳光子钟飞",
+    "company_code": "688313",
+    "person_name": "钟飞",
+    "column": "姓名",
+    "value": "钟飞",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 147,
+    "row_id": "中科星图邵宗有",
+    "company_code": "688568",
+    "person_name": "邵宗有",
+    "column": "2022薪酬",
+    "value": 77.55,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 148,
+    "row_id": "中科星图张敬亮",
+    "company_code": "688568",
+    "person_name": "张敬亮",
+    "column": "最高学历",
+    "value": 1.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 149,
+    "row_id": "天能股份向德波",
+    "company_code": "688819",
+    "person_name": "向德波",
+    "column": "股票简称",
+    "value": "天能股份",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 150,
+    "row_id": "普元信息袁义",
+    "company_code": "688118",
+    "person_name": "袁义",
+    "column": "姓名",
+    "value": "袁义",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 151,
+    "row_id": "仕佳光子张晓光",
+    "company_code": "688313",
+    "person_name": "张晓光",
+    "column": "最高学历",
+    "value": 1.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 152,
+    "row_id": "圣湘生物刘让蛟",
+    "company_code": "688289",
+    "person_name": "刘让蛟",
+    "column": "证券代码",
+    "value": "688289",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 153,
+    "row_id": "普元信息甄强",
+    "company_code": "688118",
+    "person_name": "甄强",
+    "column": "证券代码",
+    "value": "688118",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 154,
+    "row_id": "圣湘生物刘让蛟",
+    "company_code": "688289",
+    "person_name": "刘让蛟",
+    "column": "股票简称",
+    "value": "圣湘生物",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 155,
+    "row_id": "仕佳光子胡炎彰",
+    "company_code": "688313",
+    "person_name": "胡炎彰",
+    "column": "最高学历",
+    "value": 4.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 156,
+    "row_id": "圣湘生物周俊",
+    "company_code": "688289",
+    "person_name": "周俊",
+    "column": "2024持股",
+    "value": 89582.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 157,
+    "row_id": "华润微罗先才",
+    "company_code": "688396",
+    "person_name": "罗先才",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 158,
+    "row_id": "中科星图邵宗有",
+    "company_code": "688568",
+    "person_name": "邵宗有",
+    "column": "2021薪酬",
+    "value": 83.19,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 159,
+    "row_id": "仕佳光子胡炎彰",
+    "company_code": "688313",
+    "person_name": "胡炎彰",
+    "column": "2021持股",
+    "value": 270000.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 160,
+    "row_id": "普元信息王克强",
+    "company_code": "688118",
+    "person_name": "王克强",
+    "column": "2024持股",
+    "value": 781332.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 161,
+    "row_id": "普元信息甄强",
+    "company_code": "688118",
+    "person_name": "甄强",
+    "column": "股票简称",
+    "value": "普元信息",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 162,
+    "row_id": "华熙生物陶文文",
+    "company_code": "688363",
+    "person_name": "陶文文",
+    "column": "股票简称",
+    "value": "华熙生物",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 163,
+    "row_id": "中科星图张敬亮",
+    "company_code": "688568",
+    "person_name": "张敬亮",
+    "column": "股票简称",
+    "value": "中科星图",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 164,
+    "row_id": "华熙生物刘建建",
+    "company_code": "688363",
+    "person_name": "刘建建",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 165,
+    "row_id": "华熙生物刘建建",
+    "company_code": "688363",
+    "person_name": "刘建建",
+    "column": "2019薪酬",
+    "value": 69.83,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 166,
+    "row_id": "圣湘生物周俊",
+    "company_code": "688289",
+    "person_name": "周俊",
+    "column": "2021薪酬",
+    "value": 95.45,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 167,
+    "row_id": "普元信息袁义",
+    "company_code": "688118",
+    "person_name": "袁义",
+    "column": "姓名",
+    "value": "袁义",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 168,
+    "row_id": "普元信息甄强",
+    "company_code": "688118",
+    "person_name": "甄强",
+    "column": "简历",
+    "value": "男，1968 年生，中国国籍，无境外永久居留权。1998 年毕业于中国科学院数学研究所计算机软件及理论专业，获博士学位。曾任中讯通信技术有限公司通信计费产品部副经理、神州数码电信事业部二部副经理、亿阳信通电信 BSS 事业部总经理。2006 年至今，一直任职于普元信息，现任发行人公共事业群副总经理（分管技术）、普元智慧执行董事和经理。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 169,
+    "row_id": "普元信息甄强",
+    "company_code": "688118",
+    "person_name": "甄强",
+    "column": "股票简称",
+    "value": "普元信息",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 170,
+    "row_id": "仕佳光子王欢",
+    "company_code": "688313",
+    "person_name": "王欢",
+    "column": "2024薪酬",
+    "value": 47.63,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 171,
+    "row_id": "时代电气张敏",
+    "company_code": "688187",
+    "person_name": "张敏",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 172,
+    "row_id": "华熙生物周贤龙",
+    "company_code": "688363",
+    "person_name": "周贤龙",
+    "column": "2023薪酬",
+    "value": 54.36,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 173,
+    "row_id": "奥特维季斌斌",
+    "company_code": "688516",
+    "person_name": "季斌斌",
+    "column": "2021薪酬",
+    "value": 95.84,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 174,
+    "row_id": "时代电气张东方",
+    "company_code": "688187",
+    "person_name": "张东方",
+    "column": "股票简称",
+    "value": "时代电气",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 175,
+    "row_id": "仕佳光子李程",
+    "company_code": "688313",
+    "person_name": "李程",
+    "column": "2023薪酬",
+    "value": 31.95,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 176,
+    "row_id": "仕佳光子李程",
+    "company_code": "688313",
+    "person_name": "李程",
+    "column": "证券代码",
+    "value": "688313",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 177,
+    "row_id": "仕佳光子李程",
+    "company_code": "688313",
+    "person_name": "李程",
+    "column": "2023薪酬",
+    "value": 31.95,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 178,
+    "row_id": "普元信息甄强",
+    "company_code": "688118",
+    "person_name": "甄强",
+    "column": "证券代码",
+    "value": "688118",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 179,
+    "row_id": "仕佳光子李程",
+    "company_code": "688313",
+    "person_name": "李程",
+    "column": "2023薪酬",
+    "value": 31.95,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 180,
+    "row_id": "天能股份郭志刚",
+    "company_code": "688819",
+    "person_name": "郭志刚",
+    "column": "股票简称",
+    "value": "天能股份",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 181,
+    "row_id": "普元信息甄强",
+    "company_code": "688118",
+    "person_name": "甄强",
+    "column": "国籍",
+    "value": "中国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 182,
+    "row_id": "普元信息甄强",
+    "company_code": "688118",
+    "person_name": "甄强",
+    "column": "年龄",
+    "value": 56.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 183,
+    "row_id": "仕佳光子张晓光",
+    "company_code": "688313",
+    "person_name": "张晓光",
+    "column": "2021持股",
+    "value": 720000.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 184,
+    "row_id": "仕佳光子李程",
+    "company_code": "688313",
+    "person_name": "李程",
+    "column": "国籍",
+    "value": "中国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 185,
+    "row_id": "仕佳光子周天红",
+    "company_code": "688313",
+    "person_name": "周天红",
+    "column": "2023薪酬",
+    "value": 56.14,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 186,
+    "row_id": "普元信息甄强",
+    "company_code": "688118",
+    "person_name": "甄强",
+    "column": "证券代码",
+    "value": "688118",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 187,
+    "row_id": "仕佳光子孙健",
+    "company_code": "688313",
+    "person_name": "孙健",
+    "column": "最高学历",
+    "value": 1.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 188,
+    "row_id": "华润微何波涌",
+    "company_code": "688396",
+    "person_name": "何波涌",
+    "column": "股票简称",
+    "value": "华润微",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 189,
+    "row_id": "时代电气刘永江",
+    "company_code": "688187",
+    "person_name": "刘永江",
+    "column": "2024薪酬",
+    "value": 27.76,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 190,
+    "row_id": "中科星图张敬亮",
+    "company_code": "688568",
+    "person_name": "张敬亮",
+    "column": "证券代码",
+    "value": "688568",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 191,
+    "row_id": "仕佳光子黄永光",
+    "company_code": "688313",
+    "person_name": "黄永光",
+    "column": "2024持股",
+    "value": 900000.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 192,
+    "row_id": "天能股份郭志刚",
+    "company_code": "688819",
+    "person_name": "郭志刚",
+    "column": "2020薪酬",
+    "value": 87.44,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 193,
+    "row_id": "普元信息刘相",
+    "company_code": "688118",
+    "person_name": "刘相",
+    "column": "国籍",
+    "value": "中国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 194,
+    "row_id": "奥特维季斌斌",
+    "company_code": "688516",
+    "person_name": "季斌斌",
+    "column": "2024持股",
+    "value": 25984.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 195,
+    "row_id": "普元信息甄强",
+    "company_code": "688118",
+    "person_name": "甄强",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 196,
+    "row_id": "天能股份方明学",
+    "company_code": "688819",
+    "person_name": "方明学",
+    "column": "2021薪酬",
+    "value": 70.19,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 197,
+    "row_id": "华熙生物陶文文",
+    "company_code": "688363",
+    "person_name": "陶文文",
+    "column": "2024薪酬",
+    "value": 101.6,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 198,
+    "row_id": "仕佳光子李程",
+    "company_code": "688313",
+    "person_name": "李程",
+    "column": "2022持股",
+    "value": 180000.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 199,
+    "row_id": "普元信息甄强",
+    "company_code": "688118",
+    "person_name": "甄强",
+    "column": "简历",
+    "value": "男，1968 年生，中国国籍，无境外永久居留权。1998 年毕业于中国科学院数学研究所计算机软件及理论专业，获博士学位。曾任中讯通信技术有限公司通信计费产品部副经理、神州数码电信事业部二部副经理、亿阳信通电信 BSS 事业部总经理。2006 年至今，一直任职于普元信息，现任发行人公共事业群副总经理（分管技术）、普元智慧执行董事和经理。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 200,
+    "row_id": "中科星图邵宗有",
+    "company_code": "688568",
+    "person_name": "邵宗有",
+    "column": "简历",
+    "value": "邵宗有先生，中国国籍，无境外居留权，1976年出生，北京科技大学博士、长江商学院EMBA、教授级高级工程师。2001年-2007年，就职于曙光信息产业（北京）有限公司，历任产品中心总经理、解决方案中心总经理、研发中心总经理；2007-2016 年，就职于曙光信息产业股份有限公司，曾任公司副总裁、电子政务云国家工程实验室副理事长、国家高性能计算机工程技术研究中心常务副主任。期间曾主持863专项、核高基专项、国家发改委安全专项、工信部电子基金等 12 项课题研发；曾获得国家科学技术进步二等奖、教育部科学技术进步一等奖、中国通信学会科学技术二等奖等 10 项国家及省部委奖项；以第一发明人申请专利 79 余项；参与制定国家电子行业相关标准 5 项，发表国内外论文 6 篇。2016 年 4 月至今任全国信息技术标准化技术委员会委员；2018 年 5 月任中国软件行业协会第七届理事会副理事长；2017 年 9 月至今任中国地理信息产业协会理事；2017年12月至今任中国指挥与控制学会第二届理事会常务理事。2016年12月至今，任公司董事、总经理。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 201,
+    "row_id": "中科星图林殷",
+    "company_code": "688568",
+    "person_name": "林殷",
+    "column": "2023薪酬",
+    "value": 50.68,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 202,
+    "row_id": "时代电气张敏",
+    "company_code": "688187",
+    "person_name": "张敏",
+    "column": "姓名",
+    "value": "张敏",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 203,
+    "row_id": "仕佳光子胡炎彰",
+    "company_code": "688313",
+    "person_name": "胡炎彰",
+    "column": "姓名",
+    "value": "胡炎彰",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 204,
+    "row_id": "华润微吴泉清",
+    "company_code": "688396",
+    "person_name": "吴泉清",
+    "column": "2022持股",
+    "value": 2.37,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 205,
+    "row_id": "华润微Hong Li（李虹）",
+    "company_code": "688396",
+    "person_name": "Hong Li（李虹）",
+    "column": "2023持股",
+    "value": 7.97,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 206,
+    "row_id": "普元信息王克强",
+    "company_code": "688118",
+    "person_name": "王克强",
+    "column": "简历",
+    "value": "男，1974 年生，中国国籍，无境外永久居留权。1995 年毕业于杭州电子科技大学计算机软件专业，获学士学位。曾任山东和华电子信息有限公司工程师、台湾凌阳科技公司工程师、朗新科技股份有限公司工程师、普元软件项目经理。2003 年至今，一直任职于普元信息，曾任软件产品部总经理，现任发行人政企事业群总经理（分管技术）、苏州普元执行董事和总经理。王克强曾荣获“上海市科学技术进步奖二等奖（2011 年）”、“浦东新区科技进步奖一等奖（2011年）”。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 207,
+    "row_id": "圣湘生物戴立忠",
+    "company_code": "688289",
+    "person_name": "戴立忠",
+    "column": "2023薪酬",
+    "value": 70.06,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 208,
+    "row_id": "仕佳光子胡炎彰",
+    "company_code": "688313",
+    "person_name": "胡炎彰",
+    "column": "2022持股",
+    "value": 270000.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 209,
+    "row_id": "仕佳光子徐嘉宏",
+    "company_code": "688313",
+    "person_name": "徐嘉宏",
+    "column": "国籍",
+    "value": "中国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 210,
+    "row_id": "中科星图张敬亮",
+    "company_code": "688568",
+    "person_name": "张敬亮",
+    "column": "简历",
+    "value": "张敬亮先生，中国国籍，无境外居留权，1979年出生，中国科学院计算技术研究所博士，高级工程师。具有十余年大数据、分布式系统、集群存储及云计算方向技术实践，主要从事大数据平台产品研发及行业解决方案落地工作。2003年至2010年，历任中科蓝鲸信息技术有限公司分布式存储系统开发部研发组长。2010年至2013年，历任华为技术有限公司存储技术开发部负责人，2013年至 2017 年，历任中科院计算所大数据分析技术国家工程实验室、中科院网络大数据重点实验室大数据平台构架组长，中科天玑数据科技股份有限公司大数据产品事业部总经理。2017年至2018 年4月，任北明软件有限公司大数据研究院研发总监。2018年4月至今，历任数字地球研究院（北京）院长、技术总师。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 211,
+    "row_id": "中科星图张敬亮",
+    "company_code": "688568",
+    "person_name": "张敬亮",
+    "column": "最高学历",
+    "value": 1.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 212,
+    "row_id": "中科星图林殷",
+    "company_code": "688568",
+    "person_name": "林殷",
+    "column": "2024薪酬",
+    "value": 55.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 213,
+    "row_id": "仕佳光子雷杰",
+    "company_code": "688313",
+    "person_name": "雷杰",
+    "column": "2022持股",
+    "value": 540000.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 214,
+    "row_id": "奥特维刘伟",
+    "company_code": "688516",
+    "person_name": "刘伟",
+    "column": "股票简称",
+    "value": "奥特维",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 215,
+    "row_id": "天能股份向德波",
+    "company_code": "688819",
+    "person_name": "向德波",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 216,
+    "row_id": "圣湘生物周俊",
+    "company_code": "688289",
+    "person_name": "周俊",
+    "column": "2021薪酬",
+    "value": 95.45,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 217,
+    "row_id": "圣湘生物卓红俞",
+    "company_code": "688289",
+    "person_name": "卓红俞",
+    "column": "简历",
+    "value": "卓红俞，男，1978 年 12 月出生，中国国籍，无境外永久居留权，硕士研究生学历。1998 年 9 月至 2005 年 5 月于西南交通大学攻读光电子技术和光学工程专业学士和硕士学位。2005 年 5 月至 2006 年 5 月，就职于大连久鹏电子系统有限公司项目经理；2006 年 5 月至 2010 年 4 月，就职于大连现代高技术发展有限公司产线经理；2010 年 5 月至 2015 年 7 月，就职于爱威科技股份有限公司技术部门经理；2015年7月至2016年9月，就职于三诺生物传感器股份有限公司POCT",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 218,
+    "row_id": "仕佳光子徐嘉宏",
+    "company_code": "688313",
+    "person_name": "徐嘉宏",
+    "column": "国籍",
+    "value": "中国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 219,
+    "row_id": "ST诺泰杨杰",
+    "company_code": "688076",
+    "person_name": "杨杰",
+    "column": "2024薪酬",
+    "value": 0.2,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 220,
+    "row_id": "华熙生物刘喆",
+    "company_code": "688363",
+    "person_name": "刘喆",
+    "column": "2023薪酬",
+    "value": 87.5,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 221,
+    "row_id": "仕佳光子黄宁博",
+    "company_code": "688313",
+    "person_name": "黄宁博",
+    "column": "年龄",
+    "value": 38.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 222,
+    "row_id": "仕佳光子李程",
+    "company_code": "688313",
+    "person_name": "李程",
+    "column": "2022持股",
+    "value": 180000.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 223,
+    "row_id": "华熙生物陶文文",
+    "company_code": "688363",
+    "person_name": "陶文文",
+    "column": "国籍",
+    "value": "中国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 224,
+    "row_id": "仕佳光子周天红",
+    "company_code": "688313",
+    "person_name": "周天红",
+    "column": "证券代码",
+    "value": "688313",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 225,
+    "row_id": "仕佳光子李程",
+    "company_code": "688313",
+    "person_name": "李程",
+    "column": "2023薪酬",
+    "value": 31.95,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 226,
+    "row_id": "仕佳光子李程",
+    "company_code": "688313",
+    "person_name": "李程",
+    "column": "2021薪酬",
+    "value": 28.33,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 227,
+    "row_id": "中科星图张敬亮",
+    "company_code": "688568",
+    "person_name": "张敬亮",
+    "column": "2021薪酬",
+    "value": 55.35,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 228,
+    "row_id": "仕佳光子徐嘉宏",
+    "company_code": "688313",
+    "person_name": "徐嘉宏",
+    "column": "年龄",
+    "value": 52.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 229,
+    "row_id": "圣湘生物周俊",
+    "company_code": "688289",
+    "person_name": "周俊",
+    "column": "股票简称",
+    "value": "圣湘生物",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 230,
+    "row_id": "华润微何波涌",
+    "company_code": "688396",
+    "person_name": "何波涌",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 231,
+    "row_id": "圣湘生物喻霞林",
+    "company_code": "688289",
+    "person_name": "喻霞林",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 232,
+    "row_id": "天能股份陈飞",
+    "company_code": "688819",
+    "person_name": "陈飞",
+    "column": "年龄",
+    "value": 41.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 233,
+    "row_id": "中科星图张敬亮",
+    "company_code": "688568",
+    "person_name": "张敬亮",
+    "column": "股票简称",
+    "value": "中科星图",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 234,
+    "row_id": "中科星图谢国钧",
+    "company_code": "688568",
+    "person_name": "谢国钧",
+    "column": "2023薪酬",
+    "value": 43.47,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 235,
+    "row_id": "仕佳光子李程",
+    "company_code": "688313",
+    "person_name": "李程",
+    "column": "证券代码",
+    "value": "688313",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 236,
+    "row_id": "仕佳光子胡炎彰",
+    "company_code": "688313",
+    "person_name": "胡炎彰",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 237,
+    "row_id": "仕佳光子胡炎彰",
+    "company_code": "688313",
+    "person_name": "胡炎彰",
+    "column": "国籍",
+    "value": "中国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 238,
+    "row_id": "时代电气胡云卿",
+    "company_code": "688187",
+    "person_name": "胡云卿",
+    "column": "股票简称",
+    "value": "时代电气",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 239,
+    "row_id": "仕佳光子王欢",
+    "company_code": "688313",
+    "person_name": "王欢",
+    "column": "国籍",
+    "value": "中国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 240,
+    "row_id": "圣湘生物卓红俞",
+    "company_code": "688289",
+    "person_name": "卓红俞",
+    "column": "简历",
+    "value": "卓红俞，男，1978 年 12 月出生，中国国籍，无境外永久居留权，硕士研究生学历。1998 年 9 月至 2005 年 5 月于西南交通大学攻读光电子技术和光学工程专业学士和硕士学位。2005 年 5 月至 2006 年 5 月，就职于大连久鹏电子系统有限公司项目经理；2006 年 5 月至 2010 年 4 月，就职于大连现代高技术发展有限公司产线经理；2010 年 5 月至 2015 年 7 月，就职于爱威科技股份有限公司技术部门经理；2015年7月至2016年9月，就职于三诺生物传感器股份有限公司POCT",
+    "data_type": "str",
+    "sheet": "basic"
+  }
+]
