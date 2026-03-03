@@ -1,23 +1,30 @@
-"""Dishonest Query Task - End-to-End Verifiable (strict & concise).
+"""Dishonest Query Task - End-to-End Verifiable with Strict Format Requirements.
 
 Category: law
 Task tag: dishonest_query
+Task description:
+The agent is asked to find ALL matching "被执行人 / 失信被执行人" records from the Internet. This task is extremely challenging because:
+1. The agent must locate the correct websites and solve multiple difficult captchas.
+2. Each website contains only partial information. The agent needs to search across multiple sources such as 失信被执行网、裁判文书网、企查查, etc.
+3. Complete ID numbers are not readily available online; the agent must infer them based on generation rules (district code, birth date, check digits, etc.).
+4. Matching records can be numerous, with each query requiring significant effort even for human experts to search and verify.
 
 Scoring (as requested):
 - Treat EACH ROW in ground_truth.xlsx as ONE scoring item ("test point").
-- A ground-truth row is correct if the model output contains a matching row,
+- A ground-truth row is considered correct if the model output contains a matching row,
   while IGNORING these three columns: 出生年份, 身份证归属地, 居住地.
 - Full score: 1.0
 - Each missing ground-truth row deducts 0.1
 - Minimum: 0.0
 
 Strictness:
-- If the output file is missing, or output header/sheet format is not EXACT -> score = 0.0.
-- Only .xlsx is accepted.
+- If the output file is missing, or the output header/sheet format is not EXACT -> score = 0.0.
+- Only .xlsx format is accepted.
 
 Normalization in matching:
 - Ignore all whitespace (spaces, newlines, tabs, etc.).
 - Treat Chinese/English parentheses as equivalent: （） == ().
+- For long text fields (义务, 履行情况, 行为情形), use fuzzy matching to avoid penalizing minor wording differences.
 - Support duplicates correctly: each ground-truth row needs its own match (multiset matching).
 """
 
@@ -26,6 +33,7 @@ import math
 import re
 from collections import Counter
 from dataclasses import dataclass
+from difflib import SequenceMatcher
 from io import BytesIO
 from typing import Any, Dict, List, Optional, Sequence, Tuple
 
@@ -92,13 +100,13 @@ Output (STRICT; otherwise score = 0.0)
   11) 失信被执行人行为具体情形
 
 - Each record must take ONE row (starting from Row 2).
-- If you cannot obtain 出生年份 / 身份证归属地 / 居住地 from sources, you may leave those cells empty.
+- If one query does not contain 出生年份 / 身份证归属地 / 居住地, you may leave those cells empty.
 - Do NOT merge cells.
 
 Notes
-- If a query matches multiple records (even hundreds or thousands), you MUST output all of them.
+- If a query matches multiple records (even hundreds or thousands), you MUST output ALL of them.
 - You do NOT need to group by query; just output all records row-by-row.
-- Evaluation is done by matching 身份证号. So, if you really cannot find 身份证号 for a specific record, you may leave it empty.
+- If you really cannot find a column for a specific record, you may leave it empty, although you may lose points for doing this if this column actually exists in ground truth.
 
 The task is considered successful if:
 - The output file is well-formed and follows the strict format above.
@@ -162,16 +170,24 @@ OUTPUT_HEADER: Sequence[str] = (
 )
 
 # Matching ignores these 3 columns.
-KEY_COLS: Sequence[str] = (
+# For exact matching (short, structured fields)
+EXACT_MATCH_COLS: Sequence[str] = (
     "姓名",
     "身份证号",
     "执行依据文号",
     "案号",
     "做出执行依据单位",
+)
+
+# For fuzzy matching (long text fields that may have minor wording differences)
+FUZZY_MATCH_COLS: Sequence[str] = (
     "生效法律文书确定的义务",
     "被执行人的履行情况",
     "失信被执行人行为具体情形",
 )
+
+# Similarity threshold for fuzzy matching (0.0 to 1.0)
+FUZZY_MATCH_THRESHOLD: float = 0.75
 
 
 def _is_blank(x: Any) -> bool:
@@ -216,6 +232,49 @@ def _canon_text(x: Any) -> str:
     return s
 
 
+def _canon_text_fuzzy(x: Any) -> str:
+    """For fuzzy matching: ignore whitespace AND punctuation."""
+    if _is_blank(x):
+        return ""
+    s = str(x)
+    # Normalize Chinese/English punctuation
+    s = s.replace("（", "(").replace("）", ")")
+    s = s.replace("，", ",").replace("。", ".").replace("；", ";").replace("：", ":")
+    s = s.replace("！", "!").replace("？", "?").replace("、", ",")
+    s = s.replace(""", '"').replace(""", '"').replace("'", "'").replace("'", "'")
+    # Remove all whitespace
+    s = re.sub(r"\s+", "", s)
+    # Remove all punctuation
+    s = re.sub(r"[^\w]", "", s)
+    return s
+
+
+def _text_similarity(a: str, b: str) -> float:
+    """Calculate similarity ratio between two strings (0.0 to 1.0)."""
+    if not a and not b:
+        return 1.0
+    if not a or not b:
+        return 0.0
+    return SequenceMatcher(None, a, b).ratio()
+
+
+def _fuzzy_match(text1: Any, text2: Any, threshold: float = FUZZY_MATCH_THRESHOLD) -> bool:
+    """Check if two texts match with fuzzy logic (for long text fields)."""
+    s1 = _canon_text_fuzzy(text1)
+    s2 = _canon_text_fuzzy(text2)
+
+    # If both are empty, consider them matching
+    if not s1 and not s2:
+        return True
+
+    # If one is empty and the other is not, no match
+    if not s1 or not s2:
+        return False
+
+    # Use similarity ratio
+    return _text_similarity(s1, s2) >= threshold
+
+
 def _strict_header_ok(row: Sequence[Any], expected: Sequence[str]) -> bool:
     r = _strip_trailing_blanks(row)
     if len(r) != len(expected):
@@ -249,7 +308,23 @@ def _strict_parse_table(xlsx_bytes: bytes) -> Optional[List[Dict[str, Any]]]:
 
 
 def _key(row: Dict[str, Any]) -> Tuple[str, ...]:
-    return tuple(_canon_text(row.get(c)) for c in KEY_COLS)
+    """Generate key for exact matching columns only."""
+    return tuple(_canon_text(row.get(c)) for c in EXACT_MATCH_COLS)
+
+
+def _rows_match(gt_row: Dict[str, Any], out_row: Dict[str, Any]) -> bool:
+    """Check if two rows match: exact match for structured fields, fuzzy match for long text fields."""
+    # First check exact match columns
+    for col in EXACT_MATCH_COLS:
+        if _canon_text(gt_row.get(col)) != _canon_text(out_row.get(col)):
+            return False
+
+    # Then check fuzzy match columns
+    for col in FUZZY_MATCH_COLS:
+        if not _fuzzy_match(gt_row.get(col), out_row.get(col)):
+            return False
+
+    return True
 
 
 # -----------------------------
@@ -270,15 +345,21 @@ async def evaluate(task_cfg, session: cb.DesktopSession) -> list[float]:
         if gt_rows is None or out_rows is None:
             return [0.0]
 
-        # Multiset matching: handle duplicates correctly.
-        out_counter = Counter(_key(r) for r in out_rows)
+        # Build a list of output rows that haven't been matched yet
+        unmatched_out_rows = list(out_rows)
 
         fail = 0
         for gr in gt_rows:
-            k = _key(gr)
-            if out_counter.get(k, 0) > 0:
-                out_counter[k] -= 1
-            else:
+            # Try to find a matching output row
+            matched = False
+            for i, out_row in enumerate(unmatched_out_rows):
+                if _rows_match(gr, out_row):
+                    # Found a match, remove it from unmatched list
+                    unmatched_out_rows.pop(i)
+                    matched = True
+                    break
+
+            if not matched:
                 logger.info(f"Missing ground-truth row: {gr}")
                 fail += 1
 
