@@ -1,0 +1,6202 @@
+[
+  {
+    "sample_id": 1,
+    "row_id": "大地熊黄秀莲",
+    "company_code": "688077",
+    "person_name": "黄秀莲",
+    "column": "姓名",
+    "value": "黄秀莲",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 2,
+    "row_id": "会通股份吴摞",
+    "company_code": "688219",
+    "person_name": "吴摞",
+    "column": "最高学历",
+    "value": 1.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 3,
+    "row_id": "爱科科技方云科",
+    "company_code": "688092",
+    "person_name": "方云科",
+    "column": "2022薪酬",
+    "value": 66.12,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 4,
+    "row_id": "光峰科技余新",
+    "company_code": "688007",
+    "person_name": "余新",
+    "column": "年龄",
+    "value": 44.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 5,
+    "row_id": "国芯科技肖佐楠",
+    "company_code": "688262",
+    "person_name": "肖佐楠",
+    "column": "2024持股",
+    "value": 12969493.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 6,
+    "row_id": "壹石通王韶晖",
+    "company_code": "688733",
+    "person_name": "王韶晖",
+    "column": "证券代码",
+    "value": "688733",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 7,
+    "row_id": "澳华内镜李强",
+    "company_code": "688212",
+    "person_name": "李强",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 8,
+    "row_id": "中触媒蒋山",
+    "company_code": "688267",
+    "person_name": "蒋山",
+    "column": "年龄",
+    "value": 54.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 9,
+    "row_id": "生益电子肖璐",
+    "company_code": "688183",
+    "person_name": "肖璐",
+    "column": "2022持股",
+    "value": 52500.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 10,
+    "row_id": "和元生物杨佳丽",
+    "company_code": "688238",
+    "person_name": "杨佳丽",
+    "column": "2022薪酬",
+    "value": 35.97,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 11,
+    "row_id": "澳华内镜李强",
+    "company_code": "688212",
+    "person_name": "李强",
+    "column": "股票简称",
+    "value": "澳华内镜",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 12,
+    "row_id": "瑞联新材袁江波",
+    "company_code": "688550",
+    "person_name": "袁江波",
+    "column": "2021持股",
+    "value": 59881.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 13,
+    "row_id": "华恒生物刘树蓬",
+    "company_code": "688639",
+    "person_name": "刘树蓬",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 14,
+    "row_id": "联测科技史江平",
+    "company_code": "688113",
+    "person_name": "史江平",
+    "column": "国籍",
+    "value": "中国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 15,
+    "row_id": "威胜信息肖林松",
+    "company_code": "688100",
+    "person_name": "肖林松",
+    "column": "国籍",
+    "value": "中国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 16,
+    "row_id": "海目星田亮",
+    "company_code": "688559",
+    "person_name": "田亮",
+    "column": "国籍",
+    "value": "新加坡",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 17,
+    "row_id": "迅捷兴李成",
+    "company_code": "688655",
+    "person_name": "李成",
+    "column": "2021薪酬",
+    "value": 18.61,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 18,
+    "row_id": "新致软件张喆宾",
+    "company_code": "688590",
+    "person_name": "张喆宾",
+    "column": "2024持股",
+    "value": 10000.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 19,
+    "row_id": "嘉和美康胡可云",
+    "company_code": "688246",
+    "person_name": "胡可云",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 20,
+    "row_id": "国芯科技王廷平",
+    "company_code": "688262",
+    "person_name": "王廷平",
+    "column": "年龄",
+    "value": 52.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 21,
+    "row_id": "聚石化学龚文幸",
+    "company_code": "688669",
+    "person_name": "龚文幸",
+    "column": "国籍",
+    "value": "中国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 22,
+    "row_id": "华海清科许振杰",
+    "company_code": "688120",
+    "person_name": "许振杰",
+    "column": "股票简称",
+    "value": "华海清科",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 23,
+    "row_id": "嘉必优肖敏",
+    "company_code": "688089",
+    "person_name": "肖敏",
+    "column": "证券代码",
+    "value": "688089",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 24,
+    "row_id": "德邦科技陈田安",
+    "company_code": "688035",
+    "person_name": "陈田安",
+    "column": "2022薪酬",
+    "value": 139.36,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 25,
+    "row_id": "浩欧博钱林",
+    "company_code": "688656",
+    "person_name": "钱林",
+    "column": "证券代码",
+    "value": "688656",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 26,
+    "row_id": "迪威尔王洁",
+    "company_code": "688377",
+    "person_name": "王洁",
+    "column": "2023薪酬",
+    "value": 15.6,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 27,
+    "row_id": "迪哲医药HONCHUNG TSUI",
+    "company_code": "688192",
+    "person_name": "HONCHUNG TSUI",
+    "column": "2022持股",
+    "value": 176250.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 28,
+    "row_id": "永信至诚蔡晶晶",
+    "company_code": "688244",
+    "person_name": "蔡晶晶",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 29,
+    "row_id": "生益电子肖璐",
+    "company_code": "688183",
+    "person_name": "肖璐",
+    "column": "股票简称",
+    "value": "生益电子",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 30,
+    "row_id": "腾景科技李立和",
+    "company_code": "688195",
+    "person_name": "李立和",
+    "column": "2023薪酬",
+    "value": 29.52,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 31,
+    "row_id": "纽威数控李军强",
+    "company_code": "688697",
+    "person_name": "李军强",
+    "column": "2024薪酬",
+    "value": 63.44,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 32,
+    "row_id": "国芯科技王廷平",
+    "company_code": "688262",
+    "person_name": "王廷平",
+    "column": "最高学历",
+    "value": 2.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 33,
+    "row_id": "中控技术李达",
+    "company_code": "688777",
+    "person_name": "李达",
+    "column": "股票简称",
+    "value": "中控技术",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 34,
+    "row_id": "华恒生物刘树蓬",
+    "company_code": "688639",
+    "person_name": "刘树蓬",
+    "column": "2024薪酬",
+    "value": 60.8,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 35,
+    "row_id": "力芯微王国鹏",
+    "company_code": "688601",
+    "person_name": "王国鹏",
+    "column": "年龄",
+    "value": 46.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 36,
+    "row_id": "山大地纬肖宗水",
+    "company_code": "688579",
+    "person_name": "肖宗水",
+    "column": "姓名",
+    "value": "肖宗水",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 37,
+    "row_id": "阳光诺和袁瑜",
+    "company_code": "688621",
+    "person_name": "袁瑜",
+    "column": "国籍",
+    "value": "中国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 38,
+    "row_id": "浩辰软件汪光胜",
+    "company_code": "688657",
+    "person_name": "汪光胜",
+    "column": "国籍",
+    "value": "中国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 39,
+    "row_id": "生益电子唐海波",
+    "company_code": "688183",
+    "person_name": "唐海波",
+    "column": "2022薪酬",
+    "value": 77.5,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 40,
+    "row_id": "兴图新科陈升亮",
+    "company_code": "688081",
+    "person_name": "陈升亮",
+    "column": "2020薪酬",
+    "value": 29.78,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 41,
+    "row_id": "芯原股份钱哲弘",
+    "company_code": "688521",
+    "person_name": "钱哲弘",
+    "column": "2021薪酬",
+    "value": 201.55,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 42,
+    "row_id": "寒武纪刘少礼",
+    "company_code": "688256",
+    "person_name": "刘少礼",
+    "column": "2024持股",
+    "value": 16000.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 43,
+    "row_id": "联影医疗黄翔宇",
+    "company_code": "688271",
+    "person_name": "黄翔宇",
+    "column": "简历",
+    "value": "1970年出生，中国国籍，拥有美国永久居留权。1987年至1991年，就读于北京大学力学专业，获得学士学位；1991年至1994年，就 读于北京大学流体力学专业，获得硕士学位；1995年至1997年，就读于The College of William&Mary（美国威廉和玛丽学院）应用",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 44,
+    "row_id": "中控技术李达",
+    "company_code": "688777",
+    "person_name": "李达",
+    "column": "年龄",
+    "value": 38.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 45,
+    "row_id": "清溢光电李跃松",
+    "company_code": "688138",
+    "person_name": "李跃松",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 46,
+    "row_id": "中国电研邓俊泳",
+    "company_code": "688128",
+    "person_name": "邓俊泳",
+    "column": "证券代码",
+    "value": "688128",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 47,
+    "row_id": "中控技术李达",
+    "company_code": "688777",
+    "person_name": "李达",
+    "column": "年龄",
+    "value": 38.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 48,
+    "row_id": "吉贝尔李召广",
+    "company_code": "688566",
+    "person_name": "李召广",
+    "column": "2024薪酬",
+    "value": 35.45,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 49,
+    "row_id": "广大特材于广文",
+    "company_code": "688186",
+    "person_name": "于广文",
+    "column": "2023薪酬",
+    "value": 52.98,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 50,
+    "row_id": "安恒信息杨勃",
+    "company_code": "688023",
+    "person_name": "杨勃",
+    "column": "姓名",
+    "value": "杨勃",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 51,
+    "row_id": "禾信仪器李梅",
+    "company_code": "688622",
+    "person_name": "李梅",
+    "column": "2021薪酬",
+    "value": 34.01,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 52,
+    "row_id": "安恒信息杨勃",
+    "company_code": "688023",
+    "person_name": "杨勃",
+    "column": "简历",
+    "value": "男，1984 年生，中国国籍，无境外永久居留权，电子信息工程学士专业本科。2007年至2009年任上海天泰网络技术有限公司研发部产品经理，2010年至至今就职于安恒信息，现任公司风暴中心负责人。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 53,
+    "row_id": "海创药业匡通滔",
+    "company_code": "688302",
+    "person_name": "匡通滔",
+    "column": "姓名",
+    "value": "匡通滔",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 54,
+    "row_id": "西高院元复兴",
+    "company_code": "688334",
+    "person_name": "元复兴",
+    "column": "简历",
+    "value": "男，1962 年7月出生，中国国籍，无境外永久居留权。元复兴先生于1983年7月取得西安交通大学电子工程系电真空专业学士学位。元复兴先生自 1983 年 8 月至今在发行人任职，历任设计员、副主任、主任、副总工程师、副总经理。目前，元复兴先生兼任西电宝鸡电气有限公司董事、陕西宝光集团有限公司董事、中国电器工业协会副会长、中国电器工业协会高压开关分会理事长、中国电器工业协会电力电容器分会理事长、国家市场监管技术创新中心（输变电设备）技术委员会主任、中国电机工程学会常务理事、中国电机工程学会变电专业委员会主任委员、陕西省电机工程学会第九届理事会理事、陕西省真空学会副理事长、SAC/TC65 全国高压开关设备标委会主任委员、SAC/TC45全国电力电容器标委会主任委员、西安交通大学电气工程学院兼职教授。元复兴先生是正高级工程师，享受国务院特殊津贴专家，曾荣获国家技术发明奖二等奖。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 55,
+    "row_id": "百克生物魏巍",
+    "company_code": "688276",
+    "person_name": "魏巍",
+    "column": "国籍",
+    "value": "中国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 56,
+    "row_id": "永信至诚蔡晶晶",
+    "company_code": "688244",
+    "person_name": "蔡晶晶",
+    "column": "2022持股",
+    "value": 16267000.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 57,
+    "row_id": "华恒生物刘树蓬",
+    "company_code": "688639",
+    "person_name": "刘树蓬",
+    "column": "2023持股",
+    "value": 24360.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 58,
+    "row_id": "皓元医药郑保富",
+    "company_code": "688131",
+    "person_name": "郑保富",
+    "column": "股票简称",
+    "value": "皓元医药",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 59,
+    "row_id": "国盾量子赵勇",
+    "company_code": "688027",
+    "person_name": "赵勇",
+    "column": "2022持股",
+    "value": 325500.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 60,
+    "row_id": "会通股份吴摞",
+    "company_code": "688219",
+    "person_name": "吴摞",
+    "column": "最高学历",
+    "value": 1.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 61,
+    "row_id": "科兴制药尚维",
+    "company_code": "688136",
+    "person_name": "尚维",
+    "column": "年龄",
+    "value": 39.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 62,
+    "row_id": "科汇股份贾明全",
+    "company_code": "688681",
+    "person_name": "贾明全",
+    "column": "2022持股",
+    "value": 150000.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 63,
+    "row_id": "萤石网络金静阳",
+    "company_code": "688475",
+    "person_name": "金静阳",
+    "column": "2023薪酬",
+    "value": 102.93,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 64,
+    "row_id": "盟升电子杜留威",
+    "company_code": "688311",
+    "person_name": "杜留威",
+    "column": "年龄",
+    "value": 43.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 65,
+    "row_id": "迅捷兴李成",
+    "company_code": "688655",
+    "person_name": "李成",
+    "column": "2023薪酬",
+    "value": 20.47,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 66,
+    "row_id": "联测科技史江平",
+    "company_code": "688113",
+    "person_name": "史江平",
+    "column": "国籍",
+    "value": "中国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 67,
+    "row_id": "超卓航科李星彤",
+    "company_code": "688237",
+    "person_name": "李星彤",
+    "column": "国籍",
+    "value": "中国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 68,
+    "row_id": "药康生物孙红艳",
+    "company_code": "688046",
+    "person_name": "孙红艳",
+    "column": "年龄",
+    "value": 38.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 69,
+    "row_id": "迪威尔王洁",
+    "company_code": "688377",
+    "person_name": "王洁",
+    "column": "2021薪酬",
+    "value": 30.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 70,
+    "row_id": "国科军工黄军华",
+    "company_code": "688543",
+    "person_name": "黄军华",
+    "column": "股票简称",
+    "value": "国科军工",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 71,
+    "row_id": "奥来德林文晶",
+    "company_code": "688378",
+    "person_name": "林文晶",
+    "column": "2021薪酬",
+    "value": 111.77,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 72,
+    "row_id": "海目星田亮",
+    "company_code": "688559",
+    "person_name": "田亮",
+    "column": "姓名",
+    "value": "田亮",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 73,
+    "row_id": "迅捷兴李成",
+    "company_code": "688655",
+    "person_name": "李成",
+    "column": "2023薪酬",
+    "value": 20.47,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 74,
+    "row_id": "中触媒蒋山",
+    "company_code": "688267",
+    "person_name": "蒋山",
+    "column": "姓名",
+    "value": "蒋山",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 75,
+    "row_id": "豪森智能齐羽健",
+    "company_code": "688529",
+    "person_name": "齐羽健",
+    "column": "2023薪酬",
+    "value": 58.36,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 76,
+    "row_id": "盟升电子杜留威",
+    "company_code": "688311",
+    "person_name": "杜留威",
+    "column": "姓名",
+    "value": "杜留威",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 77,
+    "row_id": "西高院元复兴",
+    "company_code": "688334",
+    "person_name": "元复兴",
+    "column": "股票简称",
+    "value": "西高院",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 78,
+    "row_id": "壹石通王韶晖",
+    "company_code": "688733",
+    "person_name": "王韶晖",
+    "column": "证券代码",
+    "value": "688733",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 79,
+    "row_id": "翔宇医疗段璠",
+    "company_code": "688626",
+    "person_name": "段璠",
+    "column": "2023薪酬",
+    "value": 23.07,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 80,
+    "row_id": "云涌科技李占才",
+    "company_code": "688060",
+    "person_name": "李占才",
+    "column": "2023持股",
+    "value": 3000.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 81,
+    "row_id": "东方生物张华",
+    "company_code": "688298",
+    "person_name": "张华",
+    "column": "2023薪酬",
+    "value": 73.76,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 82,
+    "row_id": "国芯科技肖佐楠",
+    "company_code": "688262",
+    "person_name": "肖佐楠",
+    "column": "2023持股",
+    "value": 12969493.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 83,
+    "row_id": "国科军工黄军华",
+    "company_code": "688543",
+    "person_name": "黄军华",
+    "column": "年龄",
+    "value": 50.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 84,
+    "row_id": "新点软件潘宇龙",
+    "company_code": "688232",
+    "person_name": "潘宇龙",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 85,
+    "row_id": "联测科技史江平",
+    "company_code": "688113",
+    "person_name": "史江平",
+    "column": "姓名",
+    "value": "史江平",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 86,
+    "row_id": "新致软件冯国栋",
+    "company_code": "688590",
+    "person_name": "冯国栋",
+    "column": "证券代码",
+    "value": "688590",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 87,
+    "row_id": "美迪西CHUN-LIN CHEN",
+    "company_code": "688202",
+    "person_name": "CHUN-LIN CHEN",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 88,
+    "row_id": "迪威尔王洁",
+    "company_code": "688377",
+    "person_name": "王洁",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 89,
+    "row_id": "信安世纪乔海权",
+    "company_code": "688201",
+    "person_name": "乔海权",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 90,
+    "row_id": "同益中刘清华",
+    "company_code": "688722",
+    "person_name": "刘清华",
+    "column": "2022薪酬",
+    "value": 97.15,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 91,
+    "row_id": "国盾量子赵勇",
+    "company_code": "688027",
+    "person_name": "赵勇",
+    "column": "2021持股",
+    "value": 434000.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 92,
+    "row_id": "清溢光电李跃松",
+    "company_code": "688138",
+    "person_name": "李跃松",
+    "column": "国籍",
+    "value": "中国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 93,
+    "row_id": "宝兰德赵艳兴",
+    "company_code": "688058",
+    "person_name": "赵艳兴",
+    "column": "最高学历",
+    "value": 3.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 94,
+    "row_id": "奥来德林文晶",
+    "company_code": "688378",
+    "person_name": "林文晶",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 95,
+    "row_id": "华恒生物刘树蓬",
+    "company_code": "688639",
+    "person_name": "刘树蓬",
+    "column": "国籍",
+    "value": "中国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 96,
+    "row_id": "日联科技ZHOU LI",
+    "company_code": "688531",
+    "person_name": "ZHOU LI",
+    "column": "国籍",
+    "value": "新加坡",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 97,
+    "row_id": "浩辰软件汪光胜",
+    "company_code": "688657",
+    "person_name": "汪光胜",
+    "column": "最高学历",
+    "value": 2.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 98,
+    "row_id": "赛诺医疗蔡文彬",
+    "company_code": "688108",
+    "person_name": "蔡文彬",
+    "column": "股票简称",
+    "value": "赛诺医疗",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 99,
+    "row_id": "国光电气康清",
+    "company_code": "688776",
+    "person_name": "康清",
+    "column": "国籍",
+    "value": "中国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 100,
+    "row_id": "国芯科技肖佐楠",
+    "company_code": "688262",
+    "person_name": "肖佐楠",
+    "column": "2024薪酬",
+    "value": 141.88,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 101,
+    "row_id": "大全能源王西玉",
+    "company_code": "688303",
+    "person_name": "王西玉",
+    "column": "2023薪酬",
+    "value": 506.57,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 102,
+    "row_id": "国盾量子赵勇",
+    "company_code": "688027",
+    "person_name": "赵勇",
+    "column": "2022薪酬",
+    "value": 84.48,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 103,
+    "row_id": "瑞联新材袁江波",
+    "company_code": "688550",
+    "person_name": "袁江波",
+    "column": "年龄",
+    "value": 43.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 104,
+    "row_id": "博瑞医药王兵峰",
+    "company_code": "688166",
+    "person_name": "王兵峰",
+    "column": "姓名",
+    "value": "王兵峰",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 105,
+    "row_id": "恒玄科技陈俊",
+    "company_code": "688608",
+    "person_name": "陈俊",
+    "column": "2023薪酬",
+    "value": 108.95,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 106,
+    "row_id": "秦川物联权亚强",
+    "company_code": "688528",
+    "person_name": "权亚强",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 107,
+    "row_id": "兰剑智能沈长鹏",
+    "company_code": "688557",
+    "person_name": "沈长鹏",
+    "column": "姓名",
+    "value": "沈长鹏",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 108,
+    "row_id": "盟升电子吴真",
+    "company_code": "688311",
+    "person_name": "吴真",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 109,
+    "row_id": "芯原股份钱哲弘",
+    "company_code": "688521",
+    "person_name": "钱哲弘",
+    "column": "姓名",
+    "value": "钱哲弘",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 110,
+    "row_id": "寒武纪刘少礼",
+    "company_code": "688256",
+    "person_name": "刘少礼",
+    "column": "2021薪酬",
+    "value": 133.86,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 111,
+    "row_id": "康鹏科技何立",
+    "company_code": "688602",
+    "person_name": "何立",
+    "column": "最高学历",
+    "value": 1.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 112,
+    "row_id": "聚石化学龚文幸",
+    "company_code": "688669",
+    "person_name": "龚文幸",
+    "column": "2024薪酬",
+    "value": 35.41,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 113,
+    "row_id": "国芯科技肖佐楠",
+    "company_code": "688262",
+    "person_name": "肖佐楠",
+    "column": "简历",
+    "value": "肖佐楠，男，1969 年出生，中国国籍，无境外永久居留权，硕士学历，高级工程师。1994 年至 1998 年任中国华大集成电路设计公司工程师；1998 年至 2003 年历任摩托罗拉（中国）电子有限公司苏州设计中心工程师、部门经理；2003 年至 2019 年历任国芯有限 IC 设计部经理、总经理；现任国芯科技董事、总经理，微五科技监事、紫山龙霖董事长。肖佐楠先生为国务院特殊津贴专家，曾入选国家特支计划（万人计划），为科技部首批“创新人才推进计划”中青年科技创新领军人才，并于 2014年获苏州市“市长奖”。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 114,
+    "row_id": "生益电子肖璐",
+    "company_code": "688183",
+    "person_name": "肖璐",
+    "column": "证券代码",
+    "value": "688183",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 115,
+    "row_id": "豪森智能刘云飞",
+    "company_code": "688529",
+    "person_name": "刘云飞",
+    "column": "最高学历",
+    "value": 3.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 116,
+    "row_id": "京源环保姜勇",
+    "company_code": "688096",
+    "person_name": "姜勇",
+    "column": "姓名",
+    "value": "姜勇",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 117,
+    "row_id": "迅捷兴李成",
+    "company_code": "688655",
+    "person_name": "李成",
+    "column": "证券代码",
+    "value": "688655",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 118,
+    "row_id": "云涌科技李占才",
+    "company_code": "688060",
+    "person_name": "李占才",
+    "column": "2023薪酬",
+    "value": 70.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 119,
+    "row_id": "晶丰明源毛焜",
+    "company_code": "688368",
+    "person_name": "毛焜",
+    "column": "2021薪酬",
+    "value": 86.56,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 120,
+    "row_id": "信安世纪乔海权",
+    "company_code": "688201",
+    "person_name": "乔海权",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 121,
+    "row_id": "思科瑞马卫东",
+    "company_code": "688053",
+    "person_name": "马卫东",
+    "column": "2023薪酬",
+    "value": 60.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 122,
+    "row_id": "寒武纪刘少礼",
+    "company_code": "688256",
+    "person_name": "刘少礼",
+    "column": "最高学历",
+    "value": 1.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 123,
+    "row_id": "宏微科技刘利峰",
+    "company_code": "688711",
+    "person_name": "刘利峰",
+    "column": "2023持股",
+    "value": 1205028.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 124,
+    "row_id": "中控技术陈宇",
+    "company_code": "688777",
+    "person_name": "陈宇",
+    "column": "股票简称",
+    "value": "中控技术",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 125,
+    "row_id": "禾信仪器李梅",
+    "company_code": "688622",
+    "person_name": "李梅",
+    "column": "年龄",
+    "value": 44.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 126,
+    "row_id": "迪威尔汪海潮",
+    "company_code": "688377",
+    "person_name": "汪海潮",
+    "column": "2024薪酬",
+    "value": 40.5,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 127,
+    "row_id": "振华新材王旭毅",
+    "company_code": "688707",
+    "person_name": "王旭毅",
+    "column": "2024薪酬",
+    "value": 25.27,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 128,
+    "row_id": "会通股份周海",
+    "company_code": "688219",
+    "person_name": "周海",
+    "column": "2022持股",
+    "value": 263193.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 129,
+    "row_id": "聚辰股份李强",
+    "company_code": "688123",
+    "person_name": "李强",
+    "column": "2022薪酬",
+    "value": 177.67,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 130,
+    "row_id": "山大地纬肖宗水",
+    "company_code": "688579",
+    "person_name": "肖宗水",
+    "column": "股票简称",
+    "value": "山大地纬",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 131,
+    "row_id": "和达科技杨海峰",
+    "company_code": "688296",
+    "person_name": "杨海峰",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 132,
+    "row_id": "华峰测控周鹏",
+    "company_code": "688200",
+    "person_name": "周鹏",
+    "column": "简历",
+    "value": "周鹏，男，1975年生，中国国籍，无境外永久居留权，2002年4月毕业于北京航空航天大学仪器科学与技术专业，研究生学历。2002年1月至2012年1月，任公司研发工程师；2012年1月至今，任公司总工程师。研发领域：模拟/数模混合集成电路测试。牵头执行重大项目情况及承担职责：周鹏作为核心研发人员，研发了基于 STS 8107 平台的第一代模拟 ADC/DAC 测试系统，设计了STS 8107 平台上的多工位和乒乓测试架构，在 STS 8200平台上提出了全新的 32 工位并行测试技术，突破了第三代浮动源的关键核心技术，定义了 STS 8300 平台上的系统架构及数模同步总体架构。专业能力和研究成果：周鹏主持并成功研发了“半导体功率器件结温仿真电路”、“一种高压 MOSFET 晶圆击穿电压多工位并行测量装置”等16项专利。工作背景：周鹏毕业之后进入华峰有限工作至今，目前担任公司总工程师；拥有十几年的半导体测试技术行业研发经验。对公司实际生产经营的贡献：现任公司总工程师。加入公司 17 年，一直承担重点项目研发工作和系统方案设计工作。自2012年担任公司总工程师，牵头制定了 STS8300 平台技术方案和技术标准，突破了第三代浮动源关键核心技术，完成 13 项专利申报工作。作为技术的带头人，带领培养技术团队，完成了多项关键技术的突破。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 133,
+    "row_id": "爱威科技罗满华",
+    "company_code": "688067",
+    "person_name": "罗满华",
+    "column": "年龄",
+    "value": 48.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 134,
+    "row_id": "嘉和美康胡可云",
+    "company_code": "688246",
+    "person_name": "胡可云",
+    "column": "2022薪酬",
+    "value": 118.8,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 135,
+    "row_id": "嘉必优肖敏",
+    "company_code": "688089",
+    "person_name": "肖敏",
+    "column": "2021持股",
+    "value": 55291.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 136,
+    "row_id": "英方软件苏亮彪",
+    "company_code": "688435",
+    "person_name": "苏亮彪",
+    "column": "年龄",
+    "value": 46.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 137,
+    "row_id": "金博股份廖寄乔",
+    "company_code": "688598",
+    "person_name": "廖寄乔",
+    "column": "2021薪酬",
+    "value": 138.55,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 138,
+    "row_id": "大全能源王西玉",
+    "company_code": "688303",
+    "person_name": "王西玉",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 139,
+    "row_id": "浩辰软件王伟",
+    "company_code": "688657",
+    "person_name": "王伟",
+    "column": "2024持股",
+    "value": 43800.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 140,
+    "row_id": "步科股份孙志武",
+    "company_code": "688160",
+    "person_name": "孙志武",
+    "column": "证券代码",
+    "value": "688160",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 141,
+    "row_id": "科兴制药李会铭",
+    "company_code": "688136",
+    "person_name": "李会铭",
+    "column": "简历",
+    "value": "1970年出生，本科毕业于北京大学化学系，2001年获得美国耶鲁大学生物物理化学博士学位。2001年11月至2002年8月担任依南特制药（EnantaPharmaceuticals） 博士后；2002年8月至2011年12月历任美国哈佛大学免疫疾病研究所及波士顿儿童医院博士后、儿科讲师；2012年1月至2017年1月任美国百时美施贵宝 （Bristol-Myers Squibb）高级科学家；2017年1月至2022年2月任美国埃克塞隆制药/默克（Acceleron Pharma/Merck）首席科学家；2022年4月至今任公司 医药研究院新药研究中心副总经理。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 142,
+    "row_id": "凯因科技汪涛",
+    "company_code": "688687",
+    "person_name": "汪涛",
+    "column": "简历",
+    "value": "汪涛，男，1968年出生，美国纽约大学博士，病毒学和免疫学专家，美国国籍。1996年至1998年，在哥伦比亚大学的格尔伯特·斯 多克(Gilbert Stork)教授的实验室做博士后研究员；1998年5月至2021年8月，就职于百时美施贵宝公司(Bristol-Myers Squibb)， 担任项目经理和资深首席科学家，任职期间被百时美施贵宝公司授予化学领导奖、总统奖、创新奖等多项荣誉和奖项；2014年，其承 担的艾滋病病毒附着抑制分子项目为百时美施贵宝制药公司获得美国制药研究和制造商协会(PhRMA)的最高荣誉“希望奖”，该奖项由 美国前总统布什颁奖；2021年8月至2024年6月担任公司首席科研官；2021年8月至2024年8月担任美国全资子公司KAWINBIOSCIENCES USA INC的CEO；2024年8月至今，担任公司科研专家。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 143,
+    "row_id": "富信科技刘茂林",
+    "company_code": "688662",
+    "person_name": "刘茂林",
+    "column": "姓名",
+    "value": "刘茂林",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 144,
+    "row_id": "康为世纪王春香",
+    "company_code": "688426",
+    "person_name": "王春香",
+    "column": "性别",
+    "value": "女",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 145,
+    "row_id": "科思科技梁宏建",
+    "company_code": "688788",
+    "person_name": "梁宏建",
+    "column": "姓名",
+    "value": "梁宏建",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 146,
+    "row_id": "国光电气康清",
+    "company_code": "688776",
+    "person_name": "康清",
+    "column": "股票简称",
+    "value": "国光电气",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 147,
+    "row_id": "纳微科技江必旺",
+    "company_code": "688690",
+    "person_name": "江必旺",
+    "column": "2023薪酬",
+    "value": 91.54,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 148,
+    "row_id": "灿勤科技朱汇",
+    "company_code": "688182",
+    "person_name": "朱汇",
+    "column": "2023持股",
+    "value": 8550000.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 149,
+    "row_id": "威胜信息马亮",
+    "company_code": "688100",
+    "person_name": "马亮",
+    "column": "证券代码",
+    "value": "688100",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 150,
+    "row_id": "寒武纪刘少礼",
+    "company_code": "688256",
+    "person_name": "刘少礼",
+    "column": "2022持股",
+    "value": 16000.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 151,
+    "row_id": "华依科技张洁萍",
+    "company_code": "688071",
+    "person_name": "张洁萍",
+    "column": "股票简称",
+    "value": "华依科技",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 152,
+    "row_id": "迪哲医药HONCHUNG TSUI",
+    "company_code": "688192",
+    "person_name": "HONCHUNG TSUI",
+    "column": "2023持股",
+    "value": 201000.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 153,
+    "row_id": "聚石化学李新河",
+    "company_code": "688669",
+    "person_name": "李新河",
+    "column": "年龄",
+    "value": 63.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 154,
+    "row_id": "中邮科技徐玲",
+    "company_code": "688648",
+    "person_name": "徐玲",
+    "column": "证券代码",
+    "value": "688648",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 155,
+    "row_id": "国盾量子赵勇",
+    "company_code": "688027",
+    "person_name": "赵勇",
+    "column": "2022薪酬",
+    "value": 84.48,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 156,
+    "row_id": "华峰测控周鹏",
+    "company_code": "688200",
+    "person_name": "周鹏",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 157,
+    "row_id": "灿勤科技朱汇",
+    "company_code": "688182",
+    "person_name": "朱汇",
+    "column": "简历",
+    "value": "2014年2月至2014年8月，任张家港灿勤电子元件有限公司采购部经理；2014年8月至2019年4月，历任灿勤有限研发工程师、 副总经理；2019年4月至今，任灿勤科技董事、副总经理；2022年5月至今，历任拓瓷科技董事、总经理；2022年12月至今，历任 互迭科技董事、总经理，2023年3月至今，任频普半导体监事。朱汇先生目前兼任张家港市第十五届人大代表、中国电子材料与元器 件产学研协同创新平台副理事长、张家港市新一代企业家商会副会长。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 158,
+    "row_id": "寒武纪梁军",
+    "company_code": "688256",
+    "person_name": "梁军",
+    "column": "2022薪酬",
+    "value": 147.11,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 159,
+    "row_id": "豪森智能刘云飞",
+    "company_code": "688529",
+    "person_name": "刘云飞",
+    "column": "证券代码",
+    "value": "688529",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 160,
+    "row_id": "东方生物张华",
+    "company_code": "688298",
+    "person_name": "张华",
+    "column": "2021持股",
+    "value": 90000.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 161,
+    "row_id": "和达科技杨海峰",
+    "company_code": "688296",
+    "person_name": "杨海峰",
+    "column": "2024薪酬",
+    "value": 68.24,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 162,
+    "row_id": "华海诚科刘兆明",
+    "company_code": "688535",
+    "person_name": "刘兆明",
+    "column": "简历",
+    "value": "刘兆明，男，1988 年 8 月出生，中国国籍，无境外永久居留权，本科毕业于淮海海工学院化学工程与工艺专业。2012 年 7 月至今，任连云港华海诚科研发部研发工程师。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 163,
+    "row_id": "卓锦股份王志宏",
+    "company_code": "688701",
+    "person_name": "王志宏",
+    "column": "2022薪酬",
+    "value": 25.96,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 164,
+    "row_id": "大地熊陈静武",
+    "company_code": "688077",
+    "person_name": "陈静武",
+    "column": "2021薪酬",
+    "value": 84.44,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 165,
+    "row_id": "莱特光电冯震",
+    "company_code": "688150",
+    "person_name": "冯震",
+    "column": "2021薪酬",
+    "value": 48.23,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 166,
+    "row_id": "中国电研邓俊泳",
+    "company_code": "688128",
+    "person_name": "邓俊泳",
+    "column": "2021薪酬",
+    "value": 88.99,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 167,
+    "row_id": "威胜信息马亮",
+    "company_code": "688100",
+    "person_name": "马亮",
+    "column": "2020薪酬",
+    "value": 32.36,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 168,
+    "row_id": "浩辰软件王伟",
+    "company_code": "688657",
+    "person_name": "王伟",
+    "column": "最高学历",
+    "value": 3.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 169,
+    "row_id": "莱特光电冯震",
+    "company_code": "688150",
+    "person_name": "冯震",
+    "column": "2023薪酬",
+    "value": 62.13,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 170,
+    "row_id": "凯因科技史继峰",
+    "company_code": "688687",
+    "person_name": "史继峰",
+    "column": "2024薪酬",
+    "value": 184.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 171,
+    "row_id": "壹石通王韶晖",
+    "company_code": "688733",
+    "person_name": "王韶晖",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 172,
+    "row_id": "天智航李寅岩",
+    "company_code": "688277",
+    "person_name": "李寅岩",
+    "column": "姓名",
+    "value": "李寅岩",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 173,
+    "row_id": "卓锦股份唐全",
+    "company_code": "688701",
+    "person_name": "唐全",
+    "column": "简历",
+    "value": "唐全，男，1975年出生，中国国籍，无境外永久居留权，硕士研究生学历，高级工程师，环保工程师，环境影响评价工程师。1999年9月至 2001年7月，任东风杭州重型机械有限公司环保主管；2004年9月至2011年3 月，任浙江省天正设计工程有限公司环保工程师、副所长；2011年4月至2013 年5月，任杭州银江环保科技有限公司技术总监；2013年6月至2017年7月，任浙江省天正设计工程有限公司环境工程中心主任；2017 年 9 月至今，任卓锦环保技术中心副总监。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 174,
+    "row_id": "斯瑞新材王文斌",
+    "company_code": "688102",
+    "person_name": "王文斌",
+    "column": "2021持股",
+    "value": 161366788.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 175,
+    "row_id": "华海诚科刘兆明",
+    "company_code": "688535",
+    "person_name": "刘兆明",
+    "column": "2023薪酬",
+    "value": 10.2,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 176,
+    "row_id": "巨一科技俞琦",
+    "company_code": "688162",
+    "person_name": "俞琦",
+    "column": "证券代码",
+    "value": "688162",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 177,
+    "row_id": "江航装备刘文彪",
+    "company_code": "688586",
+    "person_name": "刘文彪",
+    "column": "2021薪酬",
+    "value": 49.31,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 178,
+    "row_id": "澳华内镜陈鹏",
+    "company_code": "688212",
+    "person_name": "陈鹏",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 179,
+    "row_id": "赛诺医疗蔡文彬",
+    "company_code": "688108",
+    "person_name": "蔡文彬",
+    "column": "简历",
+    "value": "蔡文彬，男，1984年1月出生，本科，机械设计制造及自动化专业，中国国籍，无境外永久居留权。2006年毕业于天津大学机械设计与自动化专业；2006年 至 2007 年，于北京福基阳光科技有限公司任研发工程师；2007 年至 2011 年，于赛诺医疗任研发项目经理；2011年至2017 年，于赛诺医疗任生产经理；2017 年至今，于赛诺医疗任生产总监。现任发行人监事。蔡文彬先生具体负责公司生产工艺管理。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 180,
+    "row_id": "寒武纪刘少礼",
+    "company_code": "688256",
+    "person_name": "刘少礼",
+    "column": "证券代码",
+    "value": "688256",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 181,
+    "row_id": "康鹏科技何立",
+    "company_code": "688602",
+    "person_name": "何立",
+    "column": "最高学历",
+    "value": 1.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 182,
+    "row_id": "纽威数控李军强",
+    "company_code": "688697",
+    "person_name": "李军强",
+    "column": "年龄",
+    "value": 43.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 183,
+    "row_id": "中邮科技徐玲",
+    "company_code": "688648",
+    "person_name": "徐玲",
+    "column": "年龄",
+    "value": 53.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 184,
+    "row_id": "国科军工黄军华",
+    "company_code": "688543",
+    "person_name": "黄军华",
+    "column": "简历",
+    "value": "中国国籍，无境外永久居留权，1975 年 12 月生，安徽机电学院本科学历，高级工程师。1999 年 7 月至 2006 年 12 月，先后担任江西华声电器总厂工具车间技术员、科研所技术员；2007 年 1 月至 2008 年 7 月，任职于新明机械研发中心；2008 年 8 月至 2014 年 11 月，任新明机械品质部/技术部副经理；2014 年 12 月至 2016 年 1 月，任新明机械技术中心经理；2016 年 2 月至 2017 年 1 月，任新明机械副总经理兼技术中心经理；2017 年 1 月至今，任新明机械总经理。现任南昌嘉弘执行事务合伙人。2021 年 12 月起至今担任发行人副总经理。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 185,
+    "row_id": "晶丰明源郁炜嘉",
+    "company_code": "688368",
+    "person_name": "郁炜嘉",
+    "column": "2021薪酬",
+    "value": 103.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 186,
+    "row_id": "科兴制药李会铭",
+    "company_code": "688136",
+    "person_name": "李会铭",
+    "column": "姓名",
+    "value": "李会铭",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 187,
+    "row_id": "科兴制药尚维",
+    "company_code": "688136",
+    "person_name": "尚维",
+    "column": "性别",
+    "value": "女",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 188,
+    "row_id": "伟创电气何承曾",
+    "company_code": "688698",
+    "person_name": "何承曾",
+    "column": "简历",
+    "value": "出生于1975年，中国国籍，无境外永久居留权，德国莱茵美茵应用技术大学信息学和电气工程学专业本科学历。2008 年 3 月至 2013 年 5 月，历任深圳市汇川技术股份有限公司硬件工程师、硬件经理；2013 年 9 月至 2017 年 8 月，任深圳伟创研发中心硬件部经理；2017 年 9 月至今，任伟创有限、本公司研发中心硬件部经理、核心技术人员。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 189,
+    "row_id": "步科股份孙志武",
+    "company_code": "688160",
+    "person_name": "孙志武",
+    "column": "2023薪酬",
+    "value": 47.65,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 190,
+    "row_id": "世华科技温强",
+    "company_code": "688093",
+    "person_name": "温强",
+    "column": "年龄",
+    "value": 40.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 191,
+    "row_id": "退市紫金周自文",
+    "company_code": "688086",
+    "person_name": "周自文",
+    "column": "证券代码",
+    "value": "688086",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 192,
+    "row_id": "迈信林吕辉方",
+    "company_code": "688685",
+    "person_name": "吕辉方",
+    "column": "年龄",
+    "value": 51.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 193,
+    "row_id": "浩辰软件王伟",
+    "company_code": "688657",
+    "person_name": "王伟",
+    "column": "证券代码",
+    "value": "688657",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 194,
+    "row_id": "新点软件陈洲",
+    "company_code": "688232",
+    "person_name": "陈洲",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 195,
+    "row_id": "诺唯赞段颖",
+    "company_code": "688105",
+    "person_name": "段颖",
+    "column": "姓名",
+    "value": "段颖",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 196,
+    "row_id": "退市紫金周自文",
+    "company_code": "688086",
+    "person_name": "周自文",
+    "column": "简历",
+    "value": "男，台湾籍，有境外永久居留权，1957 年 07 月出生，毕业于华夏工业专科学校机械工程专业，大专学历。主要职业经历：1980 年至 1987 年，工作于台湾庆优工业股份有限公司，任职机械课长。1987 年至 2002 年，工作于台湾达致实业（股）有限公司，任职厂长。2002 年至 2011 年，工作于香港讯维多媒体有限公司（INFO SOURCE MULTI MEDIA LIMITED），任职技术总监。2011 年至今任紫晶有限总工程师，发行人总工程师。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 197,
+    "row_id": "迪威尔汪海潮",
+    "company_code": "688377",
+    "person_name": "汪海潮",
+    "column": "国籍",
+    "value": "中国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 198,
+    "row_id": "爱科科技方云科",
+    "company_code": "688092",
+    "person_name": "方云科",
+    "column": "2021持股",
+    "value": 4724000.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 199,
+    "row_id": "美迪西CHUN-LIN CHEN",
+    "company_code": "688202",
+    "person_name": "CHUN-LIN CHEN",
+    "column": "姓名",
+    "value": "CHUN-LIN CHEN",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 200,
+    "row_id": "芯原股份钱哲弘",
+    "company_code": "688521",
+    "person_name": "钱哲弘",
+    "column": "最高学历",
+    "value": 2.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 201,
+    "row_id": "禾信仪器李梅",
+    "company_code": "688622",
+    "person_name": "李梅",
+    "column": "股票简称",
+    "value": "禾信仪器",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 202,
+    "row_id": "恒玄科技陈俊",
+    "company_code": "688608",
+    "person_name": "陈俊",
+    "column": "证券代码",
+    "value": "688608",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 203,
+    "row_id": "天智航李寅岩",
+    "company_code": "688277",
+    "person_name": "李寅岩",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 204,
+    "row_id": "芯原股份钱哲弘",
+    "company_code": "688521",
+    "person_name": "钱哲弘",
+    "column": "2021薪酬",
+    "value": 201.55,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 205,
+    "row_id": "振华新材顾然",
+    "company_code": "688707",
+    "person_name": "顾然",
+    "column": "性别",
+    "value": "女",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 206,
+    "row_id": "联测科技史江平",
+    "company_code": "688113",
+    "person_name": "史江平",
+    "column": "简历",
+    "value": "史江平先生，董事，1960 年出生，中国国籍，无境外永久居留权，大专学历。1978 年 4 月至 1982 年 9 月，任启东市机械厂职工；1982 年 9 月至 1985 年 7月，在南通职工大学机械制造专业进修；1985年8月至1992年10 月，在启东高压油泵厂技术部任技术员；1992年10月至 1994年10月，任南通铝加工厂技改部工程师；1994 年 10 月至今，任南通常测机电设备有限公司总经理；2017 年6月至今，任江苏联测机电科技股份有限公司董事。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 207,
+    "row_id": "高铁电气李忠齐",
+    "company_code": "688285",
+    "person_name": "李忠齐",
+    "column": "股票简称",
+    "value": "高铁电气",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 208,
+    "row_id": "中控技术李达",
+    "company_code": "688777",
+    "person_name": "李达",
+    "column": "2024持股",
+    "value": 3451.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 209,
+    "row_id": "英方软件苏亮彪",
+    "company_code": "688435",
+    "person_name": "苏亮彪",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 210,
+    "row_id": "新致软件张喆宾",
+    "company_code": "688590",
+    "person_name": "张喆宾",
+    "column": "2024持股",
+    "value": 10000.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 211,
+    "row_id": "奥来德林文晶",
+    "company_code": "688378",
+    "person_name": "林文晶",
+    "column": "2022持股",
+    "value": 77476.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 212,
+    "row_id": "工大高科胡庆新",
+    "company_code": "688367",
+    "person_name": "胡庆新",
+    "column": "2024薪酬",
+    "value": 63.61,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 213,
+    "row_id": "爱博医疗王曌",
+    "company_code": "688050",
+    "person_name": "王曌",
+    "column": "性别",
+    "value": "女",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 214,
+    "row_id": "美迪西任峰",
+    "company_code": "688202",
+    "person_name": "任峰",
+    "column": "股票简称",
+    "value": "美迪西",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 215,
+    "row_id": "思科瑞马卫东",
+    "company_code": "688053",
+    "person_name": "马卫东",
+    "column": "股票简称",
+    "value": "思科瑞",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 216,
+    "row_id": "澳华内镜陈鹏",
+    "company_code": "688212",
+    "person_name": "陈鹏",
+    "column": "2023薪酬",
+    "value": 84.76,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 217,
+    "row_id": "科思科技梁宏建",
+    "company_code": "688788",
+    "person_name": "梁宏建",
+    "column": "2024持股",
+    "value": 22376190.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 218,
+    "row_id": "威胜信息肖林松",
+    "company_code": "688100",
+    "person_name": "肖林松",
+    "column": "简历",
+    "value": "肖林松先生，1980 年10月出生，中国国籍，无境外永久居留权，研究生学历，电子与通信工程硕士，中级职称，长期从事硬件、通信产品开发及研发管理工作，作为发明人协助公司获得专利合计 15 项，参与研发国内第一代基于 GPRS 通信技术的负荷管理终端、配变监测终端、集中器等系列产品和带领团队研发新一代基于边缘计算技术的电力物联网系列产品。2001 年 9 月至 2002 年 9 月，肖林松先生担任长城信息工程师，2002年10 月至今，历任威胜有限硬件开发工程师、项目经理、研发部经理、中试部经理、制造部经理，现任公司电网业务技术中心总工程师，兼任湖南省仪器仪表协会理事、EPTC 用电信息采集专业委员会委员。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 219,
+    "row_id": "广大特材于广文",
+    "company_code": "688186",
+    "person_name": "于广文",
+    "column": "国籍",
+    "value": "中国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 220,
+    "row_id": "超卓航科李星彤",
+    "company_code": "688237",
+    "person_name": "李星彤",
+    "column": "最高学历",
+    "value": 3.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 221,
+    "row_id": "睿创微纳马宏",
+    "company_code": "688002",
+    "person_name": "马宏",
+    "column": "国籍",
+    "value": "中国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 222,
+    "row_id": "诺唯赞段颖",
+    "company_code": "688105",
+    "person_name": "段颖",
+    "column": "证券代码",
+    "value": "688105",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 223,
+    "row_id": "科德数控王庆朋",
+    "company_code": "688305",
+    "person_name": "王庆朋",
+    "column": "2024薪酬",
+    "value": 37.98,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 224,
+    "row_id": "联测科技史江平",
+    "company_code": "688113",
+    "person_name": "史江平",
+    "column": "简历",
+    "value": "史江平先生，董事，1960 年出生，中国国籍，无境外永久居留权，大专学历。1978 年 4 月至 1982 年 9 月，任启东市机械厂职工；1982 年 9 月至 1985 年 7月，在南通职工大学机械制造专业进修；1985年8月至1992年10 月，在启东高压油泵厂技术部任技术员；1992年10月至 1994年10月，任南通铝加工厂技改部工程师；1994 年 10 月至今，任南通常测机电设备有限公司总经理；2017 年6月至今，任江苏联测机电科技股份有限公司董事。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 225,
+    "row_id": "江航装备刘文彪",
+    "company_code": "688586",
+    "person_name": "刘文彪",
+    "column": "证券代码",
+    "value": "688586",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 226,
+    "row_id": "安集科技Shoutian Li（李守田）",
+    "company_code": "688019",
+    "person_name": "Shoutian Li（李守田）",
+    "column": "2024薪酬",
+    "value": 169.83,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 227,
+    "row_id": "澳华内镜李强",
+    "company_code": "688212",
+    "person_name": "李强",
+    "column": "2022薪酬",
+    "value": 48.94,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 228,
+    "row_id": "亚虹医药孙巧玲",
+    "company_code": "688176",
+    "person_name": "孙巧玲",
+    "column": "姓名",
+    "value": "孙巧玲",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 229,
+    "row_id": "华兴源创缪亮",
+    "company_code": "688001",
+    "person_name": "缪亮",
+    "column": "国籍",
+    "value": "中国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 230,
+    "row_id": "联影医疗QUNCHEN",
+    "company_code": "688271",
+    "person_name": "QUNCHEN",
+    "column": "最高学历",
+    "value": 1.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 231,
+    "row_id": "科思科技梁宏建",
+    "company_code": "688788",
+    "person_name": "梁宏建",
+    "column": "最高学历",
+    "value": 3.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 232,
+    "row_id": "清溢光电李跃松",
+    "company_code": "688138",
+    "person_name": "李跃松",
+    "column": "年龄",
+    "value": 57.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 233,
+    "row_id": "宝兰德赵艳兴",
+    "company_code": "688058",
+    "person_name": "赵艳兴",
+    "column": "2020持股",
+    "value": 4406284.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 234,
+    "row_id": "德邦科技陈田安",
+    "company_code": "688035",
+    "person_name": "陈田安",
+    "column": "2024持股",
+    "value": 3093256.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 235,
+    "row_id": "成大生物孙述学",
+    "company_code": "688739",
+    "person_name": "孙述学",
+    "column": "2022持股",
+    "value": 8.2,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 236,
+    "row_id": "豪森智能刘云飞",
+    "company_code": "688529",
+    "person_name": "刘云飞",
+    "column": "2024持股",
+    "value": 6471.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 237,
+    "row_id": "华海清科许振杰",
+    "company_code": "688120",
+    "person_name": "许振杰",
+    "column": "证券代码",
+    "value": "688120",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 238,
+    "row_id": "盛邦安全权晓文",
+    "company_code": "688651",
+    "person_name": "权晓文",
+    "column": "2023持股",
+    "value": 18424712.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 239,
+    "row_id": "和元生物杨佳丽",
+    "company_code": "688238",
+    "person_name": "杨佳丽",
+    "column": "2023持股",
+    "value": 78000.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 240,
+    "row_id": "迈信林吕辉方",
+    "company_code": "688685",
+    "person_name": "吕辉方",
+    "column": "年龄",
+    "value": 51.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 241,
+    "row_id": "浩欧博钱林",
+    "company_code": "688656",
+    "person_name": "钱林",
+    "column": "股票简称",
+    "value": "浩欧博",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 242,
+    "row_id": "天合光能张舒",
+    "company_code": "688599",
+    "person_name": "张舒",
+    "column": "年龄",
+    "value": 41.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 243,
+    "row_id": "翔宇医疗段璠",
+    "company_code": "688626",
+    "person_name": "段璠",
+    "column": "简历",
+    "value": "段璠先生，1978 年出生，中国国籍，无境外永久居留权，本科学历，计算机科学教育管理工程专业。曾任郑州洪软科技有限公司项目负责人；北京中软宏大信息技术有限公研发部经理，项目负责人。2018 年 1 月加入翔宇医疗，现任公司大数据平台负责人。参与公司重点研发项目基于云平台的大数据管理系统、康复医疗设备信息化平台、康复医疗医护信息平台。作为平台软件开发组组长，带领研发人员完成专利的挖掘、申请，产品研发前期的情报搜集、专利规避及侵权风险分析，截止目前主要参与了智能医护排号系统、智能吞咽检测系统、翔呵护APP 等多项产品。此外，作为主要参与人成功申报《河南省康复医疗设备工业互联网课题》，并参与该课题的实施。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 244,
+    "row_id": "巨一科技俞琦",
+    "company_code": "688162",
+    "person_name": "俞琦",
+    "column": "国籍",
+    "value": "中国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 245,
+    "row_id": "超卓航科李星彤",
+    "company_code": "688237",
+    "person_name": "李星彤",
+    "column": "最高学历",
+    "value": 3.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 246,
+    "row_id": "大地熊陈静武",
+    "company_code": "688077",
+    "person_name": "陈静武",
+    "column": "2020薪酬",
+    "value": 79.55,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 247,
+    "row_id": "柏楚电子阳潇",
+    "company_code": "688188",
+    "person_name": "阳潇",
+    "column": "2023持股",
+    "value": 78750.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 248,
+    "row_id": "会通股份周海",
+    "company_code": "688219",
+    "person_name": "周海",
+    "column": "2023持股",
+    "value": 263193.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 249,
+    "row_id": "盟升电子吴真",
+    "company_code": "688311",
+    "person_name": "吴真",
+    "column": "年龄",
+    "value": 39.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 250,
+    "row_id": "步科股份孙志武",
+    "company_code": "688160",
+    "person_name": "孙志武",
+    "column": "姓名",
+    "value": "孙志武",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 251,
+    "row_id": "寒武纪刘少礼",
+    "company_code": "688256",
+    "person_name": "刘少礼",
+    "column": "姓名",
+    "value": "刘少礼",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 252,
+    "row_id": "思科瑞马卫东",
+    "company_code": "688053",
+    "person_name": "马卫东",
+    "column": "证券代码",
+    "value": "688053",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 253,
+    "row_id": "和达科技杨海峰",
+    "company_code": "688296",
+    "person_name": "杨海峰",
+    "column": "证券代码",
+    "value": "688296",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 254,
+    "row_id": "振华新材王旭毅",
+    "company_code": "688707",
+    "person_name": "王旭毅",
+    "column": "2023薪酬",
+    "value": 25.33,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 255,
+    "row_id": "中控技术陈宇",
+    "company_code": "688777",
+    "person_name": "陈宇",
+    "column": "年龄",
+    "value": 49.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 256,
+    "row_id": "斯瑞新材王文斌",
+    "company_code": "688102",
+    "person_name": "王文斌",
+    "column": "2021薪酬",
+    "value": 66.43,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 257,
+    "row_id": "亚信安全张辉",
+    "company_code": "688225",
+    "person_name": "张辉",
+    "column": "2022薪酬",
+    "value": 106.6,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 258,
+    "row_id": "奥来德林文晶",
+    "company_code": "688378",
+    "person_name": "林文晶",
+    "column": "2023持股",
+    "value": 108466.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 259,
+    "row_id": "泽璟制药张滨",
+    "company_code": "688266",
+    "person_name": "张滨",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 260,
+    "row_id": "爱科科技方云科",
+    "company_code": "688092",
+    "person_name": "方云科",
+    "column": "2022持股",
+    "value": 4724000.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 261,
+    "row_id": "盛邦安全权晓文",
+    "company_code": "688651",
+    "person_name": "权晓文",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 262,
+    "row_id": "盛邦安全王雪松",
+    "company_code": "688651",
+    "person_name": "王雪松",
+    "column": "证券代码",
+    "value": "688651",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 263,
+    "row_id": "壹石通胡金刚",
+    "company_code": "688733",
+    "person_name": "胡金刚",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 264,
+    "row_id": "中国电研余和青",
+    "company_code": "688128",
+    "person_name": "余和青",
+    "column": "2021薪酬",
+    "value": 61.42,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 265,
+    "row_id": "威胜信息马亮",
+    "company_code": "688100",
+    "person_name": "马亮",
+    "column": "2022持股",
+    "value": 1000000.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 266,
+    "row_id": "恒玄科技陈俊",
+    "company_code": "688608",
+    "person_name": "陈俊",
+    "column": "年龄",
+    "value": 44.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 267,
+    "row_id": "灿勤科技朱汇",
+    "company_code": "688182",
+    "person_name": "朱汇",
+    "column": "2024持股",
+    "value": 8550000.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 268,
+    "row_id": "威迈斯冯颖盈",
+    "company_code": "688612",
+    "person_name": "冯颖盈",
+    "column": "2023薪酬",
+    "value": 153.08,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 269,
+    "row_id": "秦川物联李勇",
+    "company_code": "688528",
+    "person_name": "李勇",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 270,
+    "row_id": "美迪西任峰",
+    "company_code": "688202",
+    "person_name": "任峰",
+    "column": "姓名",
+    "value": "任峰",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 271,
+    "row_id": "东方生物张华",
+    "company_code": "688298",
+    "person_name": "张华",
+    "column": "证券代码",
+    "value": "688298",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 272,
+    "row_id": "江航装备刘文彪",
+    "company_code": "688586",
+    "person_name": "刘文彪",
+    "column": "年龄",
+    "value": 47.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 273,
+    "row_id": "宏微科技刘利峰",
+    "company_code": "688711",
+    "person_name": "刘利峰",
+    "column": "2024持股",
+    "value": 1687039.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 274,
+    "row_id": "盟升电子杜留威",
+    "company_code": "688311",
+    "person_name": "杜留威",
+    "column": "2021薪酬",
+    "value": 47.04,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 275,
+    "row_id": "联赢激光周航",
+    "company_code": "688518",
+    "person_name": "周航",
+    "column": "证券代码",
+    "value": "688518",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 276,
+    "row_id": "嘉和美康胡可云",
+    "company_code": "688246",
+    "person_name": "胡可云",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 277,
+    "row_id": "富信科技刘茂林",
+    "company_code": "688662",
+    "person_name": "刘茂林",
+    "column": "2022持股",
+    "value": 50000.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 278,
+    "row_id": "华恒生物刘树蓬",
+    "company_code": "688639",
+    "person_name": "刘树蓬",
+    "column": "2021薪酬",
+    "value": 82.05,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 279,
+    "row_id": "浩辰软件王伟",
+    "company_code": "688657",
+    "person_name": "王伟",
+    "column": "2024持股",
+    "value": 43800.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 280,
+    "row_id": "兴图新科陈升亮",
+    "company_code": "688081",
+    "person_name": "陈升亮",
+    "column": "2024薪酬",
+    "value": 28.92,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 281,
+    "row_id": "上海合晶尚海波",
+    "company_code": "688584",
+    "person_name": "尚海波",
+    "column": "证券代码",
+    "value": "688584",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 282,
+    "row_id": "卓锦股份唐全",
+    "company_code": "688701",
+    "person_name": "唐全",
+    "column": "年龄",
+    "value": 50.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 283,
+    "row_id": "秦川物联邵泽华",
+    "company_code": "688528",
+    "person_name": "邵泽华",
+    "column": "2022薪酬",
+    "value": 90.53,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 284,
+    "row_id": "晶丰明源毛焜",
+    "company_code": "688368",
+    "person_name": "毛焜",
+    "column": "国籍",
+    "value": "中国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 285,
+    "row_id": "新致软件冯国栋",
+    "company_code": "688590",
+    "person_name": "冯国栋",
+    "column": "2023持股",
+    "value": 5000.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 286,
+    "row_id": "秦川物联邵泽华",
+    "company_code": "688528",
+    "person_name": "邵泽华",
+    "column": "姓名",
+    "value": "邵泽华",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 287,
+    "row_id": "芯原股份范灏成",
+    "company_code": "688521",
+    "person_name": "范灏成",
+    "column": "证券代码",
+    "value": "688521",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 288,
+    "row_id": "阳光诺和袁瑜",
+    "company_code": "688621",
+    "person_name": "袁瑜",
+    "column": "2024薪酬",
+    "value": 65.9098,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 289,
+    "row_id": "卓易信息吴平",
+    "company_code": "688258",
+    "person_name": "吴平",
+    "column": "国籍",
+    "value": "中国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 290,
+    "row_id": "铂力特贺峰",
+    "company_code": "688333",
+    "person_name": "贺峰",
+    "column": "2020薪酬",
+    "value": 32.22,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 291,
+    "row_id": "华依科技JIANJUN ZHANG（张建军）",
+    "company_code": "688071",
+    "person_name": "JIANJUN ZHANG（张建军）",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 292,
+    "row_id": "江航装备刘文彪",
+    "company_code": "688586",
+    "person_name": "刘文彪",
+    "column": "2024薪酬",
+    "value": 57.06,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 293,
+    "row_id": "佳驰科技陈良",
+    "company_code": "688708",
+    "person_name": "陈良",
+    "column": "国籍",
+    "value": "中国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 294,
+    "row_id": "金达莱廖志民",
+    "company_code": "688057",
+    "person_name": "廖志民",
+    "column": "最高学历",
+    "value": 2.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 295,
+    "row_id": "生益电子唐海波",
+    "company_code": "688183",
+    "person_name": "唐海波",
+    "column": "2022薪酬",
+    "value": 77.5,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 296,
+    "row_id": "信安世纪乔海权",
+    "company_code": "688201",
+    "person_name": "乔海权",
+    "column": "股票简称",
+    "value": "信安世纪",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 297,
+    "row_id": "纳微科技江必旺",
+    "company_code": "688690",
+    "person_name": "江必旺",
+    "column": "2024薪酬",
+    "value": 116.49,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 298,
+    "row_id": "美迪西CHUN-LIN CHEN",
+    "company_code": "688202",
+    "person_name": "CHUN-LIN CHEN",
+    "column": "股票简称",
+    "value": "美迪西",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 299,
+    "row_id": "京源环保李宽",
+    "company_code": "688096",
+    "person_name": "李宽",
+    "column": "最高学历",
+    "value": 3.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 300,
+    "row_id": "奥来德林文晶",
+    "company_code": "688378",
+    "person_name": "林文晶",
+    "column": "2023薪酬",
+    "value": 53.38,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 301,
+    "row_id": "华海诚科刘兆明",
+    "company_code": "688535",
+    "person_name": "刘兆明",
+    "column": "证券代码",
+    "value": "688535",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 302,
+    "row_id": "兴图新科陈升亮",
+    "company_code": "688081",
+    "person_name": "陈升亮",
+    "column": "年龄",
+    "value": 46.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 303,
+    "row_id": "退市紫金周自文",
+    "company_code": "688086",
+    "person_name": "周自文",
+    "column": "2020薪酬",
+    "value": 57.57,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 304,
+    "row_id": "萤石网络陈冠兰",
+    "company_code": "688475",
+    "person_name": "陈冠兰",
+    "column": "最高学历",
+    "value": 2.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 305,
+    "row_id": "壹石通胡金刚",
+    "company_code": "688733",
+    "person_name": "胡金刚",
+    "column": "证券代码",
+    "value": "688733",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 306,
+    "row_id": "凯因科技李东侠",
+    "company_code": "688687",
+    "person_name": "李东侠",
+    "column": "2023持股",
+    "value": 1.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 307,
+    "row_id": "山大地纬肖宗水",
+    "company_code": "688579",
+    "person_name": "肖宗水",
+    "column": "简历",
+    "value": "男，1963年9月出生，中国国籍，无境外永久居留权，研究员，泰山产业领军人才，泉城特聘专家，山东大学计算机科学与技术学院工学博 士。2004年5月进入公司，历任公司系统集成部部长、副总经理、高级副总裁等职，现任公司创新研究院院长。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 308,
+    "row_id": "澳华内镜李强",
+    "company_code": "688212",
+    "person_name": "李强",
+    "column": "最高学历",
+    "value": 2.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 309,
+    "row_id": "芯原股份范灏成",
+    "company_code": "688521",
+    "person_name": "范灏成",
+    "column": "2021薪酬",
+    "value": 225.43,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 310,
+    "row_id": "光峰科技余新",
+    "company_code": "688007",
+    "person_name": "余新",
+    "column": "最高学历",
+    "value": 1.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 311,
+    "row_id": "奥来德汪康",
+    "company_code": "688378",
+    "person_name": "汪康",
+    "column": "最高学历",
+    "value": 2.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 312,
+    "row_id": "萤石网络金静阳",
+    "company_code": "688475",
+    "person_name": "金静阳",
+    "column": "简历",
+    "value": "金静阳先生，1978 年 4 月出生，中国国籍，无境外永久居留权，哈尔滨工业大学计算机科学与技术本科学历。金静阳先生于 2001 年 9 月至 2004 年 4 月，任华为技术有限公司软件开发工程师；2004年 4月至 2010年 5月，任 UT斯达康通讯有限公司高级嵌入式软件工程师及系统工程师；2010 年 5 月至 2013 年 12 月，任浙江网新智能技术有限公司系统工程部门经理；2013年 12月至 2014年 11月，任杭州翘曲点科技有限公司技术合伙人；2014年 11月至 2015年 12月，历任海康威视互联网业务中心高级软件开发经理、资深软件开发专家；2016 年 1 月至 2017 年 12 月，任萤石有限研发总监；2018年1月至今，任萤石软件研发总监。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 313,
+    "row_id": "威高骨科王利君",
+    "company_code": "688161",
+    "person_name": "王利君",
+    "column": "年龄",
+    "value": 42.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 314,
+    "row_id": "睿创微纳马宏",
+    "company_code": "688002",
+    "person_name": "马宏",
+    "column": "2019薪酬",
+    "value": 124.08,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 315,
+    "row_id": "联芸科技许伟",
+    "company_code": "688449",
+    "person_name": "许伟",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 316,
+    "row_id": "卓易信息汪涛",
+    "company_code": "688258",
+    "person_name": "汪涛",
+    "column": "国籍",
+    "value": "中国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 317,
+    "row_id": "九号公司刘磊",
+    "company_code": "689009",
+    "person_name": "刘磊",
+    "column": "证券代码",
+    "value": "689009",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 318,
+    "row_id": "科德数控王庆朋",
+    "company_code": "688305",
+    "person_name": "王庆朋",
+    "column": "姓名",
+    "value": "王庆朋",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 319,
+    "row_id": "爱威科技罗满华",
+    "company_code": "688067",
+    "person_name": "罗满华",
+    "column": "姓名",
+    "value": "罗满华",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 320,
+    "row_id": "华依科技JIANJUN ZHANG（张建军）",
+    "company_code": "688071",
+    "person_name": "JIANJUN ZHANG（张建军）",
+    "column": "简历",
+    "value": "JIANJUN ZHANG（张建军）先生，1956年出生，美国国籍，毕业于宾夕法尼亚州立大学航空工程专业，博士研究生学历。JIANJUN ZHANG（张建军）为北京市特聘专家、北京市海外高层次人才，并于 2016年11月获得北京市科学技术一等奖（项目名称“乘用车关键技术创新及其在绅宝 D70 系列化车型开发中的应用”）。JIANJUN ZHANG（张建军）于 1983年8月至1988 年8月任宾夕法尼亚州立大学航空工程系助理研究员；1988 年9月至1990年 1月任肯塔基大学机械工程系博士后研究员；1990年2月至 2009年9月先后任通用汽车动力总成集团发动机技术开发部高级工程师、主任工程师和开发经理；2009 年 10 月至 2017 年 12月任北京汽车动力总成有限公司技术总监；2013年12 月至2017年12月任中发联（北京）技术投资有限公司董事兼总经理；2014 年 4 月至 2017 年 12 月任德国Meta发动机和能量技术有限公司总经理；2018年 8月至今任华依科技技术专家委员会主任；2019年2月至今任华依检测技术总监。JIANJUN ZHANG（张建军）的研发领域为汽车动力总成系统和整车测试技术，负责公司汽车动力总成各大类测试设备、测试服务和工程咨询的技术指导、研发规划与实施工作。JIANJUN ZHANG（张建军）于 2019 年作为项目负责人承担公司“集装箱式对拖测试技术与试验方法研究”项目的整体规划与设计工作，于 2020 年作为项目负责人承担公司“DHT 混动变速器专用测试技术与设备研制”项目的开发工作，同时负责公司重点在研项目“自动驾驶测试及管理系统”、“车载组合惯导 IMU 的产品开发”、“试验室数据平台及智能分析系统”的整体规划和重大技术决策工作。截至本招股说明书签署日，JIANJUN ZHANG（张建军）为公司软件著作权“华依惯性导航云服务器测试软件 V1.0.0.0”之开发人。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 321,
+    "row_id": "山大地纬肖宗水",
+    "company_code": "688579",
+    "person_name": "肖宗水",
+    "column": "简历",
+    "value": "男，1963年9月出生，中国国籍，无境外永久居留权，研究员，泰山产业领军人才，泉城特聘专家，山东大学计算机科学与技术学院工学博 士。2004年5月进入公司，历任公司系统集成部部长、副总经理、高级副总裁等职，现任公司创新研究院院长。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 322,
+    "row_id": "博瑞医药王兵峰",
+    "company_code": "688166",
+    "person_name": "王兵峰",
+    "column": "简历",
+    "value": "王兵峰，男，1979 年 7 月出生，中国国籍，无境外永久居留权，研究生学历，博瑞泰兴副总经理。2001年至2008年任江苏中丹慧聚合成化学有限公司生产经理。2008年至2014 年任江苏圣泰科合成化学有限公司生产总监。2014 年至今任博瑞泰兴副总经理。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 323,
+    "row_id": "芯原股份钱哲弘",
+    "company_code": "688521",
+    "person_name": "钱哲弘",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 324,
+    "row_id": "凯因科技汪涛",
+    "company_code": "688687",
+    "person_name": "汪涛",
+    "column": "国籍",
+    "value": "美国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 325,
+    "row_id": "晶丰明源毛焜",
+    "company_code": "688368",
+    "person_name": "毛焜",
+    "column": "2023持股",
+    "value": 5600.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 326,
+    "row_id": "迪哲医药HONCHUNG TSUI",
+    "company_code": "688192",
+    "person_name": "HONCHUNG TSUI",
+    "column": "简历",
+    "value": "HONCHUNG TSUI（徐汉忠）先生，现任公司副总经理，1968年出生，美国国籍，俄亥俄州立大学化学博士学历。1998年9月至2000年12月，任斯坦福大学博士后研究员；2001年1月至2009年10月，任美国先灵葆雅主任研究员；2009年11月至2011年12月，任默克制药研发中心主任研究员；2012年1月至2017年12月，任阿斯利康投资（中国）有限公司中国创新中心高级主任研究员；2017年12月至今，任迪哲有限及发行人副总经理，新药研发、化学部负责人。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 327,
+    "row_id": "汇宇制药韦涛",
+    "company_code": "688553",
+    "person_name": "韦涛",
+    "column": "2022薪酬",
+    "value": 358.72,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 328,
+    "row_id": "威高骨科王利君",
+    "company_code": "688161",
+    "person_name": "王利君",
+    "column": "证券代码",
+    "value": "688161",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 329,
+    "row_id": "恒玄科技陈俊",
+    "company_code": "688608",
+    "person_name": "陈俊",
+    "column": "最高学历",
+    "value": 2.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 330,
+    "row_id": "萤石网络金静阳",
+    "company_code": "688475",
+    "person_name": "金静阳",
+    "column": "简历",
+    "value": "金静阳先生，1978 年 4 月出生，中国国籍，无境外永久居留权，哈尔滨工业大学计算机科学与技术本科学历。金静阳先生于 2001 年 9 月至 2004 年 4 月，任华为技术有限公司软件开发工程师；2004年 4月至 2010年 5月，任 UT斯达康通讯有限公司高级嵌入式软件工程师及系统工程师；2010 年 5 月至 2013 年 12 月，任浙江网新智能技术有限公司系统工程部门经理；2013年 12月至 2014年 11月，任杭州翘曲点科技有限公司技术合伙人；2014年 11月至 2015年 12月，历任海康威视互联网业务中心高级软件开发经理、资深软件开发专家；2016 年 1 月至 2017 年 12 月，任萤石有限研发总监；2018年1月至今，任萤石软件研发总监。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 331,
+    "row_id": "科思科技梁宏建",
+    "company_code": "688788",
+    "person_name": "梁宏建",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 332,
+    "row_id": "威胜信息肖林松",
+    "company_code": "688100",
+    "person_name": "肖林松",
+    "column": "2024薪酬",
+    "value": 93.66,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 333,
+    "row_id": "科思科技刘洪磊",
+    "company_code": "688788",
+    "person_name": "刘洪磊",
+    "column": "股票简称",
+    "value": "科思科技",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 334,
+    "row_id": "联影医疗安少辉",
+    "company_code": "688271",
+    "person_name": "安少辉",
+    "column": "姓名",
+    "value": "安少辉",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 335,
+    "row_id": "国盾量子赵勇",
+    "company_code": "688027",
+    "person_name": "赵勇",
+    "column": "国籍",
+    "value": "中国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 336,
+    "row_id": "盟升电子吴真",
+    "company_code": "688311",
+    "person_name": "吴真",
+    "column": "最高学历",
+    "value": 3.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 337,
+    "row_id": "嘉必优肖敏",
+    "company_code": "688089",
+    "person_name": "肖敏",
+    "column": "2023持股",
+    "value": 71107.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 338,
+    "row_id": "凯因科技史继峰",
+    "company_code": "688687",
+    "person_name": "史继峰",
+    "column": "简历",
+    "value": "史继峰，男，1974 年出生，中国药科大学药剂学博士，中国国籍，无境外永久居留权。1998 年7月至2000年7月就职于华东医药，担任助理研究员；2003 年 7 月至 2015 年 2 月就职于国家药品审评中心；2015 年 2 月至 2017 年 1 月就职于复星医药，担任资深研究员；2017 年 1 月加入公司，现任发行人董事、副总经理；2019 年因参与“病毒性肝炎治疗新靶点、新策略”项目获得教育部颁发的科学技术进步奖一等奖。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 339,
+    "row_id": "威胜信息马亮",
+    "company_code": "688100",
+    "person_name": "马亮",
+    "column": "2019薪酬",
+    "value": 34.33,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 340,
+    "row_id": "铂力特贺峰",
+    "company_code": "688333",
+    "person_name": "贺峰",
+    "column": "2022持股",
+    "value": 35341.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 341,
+    "row_id": "科思科技刘洪磊",
+    "company_code": "688788",
+    "person_name": "刘洪磊",
+    "column": "2021薪酬",
+    "value": 94.75,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 342,
+    "row_id": "和元生物杨佳丽",
+    "company_code": "688238",
+    "person_name": "杨佳丽",
+    "column": "年龄",
+    "value": 39.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 343,
+    "row_id": "凯因科技史继峰",
+    "company_code": "688687",
+    "person_name": "史继峰",
+    "column": "姓名",
+    "value": "史继峰",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 344,
+    "row_id": "巨一科技俞琦",
+    "company_code": "688162",
+    "person_name": "俞琦",
+    "column": "国籍",
+    "value": "中国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 345,
+    "row_id": "纽威数控李军强",
+    "company_code": "688697",
+    "person_name": "李军强",
+    "column": "2022薪酬",
+    "value": 100.6,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 346,
+    "row_id": "兴福电子李少平",
+    "company_code": "688545",
+    "person_name": "李少平",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 347,
+    "row_id": "高凌信息石磊",
+    "company_code": "688175",
+    "person_name": "石磊",
+    "column": "股票简称",
+    "value": "高凌信息",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 348,
+    "row_id": "上声电子叶超",
+    "company_code": "688533",
+    "person_name": "叶超",
+    "column": "2022薪酬",
+    "value": 125.84,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 349,
+    "row_id": "海创药业匡通滔",
+    "company_code": "688302",
+    "person_name": "匡通滔",
+    "column": "证券代码",
+    "value": "688302",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 350,
+    "row_id": "金达莱廖志民",
+    "company_code": "688057",
+    "person_name": "廖志民",
+    "column": "2021薪酬",
+    "value": 92.4,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 351,
+    "row_id": "爱博医疗王曌",
+    "company_code": "688050",
+    "person_name": "王曌",
+    "column": "证券代码",
+    "value": "688050",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 352,
+    "row_id": "秦川物联权亚强",
+    "company_code": "688528",
+    "person_name": "权亚强",
+    "column": "2021薪酬",
+    "value": 23.79,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 353,
+    "row_id": "奥来德林文晶",
+    "company_code": "688378",
+    "person_name": "林文晶",
+    "column": "2024薪酬",
+    "value": 49.8,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 354,
+    "row_id": "美迪西任峰",
+    "company_code": "688202",
+    "person_name": "任峰",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 355,
+    "row_id": "兴图新科陈升亮",
+    "company_code": "688081",
+    "person_name": "陈升亮",
+    "column": "2020薪酬",
+    "value": 29.78,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 356,
+    "row_id": "会通股份周海",
+    "company_code": "688219",
+    "person_name": "周海",
+    "column": "2023持股",
+    "value": 263193.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 357,
+    "row_id": "退市紫金周自文",
+    "company_code": "688086",
+    "person_name": "周自文",
+    "column": "最高学历",
+    "value": 4.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 358,
+    "row_id": "华依科技张洁萍",
+    "company_code": "688071",
+    "person_name": "张洁萍",
+    "column": "证券代码",
+    "value": "688071",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 359,
+    "row_id": "富信科技刘茂林",
+    "company_code": "688662",
+    "person_name": "刘茂林",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 360,
+    "row_id": "科德数控王庆朋",
+    "company_code": "688305",
+    "person_name": "王庆朋",
+    "column": "2024薪酬",
+    "value": 37.98,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 361,
+    "row_id": "秦川物联权亚强",
+    "company_code": "688528",
+    "person_name": "权亚强",
+    "column": "年龄",
+    "value": 57.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 362,
+    "row_id": "瑞联新材袁江波",
+    "company_code": "688550",
+    "person_name": "袁江波",
+    "column": "2024持股",
+    "value": 239307.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 363,
+    "row_id": "威高骨科孙久伟",
+    "company_code": "688161",
+    "person_name": "孙久伟",
+    "column": "证券代码",
+    "value": "688161",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 364,
+    "row_id": "汇宇制药韦涛",
+    "company_code": "688553",
+    "person_name": "韦涛",
+    "column": "年龄",
+    "value": 60.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 365,
+    "row_id": "联测科技史江平",
+    "company_code": "688113",
+    "person_name": "史江平",
+    "column": "国籍",
+    "value": "中国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 366,
+    "row_id": "步科股份孙志武",
+    "company_code": "688160",
+    "person_name": "孙志武",
+    "column": "简历",
+    "value": "孙志武，男，1975年出生，中国国籍，无境外永久居留权，北京航空航 天大学光学工程专业硕士学历。2000 年 4 月至 2003 年 11 月任北京和利时系统 工程有限公司可编程逻辑控制器事业部工程部经理；2003 年 12 月至 2011 年 4 月任北京凯迪恩自动化技术有限公司研发部经理；2011 年 4 月至今历任深圳步 科可编程逻辑控制器产品部高级工程师、部门总监。 孙志武先生多年来致力于可编程逻辑控制器产品的研发及推广应用，主持并 参与了“K5系列标准型可编程逻辑控制器”、“K2系列经济型可编程逻辑控制 器”、“KS 系列超薄型可编程逻辑控制器”、“KW 系列无线型可编程逻辑控 制器”等产品的研发工作。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 367,
+    "row_id": "联影医疗QUNCHEN",
+    "company_code": "688271",
+    "person_name": "QUNCHEN",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 368,
+    "row_id": "光峰科技余新",
+    "company_code": "688007",
+    "person_name": "余新",
+    "column": "最高学历",
+    "value": 1.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 369,
+    "row_id": "晶丰明源毛焜",
+    "company_code": "688368",
+    "person_name": "毛焜",
+    "column": "年龄",
+    "value": 42.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 370,
+    "row_id": "科德数控李文庆",
+    "company_code": "688305",
+    "person_name": "李文庆",
+    "column": "年龄",
+    "value": 44.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 371,
+    "row_id": "百克生物魏巍",
+    "company_code": "688276",
+    "person_name": "魏巍",
+    "column": "2021薪酬",
+    "value": 84.43,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 372,
+    "row_id": "澳华内镜李强",
+    "company_code": "688212",
+    "person_name": "李强",
+    "column": "证券代码",
+    "value": "688212",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 373,
+    "row_id": "新风光李瑞来",
+    "company_code": "688663",
+    "person_name": "李瑞来",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 374,
+    "row_id": "中国电研揭敢新",
+    "company_code": "688128",
+    "person_name": "揭敢新",
+    "column": "最高学历",
+    "value": 3.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 375,
+    "row_id": "生益电子肖璐",
+    "company_code": "688183",
+    "person_name": "肖璐",
+    "column": "2023持股",
+    "value": 39400.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 376,
+    "row_id": "瑞联新材袁江波",
+    "company_code": "688550",
+    "person_name": "袁江波",
+    "column": "股票简称",
+    "value": "瑞联新材",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 377,
+    "row_id": "科汇股份贾明全",
+    "company_code": "688681",
+    "person_name": "贾明全",
+    "column": "2022薪酬",
+    "value": 44.76,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 378,
+    "row_id": "华峰测控周鹏",
+    "company_code": "688200",
+    "person_name": "周鹏",
+    "column": "证券代码",
+    "value": "688200",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 379,
+    "row_id": "力芯微王国鹏",
+    "company_code": "688601",
+    "person_name": "王国鹏",
+    "column": "证券代码",
+    "value": "688601",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 380,
+    "row_id": "和达科技杨海峰",
+    "company_code": "688296",
+    "person_name": "杨海峰",
+    "column": "姓名",
+    "value": "杨海峰",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 381,
+    "row_id": "爱科科技方云科",
+    "company_code": "688092",
+    "person_name": "方云科",
+    "column": "2024持股",
+    "value": 6613600.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 382,
+    "row_id": "江航装备刘文彪",
+    "company_code": "688586",
+    "person_name": "刘文彪",
+    "column": "2021薪酬",
+    "value": 49.31,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 383,
+    "row_id": "新致软件冯国栋",
+    "company_code": "688590",
+    "person_name": "冯国栋",
+    "column": "简历",
+    "value": "冯国栋先生，1978年出生，中国国籍，无境外永久居留权，硕士学位，毕业于北京大学金融学专业。2001 年至 2006 年任华为技术有限公司项目经理；2006 年至 2009 年任北京摩软科技有限公司技术总监；2009 年至 2011 年任东南融通 CRM 产 品开发部经理，2011 年加入新致软件，现任金融行业高级副总裁。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 384,
+    "row_id": "新风光任其广",
+    "company_code": "688663",
+    "person_name": "任其广",
+    "column": "年龄",
+    "value": 41.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 385,
+    "row_id": "晶丰明源毛焜",
+    "company_code": "688368",
+    "person_name": "毛焜",
+    "column": "2020薪酬",
+    "value": 84.01,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 386,
+    "row_id": "宏微科技刘利峰",
+    "company_code": "688711",
+    "person_name": "刘利峰",
+    "column": "简历",
+    "value": "刘利峰，男，1965 年 1 月出生，中国国籍，无境外永久居留权，高级工程师，硕士学历，公司董事、副总经理。1996 年 9 月毕业于电子科技大学半导体器件与微电子学专业，1987年至2003 年任辽宁锦州国营 777厂高可靠产品研究所工程师、副所长、所长；2003年至 2006年任深圳市鹏微科技有限公司副总经理；2011 年至今任宏微科技深圳分公司负责人；2006 年至今任公司董事、副总经理。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 387,
+    "row_id": "迪哲医药HONCHUNG TSUI",
+    "company_code": "688192",
+    "person_name": "HONCHUNG TSUI",
+    "column": "姓名",
+    "value": "HONCHUNG TSUI",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 388,
+    "row_id": "华峰测控周鹏",
+    "company_code": "688200",
+    "person_name": "周鹏",
+    "column": "最高学历",
+    "value": 2.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 389,
+    "row_id": "德邦科技陈田安",
+    "company_code": "688035",
+    "person_name": "陈田安",
+    "column": "姓名",
+    "value": "陈田安",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 390,
+    "row_id": "极米科技冉鹏",
+    "company_code": "688696",
+    "person_name": "冉鹏",
+    "column": "2022薪酬",
+    "value": 156.05,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 391,
+    "row_id": "国芯科技王廷平",
+    "company_code": "688262",
+    "person_name": "王廷平",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 392,
+    "row_id": "恒玄科技陈俊",
+    "company_code": "688608",
+    "person_name": "陈俊",
+    "column": "2022薪酬",
+    "value": 101.5,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 393,
+    "row_id": "海目星田亮",
+    "company_code": "688559",
+    "person_name": "田亮",
+    "column": "简历",
+    "value": "男，1966 年出生，新加坡国籍，毕业于清华大学机械工程系，硕士学位。1998 年5月至2008 年5月于新加坡 ASM 公司任研发部总工程师；2008年5月至2011 年5月于深圳格兰达科技集团任研发中心总工；2011 年 5 月加入公司，现任公司激光及自动化事业部总工程师，负责高端 IT 产品的自动化组装生产线设计，新产品开发，在高精度自动化设备结构的有限元分析、可靠性分析与设备维护设计等领域具备丰富的研发经验。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 394,
+    "row_id": "联影医疗黄翔宇",
+    "company_code": "688271",
+    "person_name": "黄翔宇",
+    "column": "简历",
+    "value": "1970年出生，中国国籍，拥有美国永久居留权。1987年至1991年，就读于北京大学力学专业，获得学士学位；1991年至1994年，就 读于北京大学流体力学专业，获得硕士学位；1995年至1997年，就读于The College of William&Mary（美国威廉和玛丽学院）应用",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 395,
+    "row_id": "威高骨科孙久伟",
+    "company_code": "688161",
+    "person_name": "孙久伟",
+    "column": "最高学历",
+    "value": 2.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 396,
+    "row_id": "江航装备刘文彪",
+    "company_code": "688586",
+    "person_name": "刘文彪",
+    "column": "简历",
+    "value": "刘文彪先生，1977 年出生，中国国籍，无境外永久居留权，流体传动及控制专业，本科学历。2001 年8 月至 2005 年10 月，担任金城集团有限公司设计员；2005 年10 月至2017 年2 月，历任中国航空工业集团公司金城南京机电液压工程研究中心电源传动部设计员、副部长及部长、科研管理部部长、科技发展部部长、航空二动力系统部部长。2017 年 2 月至今，担任本公司副总经理、总工程师。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 397,
+    "row_id": "赛诺医疗蔡文彬",
+    "company_code": "688108",
+    "person_name": "蔡文彬",
+    "column": "2023薪酬",
+    "value": 112.852,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 398,
+    "row_id": "寒武纪刘少礼",
+    "company_code": "688256",
+    "person_name": "刘少礼",
+    "column": "股票简称",
+    "value": "寒武纪",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 399,
+    "row_id": "禾信仪器黄正旭",
+    "company_code": "688622",
+    "person_name": "黄正旭",
+    "column": "2024薪酬",
+    "value": 51.86,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 400,
+    "row_id": "聚石化学龚文幸",
+    "company_code": "688669",
+    "person_name": "龚文幸",
+    "column": "股票简称",
+    "value": "聚石化学",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 401,
+    "row_id": "灿勤科技朱汇",
+    "company_code": "688182",
+    "person_name": "朱汇",
+    "column": "2021持股",
+    "value": 8550000.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 402,
+    "row_id": "兰剑智能沈长鹏",
+    "company_code": "688557",
+    "person_name": "沈长鹏",
+    "column": "2024薪酬",
+    "value": 59.2,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 403,
+    "row_id": "会通股份周海",
+    "company_code": "688219",
+    "person_name": "周海",
+    "column": "2023持股",
+    "value": 263193.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 404,
+    "row_id": "浩欧博钱林",
+    "company_code": "688656",
+    "person_name": "钱林",
+    "column": "2024薪酬",
+    "value": 59.7,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 405,
+    "row_id": "华兴源创缪亮",
+    "company_code": "688001",
+    "person_name": "缪亮",
+    "column": "2019薪酬",
+    "value": 38.29,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 406,
+    "row_id": "盟升电子吴真",
+    "company_code": "688311",
+    "person_name": "吴真",
+    "column": "2024薪酬",
+    "value": 38.31,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 407,
+    "row_id": "威胜信息肖林松",
+    "company_code": "688100",
+    "person_name": "肖林松",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 408,
+    "row_id": "德邦科技陈田安",
+    "company_code": "688035",
+    "person_name": "陈田安",
+    "column": "2023薪酬",
+    "value": 112.86,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 409,
+    "row_id": "金博股份廖寄乔",
+    "company_code": "688598",
+    "person_name": "廖寄乔",
+    "column": "姓名",
+    "value": "廖寄乔",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 410,
+    "row_id": "天智航李寅岩",
+    "company_code": "688277",
+    "person_name": "李寅岩",
+    "column": "年龄",
+    "value": 38.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 411,
+    "row_id": "有研粉材朱学新",
+    "company_code": "688456",
+    "person_name": "朱学新",
+    "column": "简历",
+    "value": "朱学新先生：康普锡威总工程师，1968 年 6 月出生，中国籍，无境外永久居留权，中共党员，毕业于昆明理工大学，机械制造工艺及设备学士学位，教授级高级工程师，享受政府特殊津贴。1992 年 7 月至 2014 年 10 月就职于有研集团，从事金属材料先进制备技术研发与产业化工作，期间国家有色金属复合材料工程技术研究中心半固态专题组负责人、封装专题组负责人和触媒组负责人等职。2014年12月至今在康普锡威任总工程师。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 412,
+    "row_id": "国盾量子赵勇",
+    "company_code": "688027",
+    "person_name": "赵勇",
+    "column": "姓名",
+    "value": "赵勇",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 413,
+    "row_id": "中控技术李达",
+    "company_code": "688777",
+    "person_name": "李达",
+    "column": "2024持股",
+    "value": 3451.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 414,
+    "row_id": "恒玄科技陈俊",
+    "company_code": "688608",
+    "person_name": "陈俊",
+    "column": "证券代码",
+    "value": "688608",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 415,
+    "row_id": "国光电气史佩杰",
+    "company_code": "688776",
+    "person_name": "史佩杰",
+    "column": "最高学历",
+    "value": 3.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 416,
+    "row_id": "新致软件冯国栋",
+    "company_code": "688590",
+    "person_name": "冯国栋",
+    "column": "2021薪酬",
+    "value": 64.97,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 417,
+    "row_id": "华依科技张洁萍",
+    "company_code": "688071",
+    "person_name": "张洁萍",
+    "column": "性别",
+    "value": "女",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 418,
+    "row_id": "海创药业匡通滔",
+    "company_code": "688302",
+    "person_name": "匡通滔",
+    "column": "国籍",
+    "value": "中国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 419,
+    "row_id": "邦彦技术祝国胜",
+    "company_code": "688132",
+    "person_name": "祝国胜",
+    "column": "年龄",
+    "value": 57.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 420,
+    "row_id": "联测科技史江平",
+    "company_code": "688113",
+    "person_name": "史江平",
+    "column": "2021薪酬",
+    "value": 50.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 421,
+    "row_id": "新点软件陈洲",
+    "company_code": "688232",
+    "person_name": "陈洲",
+    "column": "股票简称",
+    "value": "新点软件",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 422,
+    "row_id": "巨一科技俞琦",
+    "company_code": "688162",
+    "person_name": "俞琦",
+    "column": "姓名",
+    "value": "俞琦",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 423,
+    "row_id": "工大高科胡庆新",
+    "company_code": "688367",
+    "person_name": "胡庆新",
+    "column": "证券代码",
+    "value": "688367",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 424,
+    "row_id": "同益中刘清华",
+    "company_code": "688722",
+    "person_name": "刘清华",
+    "column": "2021持股",
+    "value": 519000.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 425,
+    "row_id": "卓锦股份王志宏",
+    "company_code": "688701",
+    "person_name": "王志宏",
+    "column": "姓名",
+    "value": "王志宏",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 426,
+    "row_id": "腾景科技李立和",
+    "company_code": "688195",
+    "person_name": "李立和",
+    "column": "年龄",
+    "value": 46.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 427,
+    "row_id": "倍轻松万勇",
+    "company_code": "688793",
+    "person_name": "万勇",
+    "column": "简历",
+    "value": "2001年 5月至 2008 年 1 月，曾任深圳市龙岗区横岗六约六合电器制品厂产品结构设计开发高级工程师。2008年 1月至今，任深 圳市倍轻松科技股份有限公司结构开发部高级经理。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 428,
+    "row_id": "英方软件苏亮彪",
+    "company_code": "688435",
+    "person_name": "苏亮彪",
+    "column": "股票简称",
+    "value": "英方软件",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 429,
+    "row_id": "华恒生物刘树蓬",
+    "company_code": "688639",
+    "person_name": "刘树蓬",
+    "column": "2024薪酬",
+    "value": 60.8,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 430,
+    "row_id": "迪威尔王洁",
+    "company_code": "688377",
+    "person_name": "王洁",
+    "column": "姓名",
+    "value": "王洁",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 431,
+    "row_id": "禾信仪器李梅",
+    "company_code": "688622",
+    "person_name": "李梅",
+    "column": "最高学历",
+    "value": 1.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 432,
+    "row_id": "富信科技刘茂林",
+    "company_code": "688662",
+    "person_name": "刘茂林",
+    "column": "2022持股",
+    "value": 50000.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 433,
+    "row_id": "爱博医疗王曌",
+    "company_code": "688050",
+    "person_name": "王曌",
+    "column": "国籍",
+    "value": "中国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 434,
+    "row_id": "广大特材于广文",
+    "company_code": "688186",
+    "person_name": "于广文",
+    "column": "股票简称",
+    "value": "广大特材",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 435,
+    "row_id": "中国电研揭敢新",
+    "company_code": "688128",
+    "person_name": "揭敢新",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 436,
+    "row_id": "佳驰科技陈良",
+    "company_code": "688708",
+    "person_name": "陈良",
+    "column": "姓名",
+    "value": "陈良",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 437,
+    "row_id": "日联科技ZHOU LI",
+    "company_code": "688531",
+    "person_name": "ZHOU LI",
+    "column": "简历",
+    "value": "ZHOU LI 先生，1964 年出生，新加坡国籍，中国永久居留权，清华大学电磁场与微波技术工学学士专业及应用数学专业理学学士，清华大学微波专业工学硕士，中欧国际工商学院 EMBA。1990 年 7 月至 1991 年 9 月担任中国科学院北京天文台工程师，1991 年 10 月至 2000 年 12 月，分别担任 CharteredIndustries of Singapore 电子工程师、Tri-M Technologies Ltd.高级设计工程师、Goldtron Electronics Pte Ltd.高级经理；2001 年 1 月至 2005 年 12 月于西门子（中国）有限公司担任科技与产品管理总监；2006 年 1 月至 2007 年 12 月于明基电通（上海）有限公司担任科技与产品管理总监；2008 年 5 月至 2010 年 2 月于高田汽车电子（上海）有限公司担任厂长；2010 年 5 月至 2021 年 7 月分别担任北高地咨询高级咨询顾问、莱丹塑料焊接技术（上海）有限公司总经理、必诺机械（东莞）有限公司总经理、波立门特工程设备（上海）有限公司董事，2021 年 8 月入职发行人，2021 年 11 月至今担任日联科技首席技术官。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 438,
+    "row_id": "安恒信息杨勃",
+    "company_code": "688023",
+    "person_name": "杨勃",
+    "column": "2022薪酬",
+    "value": 110.3,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 439,
+    "row_id": "纽威数控李军强",
+    "company_code": "688697",
+    "person_name": "李军强",
+    "column": "2023薪酬",
+    "value": 63.81,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 440,
+    "row_id": "安集科技Shoutian Li（李守田）",
+    "company_code": "688019",
+    "person_name": "Shoutian Li（李守田）",
+    "column": "2022薪酬",
+    "value": 103.62,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 441,
+    "row_id": "凯因科技李东侠",
+    "company_code": "688687",
+    "person_name": "李东侠",
+    "column": "姓名",
+    "value": "李东侠",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 442,
+    "row_id": "中国电研揭敢新",
+    "company_code": "688128",
+    "person_name": "揭敢新",
+    "column": "2021薪酬",
+    "value": 69.83,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 443,
+    "row_id": "德邦科技陈田安",
+    "company_code": "688035",
+    "person_name": "陈田安",
+    "column": "2024薪酬",
+    "value": 131.92,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 444,
+    "row_id": "奥来德汪康",
+    "company_code": "688378",
+    "person_name": "汪康",
+    "column": "年龄",
+    "value": 42.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 445,
+    "row_id": "巨一科技俞琦",
+    "company_code": "688162",
+    "person_name": "俞琦",
+    "column": "2021薪酬",
+    "value": 205.65,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 446,
+    "row_id": "新风光李瑞来",
+    "company_code": "688663",
+    "person_name": "李瑞来",
+    "column": "2022薪酬",
+    "value": 14.63,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 447,
+    "row_id": "成大生物孙述学",
+    "company_code": "688739",
+    "person_name": "孙述学",
+    "column": "最高学历",
+    "value": 2.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 448,
+    "row_id": "华峰测控周鹏",
+    "company_code": "688200",
+    "person_name": "周鹏",
+    "column": "2022薪酬",
+    "value": 187.7,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 449,
+    "row_id": "九号公司刘磊",
+    "company_code": "689009",
+    "person_name": "刘磊",
+    "column": "姓名",
+    "value": "刘磊",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 450,
+    "row_id": "大地熊陈静武",
+    "company_code": "688077",
+    "person_name": "陈静武",
+    "column": "股票简称",
+    "value": "大地熊",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 451,
+    "row_id": "聚石化学龚文幸",
+    "company_code": "688669",
+    "person_name": "龚文幸",
+    "column": "股票简称",
+    "value": "聚石化学",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 452,
+    "row_id": "睿创微纳马宏",
+    "company_code": "688002",
+    "person_name": "马宏",
+    "column": "2020薪酬",
+    "value": 128.6,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 453,
+    "row_id": "安恒信息杨勃",
+    "company_code": "688023",
+    "person_name": "杨勃",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 454,
+    "row_id": "光峰科技余新",
+    "company_code": "688007",
+    "person_name": "余新",
+    "column": "2021薪酬",
+    "value": 103.96,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 455,
+    "row_id": "瑞联新材袁江波",
+    "company_code": "688550",
+    "person_name": "袁江波",
+    "column": "国籍",
+    "value": "中国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 456,
+    "row_id": "卓锦股份王志宏",
+    "company_code": "688701",
+    "person_name": "王志宏",
+    "column": "2021薪酬",
+    "value": 33.97,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 457,
+    "row_id": "盟升电子吴真",
+    "company_code": "688311",
+    "person_name": "吴真",
+    "column": "最高学历",
+    "value": 3.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 458,
+    "row_id": "聚石化学龚文幸",
+    "company_code": "688669",
+    "person_name": "龚文幸",
+    "column": "姓名",
+    "value": "龚文幸",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 459,
+    "row_id": "科德数控王庆朋",
+    "company_code": "688305",
+    "person_name": "王庆朋",
+    "column": "证券代码",
+    "value": "688305",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 460,
+    "row_id": "蚂蚁科技倪行军",
+    "company_code": "a0630前未上市",
+    "person_name": "倪行军",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 461,
+    "row_id": "禾信仪器李梅",
+    "company_code": "688622",
+    "person_name": "李梅",
+    "column": "国籍",
+    "value": "中国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 462,
+    "row_id": "巨一科技俞琦",
+    "company_code": "688162",
+    "person_name": "俞琦",
+    "column": "2021薪酬",
+    "value": 205.65,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 463,
+    "row_id": "诺唯赞段颖",
+    "company_code": "688105",
+    "person_name": "段颖",
+    "column": "国籍",
+    "value": "中国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 464,
+    "row_id": "天智航李寅岩",
+    "company_code": "688277",
+    "person_name": "李寅岩",
+    "column": "2020薪酬",
+    "value": 59.18,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 465,
+    "row_id": "佳驰科技阙智勇",
+    "company_code": "688708",
+    "person_name": "阙智勇",
+    "column": "股票简称",
+    "value": "佳驰科技",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 466,
+    "row_id": "科思科技梁宏建",
+    "company_code": "688788",
+    "person_name": "梁宏建",
+    "column": "国籍",
+    "value": "中国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 467,
+    "row_id": "巨一科技俞琦",
+    "company_code": "688162",
+    "person_name": "俞琦",
+    "column": "证券代码",
+    "value": "688162",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 468,
+    "row_id": "泽璟制药张滨",
+    "company_code": "688266",
+    "person_name": "张滨",
+    "column": "2024薪酬",
+    "value": 109.76,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 469,
+    "row_id": "凯因科技史继峰",
+    "company_code": "688687",
+    "person_name": "史继峰",
+    "column": "2022持股",
+    "value": 4.5,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 470,
+    "row_id": "聚辰股份李强",
+    "company_code": "688123",
+    "person_name": "李强",
+    "column": "2021薪酬",
+    "value": 137.94,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 471,
+    "row_id": "卓锦股份唐全",
+    "company_code": "688701",
+    "person_name": "唐全",
+    "column": "简历",
+    "value": "唐全，男，1975年出生，中国国籍，无境外永久居留权，硕士研究生学历，高级工程师，环保工程师，环境影响评价工程师。1999年9月至 2001年7月，任东风杭州重型机械有限公司环保主管；2004年9月至2011年3 月，任浙江省天正设计工程有限公司环保工程师、副所长；2011年4月至2013 年5月，任杭州银江环保科技有限公司技术总监；2013年6月至2017年7月，任浙江省天正设计工程有限公司环境工程中心主任；2017 年 9 月至今，任卓锦环保技术中心副总监。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 472,
+    "row_id": "威高骨科王利君",
+    "company_code": "688161",
+    "person_name": "王利君",
+    "column": "证券代码",
+    "value": "688161",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 473,
+    "row_id": "莱伯泰科王淼",
+    "company_code": "688056",
+    "person_name": "王淼",
+    "column": "股票简称",
+    "value": "莱伯泰科",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 474,
+    "row_id": "光峰科技余新",
+    "company_code": "688007",
+    "person_name": "余新",
+    "column": "简历",
+    "value": "余新，男，1980 年出生，中国国籍，无永久境外居留权。获得清华大学博士学位。曾任职斯伦贝谢技术有限公司高级软件工程师、中光研究院高级研究员。2018年2月至今，任公司高级研究员、研发中心软件部总监。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 475,
+    "row_id": "浩辰软件王伟",
+    "company_code": "688657",
+    "person_name": "王伟",
+    "column": "姓名",
+    "value": "王伟",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 476,
+    "row_id": "阳光诺和袁瑜",
+    "company_code": "688621",
+    "person_name": "袁瑜",
+    "column": "股票简称",
+    "value": "阳光诺和",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 477,
+    "row_id": "大地熊陈静武",
+    "company_code": "688077",
+    "person_name": "陈静武",
+    "column": "年龄",
+    "value": 52.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 478,
+    "row_id": "佳驰科技陈良",
+    "company_code": "688708",
+    "person_name": "陈良",
+    "column": "国籍",
+    "value": "中国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 479,
+    "row_id": "华依科技张洁萍",
+    "company_code": "688071",
+    "person_name": "张洁萍",
+    "column": "性别",
+    "value": "女",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 480,
+    "row_id": "振华新材顾然",
+    "company_code": "688707",
+    "person_name": "顾然",
+    "column": "证券代码",
+    "value": "688707",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 481,
+    "row_id": "国科军工黄军华",
+    "company_code": "688543",
+    "person_name": "黄军华",
+    "column": "2023薪酬",
+    "value": 91.33,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 482,
+    "row_id": "生益电子肖璐",
+    "company_code": "688183",
+    "person_name": "肖璐",
+    "column": "国籍",
+    "value": "中国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 483,
+    "row_id": "工大高科胡庆新",
+    "company_code": "688367",
+    "person_name": "胡庆新",
+    "column": "年龄",
+    "value": 60.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 484,
+    "row_id": "英方软件苏亮彪",
+    "company_code": "688435",
+    "person_name": "苏亮彪",
+    "column": "股票简称",
+    "value": "英方软件",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 485,
+    "row_id": "科德数控李文庆",
+    "company_code": "688305",
+    "person_name": "李文庆",
+    "column": "简历",
+    "value": "李文庆，男，1981 年出生，中国国籍，无境外永久居留权，毕业于辽宁师范大学电子信息工程专业，本科学历。2004 年 7 月至 2015 年 4 月，任光洋科技职员；2015 年 5 月至今，历任科德数控研究院常务副院长、副总经理兼研究院院长。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 486,
+    "row_id": "九号公司刘磊",
+    "company_code": "689009",
+    "person_name": "刘磊",
+    "column": "2022薪酬",
+    "value": 55.16,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 487,
+    "row_id": "腾景科技李立和",
+    "company_code": "688195",
+    "person_name": "李立和",
+    "column": "证券代码",
+    "value": "688195",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 488,
+    "row_id": "国芯科技王廷平",
+    "company_code": "688262",
+    "person_name": "王廷平",
+    "column": "年龄",
+    "value": 52.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 489,
+    "row_id": "中控技术李达",
+    "company_code": "688777",
+    "person_name": "李达",
+    "column": "股票简称",
+    "value": "中控技术",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 490,
+    "row_id": "光峰科技余新",
+    "company_code": "688007",
+    "person_name": "余新",
+    "column": "2021薪酬",
+    "value": 103.96,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 491,
+    "row_id": "国芯科技肖佐楠",
+    "company_code": "688262",
+    "person_name": "肖佐楠",
+    "column": "2024薪酬",
+    "value": 141.88,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 492,
+    "row_id": "凯因科技汪涛",
+    "company_code": "688687",
+    "person_name": "汪涛",
+    "column": "2023持股",
+    "value": 3.6,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 493,
+    "row_id": "恒玄科技陈俊",
+    "company_code": "688608",
+    "person_name": "陈俊",
+    "column": "最高学历",
+    "value": 2.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 494,
+    "row_id": "巨一科技俞琦",
+    "company_code": "688162",
+    "person_name": "俞琦",
+    "column": "2022薪酬",
+    "value": 186.23,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 495,
+    "row_id": "浩欧博钱林",
+    "company_code": "688656",
+    "person_name": "钱林",
+    "column": "简历",
+    "value": "中国国籍，无境外永久居留权。1983年出生，东华大学环境科学与技术博士，拥有多年重组蛋白制备和体外诊断产品开 发经验，在重组抗原/重组抗体的制备，原材料的质量控制以及体外诊断产品的开发方面具有丰富的经验。2014 年加入 公司以来，历任江苏浩欧博生物医药股份有限公司部门经理、总监等职务。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 496,
+    "row_id": "萤石网络陈冠兰",
+    "company_code": "688475",
+    "person_name": "陈冠兰",
+    "column": "2024薪酬",
+    "value": 112.9,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 497,
+    "row_id": "嘉必优肖敏",
+    "company_code": "688089",
+    "person_name": "肖敏",
+    "column": "简历",
+    "value": "肖敏先生：1981 年生，中国国籍，无境外永久居留权，硕士研究生学历。2007年3 月至2015 年12月，历任嘉必优有限研发工程师、高级研发工程师、资深研发工程师；2015 年12月至今，历任公司资深应用工程师、主任工程师、应用技术总监。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 498,
+    "row_id": "信安世纪乔海权",
+    "company_code": "688201",
+    "person_name": "乔海权",
+    "column": "股票简称",
+    "value": "信安世纪",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 499,
+    "row_id": "大全能源王西玉",
+    "company_code": "688303",
+    "person_name": "王西玉",
+    "column": "2021薪酬",
+    "value": 157.56,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 500,
+    "row_id": "禾信仪器黄正旭",
+    "company_code": "688622",
+    "person_name": "黄正旭",
+    "column": "股票简称",
+    "value": "禾信仪器",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 501,
+    "row_id": "德邦科技陈田安",
+    "company_code": "688035",
+    "person_name": "陈田安",
+    "column": "股票简称",
+    "value": "德邦科技",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 502,
+    "row_id": "新风光李瑞来",
+    "company_code": "688663",
+    "person_name": "李瑞来",
+    "column": "国籍",
+    "value": "中国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 503,
+    "row_id": "聚石化学龚文幸",
+    "company_code": "688669",
+    "person_name": "龚文幸",
+    "column": "最高学历",
+    "value": 3.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 504,
+    "row_id": "步科股份孙志武",
+    "company_code": "688160",
+    "person_name": "孙志武",
+    "column": "简历",
+    "value": "孙志武，男，1975年出生，中国国籍，无境外永久居留权，北京航空航 天大学光学工程专业硕士学历。2000 年 4 月至 2003 年 11 月任北京和利时系统 工程有限公司可编程逻辑控制器事业部工程部经理；2003 年 12 月至 2011 年 4 月任北京凯迪恩自动化技术有限公司研发部经理；2011 年 4 月至今历任深圳步 科可编程逻辑控制器产品部高级工程师、部门总监。 孙志武先生多年来致力于可编程逻辑控制器产品的研发及推广应用，主持并 参与了“K5系列标准型可编程逻辑控制器”、“K2系列经济型可编程逻辑控制 器”、“KS 系列超薄型可编程逻辑控制器”、“KW 系列无线型可编程逻辑控 制器”等产品的研发工作。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 505,
+    "row_id": "工大高科胡庆新",
+    "company_code": "688367",
+    "person_name": "胡庆新",
+    "column": "2023持股",
+    "value": 318580.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 506,
+    "row_id": "科德数控王庆朋",
+    "company_code": "688305",
+    "person_name": "王庆朋",
+    "column": "年龄",
+    "value": 46.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 507,
+    "row_id": "诺唯赞段颖",
+    "company_code": "688105",
+    "person_name": "段颖",
+    "column": "最高学历",
+    "value": 2.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 508,
+    "row_id": "华海诚科刘兆明",
+    "company_code": "688535",
+    "person_name": "刘兆明",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 509,
+    "row_id": "广大特材于广文",
+    "company_code": "688186",
+    "person_name": "于广文",
+    "column": "2020薪酬",
+    "value": 25.04,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 510,
+    "row_id": "华恒生物刘树蓬",
+    "company_code": "688639",
+    "person_name": "刘树蓬",
+    "column": "年龄",
+    "value": 43.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 511,
+    "row_id": "瑞联新材袁江波",
+    "company_code": "688550",
+    "person_name": "袁江波",
+    "column": "2023持股",
+    "value": 138191.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 512,
+    "row_id": "康鹏科技何立",
+    "company_code": "688602",
+    "person_name": "何立",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 513,
+    "row_id": "广大特材于广文",
+    "company_code": "688186",
+    "person_name": "于广文",
+    "column": "姓名",
+    "value": "于广文",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 514,
+    "row_id": "和元生物杨佳丽",
+    "company_code": "688238",
+    "person_name": "杨佳丽",
+    "column": "股票简称",
+    "value": "和元生物",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 515,
+    "row_id": "同益中刘清华",
+    "company_code": "688722",
+    "person_name": "刘清华",
+    "column": "简历",
+    "value": "刘清华，副总经理，女，1974 年 7 月生，中国国籍，无境外永久居留权，本科学历，高级工程师。1997 年 6 月毕业于北京服装学院化学纤维专业。1997 年 7 月至 1998 年 10 月，任北京煤矿机械厂助理工程师；1998 年 11 月至 1999 年 2 月，任中纺投资发展股份有限公司北京分公司工艺工程师；1999 年 2 月至 2007年8月，任有限公司生产部工艺工程师；2007年9月至 2012年7月，任有限公司生产分公司经理；2009 年9月至2015年8月，任有限公司监事；2012年7月至2014年12月，任有限公司生产部经理兼企管部经理；2014年12月至2018年6月，任有限公司副总经理；2018年7月至今，任股份公司副总经理。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 516,
+    "row_id": "阳光诺和袁瑜",
+    "company_code": "688621",
+    "person_name": "袁瑜",
+    "column": "2023薪酬",
+    "value": 83.68,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 517,
+    "row_id": "科思科技梁宏建",
+    "company_code": "688788",
+    "person_name": "梁宏建",
+    "column": "姓名",
+    "value": "梁宏建",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 518,
+    "row_id": "纽威数控李军强",
+    "company_code": "688697",
+    "person_name": "李军强",
+    "column": "2021薪酬",
+    "value": 69.13,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 519,
+    "row_id": "倍轻松王少华",
+    "company_code": "688793",
+    "person_name": "王少华",
+    "column": "姓名",
+    "value": "王少华",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 520,
+    "row_id": "美迪西CHUN-LIN CHEN",
+    "company_code": "688202",
+    "person_name": "CHUN-LIN CHEN",
+    "column": "证券代码",
+    "value": "688202",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 521,
+    "row_id": "壹石通王韶晖",
+    "company_code": "688733",
+    "person_name": "王韶晖",
+    "column": "2024薪酬",
+    "value": 82.89,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 522,
+    "row_id": "江航装备刘文彪",
+    "company_code": "688586",
+    "person_name": "刘文彪",
+    "column": "2024薪酬",
+    "value": 57.06,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 523,
+    "row_id": "高铁电气李忠齐",
+    "company_code": "688285",
+    "person_name": "李忠齐",
+    "column": "2023薪酬",
+    "value": 46.73,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 524,
+    "row_id": "富信科技刘茂林",
+    "company_code": "688662",
+    "person_name": "刘茂林",
+    "column": "国籍",
+    "value": "中国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 525,
+    "row_id": "炬芯科技周正宇",
+    "company_code": "688049",
+    "person_name": "周正宇",
+    "column": "姓名",
+    "value": "周正宇",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 526,
+    "row_id": "和元生物程海子",
+    "company_code": "688238",
+    "person_name": "程海子",
+    "column": "国籍",
+    "value": "中国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 527,
+    "row_id": "壹石通胡金刚",
+    "company_code": "688733",
+    "person_name": "胡金刚",
+    "column": "姓名",
+    "value": "胡金刚",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 528,
+    "row_id": "中控技术陈宇",
+    "company_code": "688777",
+    "person_name": "陈宇",
+    "column": "2020持股",
+    "value": 200000.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 529,
+    "row_id": "伟创电气何承曾",
+    "company_code": "688698",
+    "person_name": "何承曾",
+    "column": "证券代码",
+    "value": "688698",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 530,
+    "row_id": "必易微王轶",
+    "company_code": "688045",
+    "person_name": "王轶",
+    "column": "国籍",
+    "value": "中国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 531,
+    "row_id": "海目星田亮",
+    "company_code": "688559",
+    "person_name": "田亮",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 532,
+    "row_id": "中触媒续晶华",
+    "company_code": "688267",
+    "person_name": "续晶华",
+    "column": "年龄",
+    "value": 40.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 533,
+    "row_id": "国光电气史佩杰",
+    "company_code": "688776",
+    "person_name": "史佩杰",
+    "column": "证券代码",
+    "value": "688776",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 534,
+    "row_id": "国科军工黄军华",
+    "company_code": "688543",
+    "person_name": "黄军华",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 535,
+    "row_id": "蚂蚁科技倪行军",
+    "company_code": "a0630前未上市",
+    "person_name": "倪行军",
+    "column": "国籍",
+    "value": "中国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 536,
+    "row_id": "睿创微纳马宏",
+    "company_code": "688002",
+    "person_name": "马宏",
+    "column": "2023持股",
+    "value": 68400000.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 537,
+    "row_id": "富创精密张少杰",
+    "company_code": "688409",
+    "person_name": "张少杰",
+    "column": "简历",
+    "value": "男，1988 年出生，毕业于哈尔滨工业大学化学工程与工艺（电化学）专业，本科学历。2013 年 8 月至今，历任公司技术研发中心表面处理方向工程师、技术专家。作为“02 重大专项”二期“IC 设备超低污染、抗强腐蚀铝合金零部件制造技术研发及产业化应用”的课题负责人，张少杰带领技术团队在涂镀纯铝特种涂层技术、物理气相沉积制备薄膜技术、等离子喷涂制备复合陶瓷涂层技术等三方面开展研发和攻关。张少杰在半导体设备精密零部件表面处理特种工艺领域具有丰富的技术经验，带领团队完成客户A 的20 多项表面处理特种工艺认证。张少杰主导了公司表面处理生产线的规划及建设，并负责了千余项首件研制，作为发明人获得专利 5 项。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 538,
+    "row_id": "卓易信息汪涛",
+    "company_code": "688258",
+    "person_name": "汪涛",
+    "column": "2020薪酬",
+    "value": 27.94,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 539,
+    "row_id": "世华科技温强",
+    "company_code": "688093",
+    "person_name": "温强",
+    "column": "年龄",
+    "value": 40.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 540,
+    "row_id": "联赢激光周航",
+    "company_code": "688518",
+    "person_name": "周航",
+    "column": "2021薪酬",
+    "value": 76.86,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 541,
+    "row_id": "威高骨科孙久伟",
+    "company_code": "688161",
+    "person_name": "孙久伟",
+    "column": "姓名",
+    "value": "孙久伟",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 542,
+    "row_id": "江航装备刘文彪",
+    "company_code": "688586",
+    "person_name": "刘文彪",
+    "column": "证券代码",
+    "value": "688586",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 543,
+    "row_id": "高凌信息石磊",
+    "company_code": "688175",
+    "person_name": "石磊",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 544,
+    "row_id": "国光电气史佩杰",
+    "company_code": "688776",
+    "person_name": "史佩杰",
+    "column": "姓名",
+    "value": "史佩杰",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 545,
+    "row_id": "海目星田亮",
+    "company_code": "688559",
+    "person_name": "田亮",
+    "column": "2021薪酬",
+    "value": 51.94,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 546,
+    "row_id": "金达莱廖志民",
+    "company_code": "688057",
+    "person_name": "廖志民",
+    "column": "2021持股",
+    "value": 126760500.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 547,
+    "row_id": "迪哲医药HONCHUNG TSUI",
+    "company_code": "688192",
+    "person_name": "HONCHUNG TSUI",
+    "column": "证券代码",
+    "value": "688192",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 548,
+    "row_id": "大地熊陈静武",
+    "company_code": "688077",
+    "person_name": "陈静武",
+    "column": "2020薪酬",
+    "value": 79.55,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 549,
+    "row_id": "新致软件张喆宾",
+    "company_code": "688590",
+    "person_name": "张喆宾",
+    "column": "姓名",
+    "value": "张喆宾",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 550,
+    "row_id": "京源环保李宽",
+    "company_code": "688096",
+    "person_name": "李宽",
+    "column": "2023薪酬",
+    "value": 34.09,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 551,
+    "row_id": "天合光能张舒",
+    "company_code": "688599",
+    "person_name": "张舒",
+    "column": "2024持股",
+    "value": 38784.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 552,
+    "row_id": "永信至诚蔡晶晶",
+    "company_code": "688244",
+    "person_name": "蔡晶晶",
+    "column": "证券代码",
+    "value": "688244",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 553,
+    "row_id": "浩欧博钱林",
+    "company_code": "688656",
+    "person_name": "钱林",
+    "column": "股票简称",
+    "value": "浩欧博",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 554,
+    "row_id": "微电生理梁波",
+    "company_code": "688351",
+    "person_name": "梁波",
+    "column": "2022薪酬",
+    "value": 67.32,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 555,
+    "row_id": "邦彦技术祝国胜",
+    "company_code": "688132",
+    "person_name": "祝国胜",
+    "column": "简历",
+    "value": "1968年出生，中国国籍，无永久境外居留权，毕业于解放军信息工程大学，硕士学历，深圳市地方级领军人才。深圳市第六届人大代表。 目前兼任深圳市第七届政协委员、深圳市工商业联合会（总商会）第八届执委会（理事会）副会长、广东省保密协会副会长、深圳市工 业总会副会长、深圳市工程师联合会副会长、深圳市软件行业协会常务理事、中国计算机行业协会计算机分会理事等职务。2002年12月 起历任有限公司执行董事、经理、股份公司董事长、总经理。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 556,
+    "row_id": "腾景科技李立和",
+    "company_code": "688195",
+    "person_name": "李立和",
+    "column": "简历",
+    "value": "李立和先生，1978 年 9 月出生，中国国籍，无境外永久居留权，重庆大学机械电子工程本科，中级工程师。2002年8月至 2003年2月，任职厦门法拉电子股份有限公司工程师；2003 年 2 月至 2006 年 10 月，任职福州高意通讯有限公司产品工程师；2006 年 11 月至 2009 年 5 月，任职福建迅捷光电科技有限公 司产品工程师；2009年6月至2011年4月，任职上海博创科技股份有限公司产品工程师；2011年4月至2012年3月，任职武汉华工正源光子技术有限公司产品经理；2012年5月至2013年4月，任职南京普住光网络有限公司产品经理；2013 年5月至2017年8月，任职山东锐择光电科技有限公司工程部经理；2017年10 月至今，任职公司技术中心经理。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 557,
+    "row_id": "豪森智能刘云飞",
+    "company_code": "688529",
+    "person_name": "刘云飞",
+    "column": "证券代码",
+    "value": "688529",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 558,
+    "row_id": "柏楚电子阳潇",
+    "company_code": "688188",
+    "person_name": "阳潇",
+    "column": "年龄",
+    "value": 38.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 559,
+    "row_id": "盛邦安全王雪松",
+    "company_code": "688651",
+    "person_name": "王雪松",
+    "column": "简历",
+    "value": "男，出生于1975年11月，无境外永久居留权，硕士研究生学历，本科毕业于清华大学，研究生毕业于北京邮电大学。2001年4月至2002年6月，就职于 Lucent-Bell 朗讯贝尔实验室，任工程师；2002 年6 月至2004 年10 月，就职于Siemens西门子（中国）有限公司，任高级工程师；2005年4月至2005 年 9 月，就职于 Nortel Networks 北电网络（中国）有限公司，任高级工程师；2005 年 9 月至 2010 年 9 月，就职于 Juniper Networks 瞻博网络研发（北京）有限公司，任研发经理；2010 年10 月至 2017年 7 月，就职于 Wind-River 风河中国研发中心，任首席工程师；2017 年7月至2021年3月，就职于志翔科技股份有限公司，任研发副总裁；2021 年 3 月至今，就职于盛邦安全，任检测产品线总经理、研发总监。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 560,
+    "row_id": "邦彦技术祝国胜",
+    "company_code": "688132",
+    "person_name": "祝国胜",
+    "column": "证券代码",
+    "value": "688132",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 561,
+    "row_id": "莱伯泰科王淼",
+    "company_code": "688056",
+    "person_name": "王淼",
+    "column": "2024薪酬",
+    "value": 111.935,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 562,
+    "row_id": "科德数控李文庆",
+    "company_code": "688305",
+    "person_name": "李文庆",
+    "column": "2021薪酬",
+    "value": 28.17,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 563,
+    "row_id": "兴图新科陈升亮",
+    "company_code": "688081",
+    "person_name": "陈升亮",
+    "column": "2023薪酬",
+    "value": 27.5,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 564,
+    "row_id": "联影医疗QUNCHEN",
+    "company_code": "688271",
+    "person_name": "QUNCHEN",
+    "column": "股票简称",
+    "value": "联影医疗",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 565,
+    "row_id": "新风光李瑞来",
+    "company_code": "688663",
+    "person_name": "李瑞来",
+    "column": "年龄",
+    "value": 79.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 566,
+    "row_id": "兰剑智能沈长鹏",
+    "company_code": "688557",
+    "person_name": "沈长鹏",
+    "column": "2024薪酬",
+    "value": 59.2,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 567,
+    "row_id": "上海合晶尚海波",
+    "company_code": "688584",
+    "person_name": "尚海波",
+    "column": "2023薪酬",
+    "value": 61.8,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 568,
+    "row_id": "京源环保姜勇",
+    "company_code": "688096",
+    "person_name": "姜勇",
+    "column": "最高学历",
+    "value": 1.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 569,
+    "row_id": "盟科药业李峙乐",
+    "company_code": "688373",
+    "person_name": "李峙乐",
+    "column": "2023持股",
+    "value": 2536714.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 570,
+    "row_id": "科兴制药尚维",
+    "company_code": "688136",
+    "person_name": "尚维",
+    "column": "姓名",
+    "value": "尚维",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 571,
+    "row_id": "迪威尔汪海潮",
+    "company_code": "688377",
+    "person_name": "汪海潮",
+    "column": "2023薪酬",
+    "value": 36.45,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 572,
+    "row_id": "会通股份吴摞",
+    "company_code": "688219",
+    "person_name": "吴摞",
+    "column": "姓名",
+    "value": "吴摞",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 573,
+    "row_id": "会通股份吴摞",
+    "company_code": "688219",
+    "person_name": "吴摞",
+    "column": "证券代码",
+    "value": "688219",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 574,
+    "row_id": "翔宇医疗段璠",
+    "company_code": "688626",
+    "person_name": "段璠",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 575,
+    "row_id": "中触媒续晶华",
+    "company_code": "688267",
+    "person_name": "续晶华",
+    "column": "简历",
+    "value": "女，1985年出生，中国国籍，无境外永久居留权，博士研究生学历，身份证号：61272419850825****。曾任大连市标准化研究院标准服务部 职员；在大连化学物理研究所做博士后研究。现任公司研发部部长。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 576,
+    "row_id": "国科军工黄军华",
+    "company_code": "688543",
+    "person_name": "黄军华",
+    "column": "国籍",
+    "value": "中国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 577,
+    "row_id": "聚石化学李新河",
+    "company_code": "688669",
+    "person_name": "李新河",
+    "column": "年龄",
+    "value": 63.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 578,
+    "row_id": "华海清科许振杰",
+    "company_code": "688120",
+    "person_name": "许振杰",
+    "column": "姓名",
+    "value": "许振杰",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 579,
+    "row_id": "佳驰科技阙智勇",
+    "company_code": "688708",
+    "person_name": "阙智勇",
+    "column": "年龄",
+    "value": 40.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 580,
+    "row_id": "西高院元复兴",
+    "company_code": "688334",
+    "person_name": "元复兴",
+    "column": "年龄",
+    "value": 62.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 581,
+    "row_id": "盟科药业李峙乐",
+    "company_code": "688373",
+    "person_name": "李峙乐",
+    "column": "简历",
+    "value": "李峙乐，男，现任公司董事、副总经理、首席财务官、董事会秘书，1978 年出生，中国国籍，香港永久居留权，于 2001 年获中国人民大学经济学学士学位，于 2005 年获得伦敦商学院金融学硕士学位。2011年 5月至 2014年 6月，在华润（集团）有限公司财务部任职；2014 年 6 月至 2016 年 11月，在华润医疗集团有限公司担任首席财务官；2016 年 11 月至 2017 年 10 月，在华润凤凰医疗控股有限公司担任首席财务官；2017年 10月至 2018年 3月，在仁天科技控股有限公司担任首席财务官；2018年 3月至今，历任盟科药业高级副总裁兼首席财务官、董事、副总经理及董事会秘书，2018 年 4月起至今，在盟科开曼、盟科香港任董事；2019年 11月起至今，在盟科新香港任董事。2020 年 12 月起，经盟科药业创立大会暨第一次股东大会选举及董事会聘任，任盟科药业董事、副总经理、首席财务官及董事会秘书。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 582,
+    "row_id": "江航装备刘文彪",
+    "company_code": "688586",
+    "person_name": "刘文彪",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 583,
+    "row_id": "富信科技刘茂林",
+    "company_code": "688662",
+    "person_name": "刘茂林",
+    "column": "2021薪酬",
+    "value": 21.95,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 584,
+    "row_id": "华海诚科刘兆明",
+    "company_code": "688535",
+    "person_name": "刘兆明",
+    "column": "最高学历",
+    "value": 3.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 585,
+    "row_id": "科汇股份贾明全",
+    "company_code": "688681",
+    "person_name": "贾明全",
+    "column": "简历",
+    "value": "1973年8月出生，中国国籍，无境外永久居留权，毕业于西安交通大学，硕士研究生学历，高级工程师。1997 年7月至 1999年12月，担任公司研发部工程师；2000年1月至2005年12月，担任公司 SRD 事业部研发经理；2006 年 1 月至今，担任公司 SRD 事业部副经理，负责开关磁阻电机驱动系统的研发工作。参与公司2项发明专利、3项实用新型专利形成工作，参与项目曾获山东省科学进步二等奖、淄博市科技进步一等奖、淄博市技术发明一等奖，为开关磁阻调速电动机技术条件行业标准主要起草人。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 586,
+    "row_id": "生益电子肖璐",
+    "company_code": "688183",
+    "person_name": "肖璐",
+    "column": "国籍",
+    "value": "中国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 587,
+    "row_id": "中触媒续晶华",
+    "company_code": "688267",
+    "person_name": "续晶华",
+    "column": "性别",
+    "value": "女",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 588,
+    "row_id": "兰剑智能沈长鹏",
+    "company_code": "688557",
+    "person_name": "沈长鹏",
+    "column": "2023薪酬",
+    "value": 65.07,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 589,
+    "row_id": "和元生物程海子",
+    "company_code": "688238",
+    "person_name": "程海子",
+    "column": "证券代码",
+    "value": "688238",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 590,
+    "row_id": "爱威科技罗满华",
+    "company_code": "688067",
+    "person_name": "罗满华",
+    "column": "国籍",
+    "value": "中国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 591,
+    "row_id": "天智航李寅岩",
+    "company_code": "688277",
+    "person_name": "李寅岩",
+    "column": "股票简称",
+    "value": "天智航",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 592,
+    "row_id": "国光电气史佩杰",
+    "company_code": "688776",
+    "person_name": "史佩杰",
+    "column": "2023薪酬",
+    "value": 20.54,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 593,
+    "row_id": "生益电子唐海波",
+    "company_code": "688183",
+    "person_name": "唐海波",
+    "column": "2023薪酬",
+    "value": 45.39,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 594,
+    "row_id": "新点软件潘宇龙",
+    "company_code": "688232",
+    "person_name": "潘宇龙",
+    "column": "2021薪酬",
+    "value": 88.05,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 595,
+    "row_id": "大全能源王西玉",
+    "company_code": "688303",
+    "person_name": "王西玉",
+    "column": "简历",
+    "value": "王西玉先生，1978 年11 月出生，中国国籍，无境外永久居留权，北京化工大学应用化学专业硕士。2001 年7月至2004年9月任山东大成农药股份有限公司百菌清分厂技术员；2007 年 7 月至 2012 年 9 月任重庆大全尾气回收车间车间主任；2012 年 10 月至2013年 11月任大全有限尾气回收车间车间主任；2013年11月至 2015 年12月任大全有限冷氢化车间车间主任；2015年12月至2017 年12月任新疆大全冷氢化车间车间主任；2018 年 1 月至 2019 年 6 月任新疆大全总经理助理；2019 年 6 月至 2020 年 7 月任开曼大全首席技术官；2020 年 7 月至今任新疆大全副总经理。王西玉先生在担任开曼大全首席技术官期间同时也实际承担了新疆大全的生产决策、技术创新改造项目等相关工作，于2020年7月以后不再负责开曼大全事务。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 596,
+    "row_id": "生益电子肖璐",
+    "company_code": "688183",
+    "person_name": "肖璐",
+    "column": "股票简称",
+    "value": "生益电子",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 597,
+    "row_id": "宝兰德赵艳兴",
+    "company_code": "688058",
+    "person_name": "赵艳兴",
+    "column": "2021薪酬",
+    "value": 77.45,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 598,
+    "row_id": "新点软件潘宇龙",
+    "company_code": "688232",
+    "person_name": "潘宇龙",
+    "column": "简历",
+    "value": "男，1979年生，中国国籍，无境外永久居留权，学士学位，软件金领架构师、数据管理从业人员。2002年6月至2006 年6月任美荻特光电医疗软件（上海）有限公司软件工程师，2006年 7月至今历任公司程序员、开发一部经理助理、开发八部副经理、开发十部经理、开发部副总经理、基础支撑研发群总经理、大数据产品线总经理。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 599,
+    "row_id": "盟升电子杜留威",
+    "company_code": "688311",
+    "person_name": "杜留威",
+    "column": "年龄",
+    "value": 43.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 600,
+    "row_id": "百克生物魏巍",
+    "company_code": "688276",
+    "person_name": "魏巍",
+    "column": "证券代码",
+    "value": "688276",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 601,
+    "row_id": "翔宇医疗段璠",
+    "company_code": "688626",
+    "person_name": "段璠",
+    "column": "简历",
+    "value": "段璠先生，1978 年出生，中国国籍，无境外永久居留权，本科学历，计算机科学教育管理工程专业。曾任郑州洪软科技有限公司项目负责人；北京中软宏大信息技术有限公研发部经理，项目负责人。2018 年 1 月加入翔宇医疗，现任公司大数据平台负责人。参与公司重点研发项目基于云平台的大数据管理系统、康复医疗设备信息化平台、康复医疗医护信息平台。作为平台软件开发组组长，带领研发人员完成专利的挖掘、申请，产品研发前期的情报搜集、专利规避及侵权风险分析，截止目前主要参与了智能医护排号系统、智能吞咽检测系统、翔呵护APP 等多项产品。此外，作为主要参与人成功申报《河南省康复医疗设备工业互联网课题》，并参与该课题的实施。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 602,
+    "row_id": "新致软件冯国栋",
+    "company_code": "688590",
+    "person_name": "冯国栋",
+    "column": "股票简称",
+    "value": "新致软件",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 603,
+    "row_id": "科汇股份贾明全",
+    "company_code": "688681",
+    "person_name": "贾明全",
+    "column": "姓名",
+    "value": "贾明全",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 604,
+    "row_id": "东方生物张华",
+    "company_code": "688298",
+    "person_name": "张华",
+    "column": "证券代码",
+    "value": "688298",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 605,
+    "row_id": "会通股份闫溥",
+    "company_code": "688219",
+    "person_name": "闫溥",
+    "column": "最高学历",
+    "value": 2.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 606,
+    "row_id": "浩辰软件王伟",
+    "company_code": "688657",
+    "person_name": "王伟",
+    "column": "年龄",
+    "value": 47.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 607,
+    "row_id": "华峰测控周鹏",
+    "company_code": "688200",
+    "person_name": "周鹏",
+    "column": "2021薪酬",
+    "value": 212.71,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 608,
+    "row_id": "国光电气史佩杰",
+    "company_code": "688776",
+    "person_name": "史佩杰",
+    "column": "姓名",
+    "value": "史佩杰",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 609,
+    "row_id": "灿勤科技朱汇",
+    "company_code": "688182",
+    "person_name": "朱汇",
+    "column": "国籍",
+    "value": "中国",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 610,
+    "row_id": "坤恒顺维王维",
+    "company_code": "688283",
+    "person_name": "王维",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 611,
+    "row_id": "铂力特贺峰",
+    "company_code": "688333",
+    "person_name": "贺峰",
+    "column": "简历",
+    "value": "贺峰 男 44 2017/6/1 / 0 17,276 +17,276 2024年5月实施了资本公积转增股本 产品开发部副部长",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 612,
+    "row_id": "会通股份吴摞",
+    "company_code": "688219",
+    "person_name": "吴摞",
+    "column": "年龄",
+    "value": 39.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 613,
+    "row_id": "新风光李瑞来",
+    "company_code": "688663",
+    "person_name": "李瑞来",
+    "column": "最高学历",
+    "value": 3.0,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 614,
+    "row_id": "海创药业匡通滔",
+    "company_code": "688302",
+    "person_name": "匡通滔",
+    "column": "2023薪酬",
+    "value": 85.08,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 615,
+    "row_id": "威高骨科孙久伟",
+    "company_code": "688161",
+    "person_name": "孙久伟",
+    "column": "证券代码",
+    "value": "688161",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 616,
+    "row_id": "中国电研揭敢新",
+    "company_code": "688128",
+    "person_name": "揭敢新",
+    "column": "简历",
+    "value": "1966年出生，中国国籍，无境外永久居留权，西安交通大学毕业，本科学历，教授级高级工程师，享受国务院政府特殊津贴。1987 年至 2000年，任广州电器科学研究所专业技术人员；2000年至2009年，历任广州电器科学研究所生产力促进中心副主任、广州电器科学研究院环境技术中心主任、中国电器科学研究院广州威凯检测技术有限公司副总经理、工业产品环境适应性国家重点试验室副主任；2009年至2015年，任工业产品环境适应性国家重点试验室常务副主任兼威凯检测技术有限公司副总经理、生产力促进中心总经理；2015年 2019年，任工业产品环境适应性国家重点实验室常务副主任兼威凯检测技术有限公司副总经理。现任工业产品环境适应性国家重点实验室常务副主任兼威凯检测技术有限公司副总经理。",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 617,
+    "row_id": "和元生物程海子",
+    "company_code": "688238",
+    "person_name": "程海子",
+    "column": "性别",
+    "value": "男",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 618,
+    "row_id": "和达科技杨海峰",
+    "company_code": "688296",
+    "person_name": "杨海峰",
+    "column": "2022薪酬",
+    "value": 74.15,
+    "data_type": "float",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 619,
+    "row_id": "日联科技ZHOU LI",
+    "company_code": "688531",
+    "person_name": "ZHOU LI",
+    "column": "股票简称",
+    "value": "日联科技",
+    "data_type": "str",
+    "sheet": "basic"
+  },
+  {
+    "sample_id": 620,
+    "row_id": "恒玄科技陈俊",
+    "company_code": "688608",
+    "person_name": "陈俊",
+    "column": "年龄",
+    "value": 44.0,
+    "data_type": "float",
+    "sheet": "basic"
+  }
+]
