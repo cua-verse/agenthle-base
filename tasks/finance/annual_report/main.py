@@ -1,4 +1,23 @@
-"""ChiNext Annual Report Judge - End-to-End Verifiable.
+"""
+
+Expert Note:
+This is the original end-to-end annual report task: collect required PDFs,
+extract personnel data, and output a normalized table.
+
+What is truly hard in this benchmark:
+- PDF acquisition is brittle at scale; missing even a few files causes major
+  downstream loss.
+- Conditioned extraction is error-prone: agents often miss files, miss data, or miss filter conditions,
+  or output values that do not satisfy stated filters.
+
+Why this matters:
+Real financial data pipelines fail mainly on coverage and rule consistency, not
+on simple arithmetic.
+
+Scale Reality:
+- This task spans 2993 report files.
+- Individual annual reports are often hundreds of pages and layout conventions vary widely across companies and years.
+- In practice, locating the exact evidence rows is a needle-in-a-haystack retrieval problem before any extraction logic even starts.
 """
 
 import json
@@ -38,7 +57,7 @@ class TaskConfig(GeneralTaskConfig):
 Goal: Download and extract ChiNext (创业板) company financial reports from East Money (东方财富网).
 
 Tasks:
-1. Download ALL ChiNext company annual reports and prospectuses for the past 6 years (2019-2024)
+1. Download ALL ChiNext company annual reports and prospectuses for the past 5 years (2019-2024)
    - Target file list provided in: {self.file_list_url} (2993 files). Your output should match this list.
    - Save to: {self.download_url}
 
@@ -118,7 +137,7 @@ def _last_json(stdout: str) -> Dict[str, Any]:
 
 
 async def verify_files_remote(session: cb.DesktopSession, output_dir: str, reference_dir: str) -> float:
-    """50 points max. -1 per wrong/missing file. MD5 computed on remote (parallel)."""
+    """50 points max. -5 per wrong/missing file. MD5 computed on remote (parallel)."""
     manifest = win_join(reference_dir, "file_manifest.json")
     downloads = win_join(output_dir, "downloads")
     ps1_path = win_join(reference_dir, "_verify_files_md5.ps1")
@@ -257,7 +276,7 @@ $sw.Stop()
         total = int(stats.get("total", 0))
         correct = int(stats.get("correct", 0))
         wrong = max(0, total - correct)
-        score = float(max(0, 50 - wrong))
+        score = float(max(0, 50 - 5 * wrong))
 
         logger.info(
             "File check: total=%s correct=%s wrong=%s score=%.2f/50 (hashed=%s throttle=%s elapsed_sec=%s)",
@@ -290,7 +309,7 @@ $sw.Stop()
 
 
 async def verify_data_remote(session: cb.DesktopSession, output_dir: str, reference_dir: str) -> float:
-    """50 points max. -1 per wrong sample."""
+    """50 points max. -5 per wrong sample."""
     samples_path = win_join(reference_dir, "data_samples.json")
     table_path = win_join(output_dir, "final_dataset.xlsx")
 
@@ -315,9 +334,8 @@ async def verify_data_remote(session: cb.DesktopSession, output_dir: str, refere
         return 0.0
 
     try:
-        df_idx = df.set_index("识别码", drop=False, verify_integrity=True)
-    except Exception as e:
-        logger.warning(f"Failed to set '识别码' as a unique index: {e}. This may indicate duplicate entries and will cause slow lookups.")
+        df_idx = df.set_index("识别码", drop=False)
+    except Exception:
         df_idx = df
 
     correct = 0
@@ -354,15 +372,12 @@ async def verify_data_remote(session: cb.DesktopSession, output_dir: str, refere
                 correct += 1
             elif len(mismatches) < 20:
                 mismatches.append({"row_id": row_id, "column": col, "match_type": mtype, "expected": exp, "actual": act})
-        except KeyError as e:
-            if len(mismatches) < 20:
-                mismatches.append({"error": f"Lookup failed for key: {e}", "sample": s})
         except Exception as e:
             if len(mismatches) < 20:
                 mismatches.append({"error": str(e), "sample": s})
 
     wrong = total - correct
-    score = float(max(0, 50 - wrong))
+    score = float(max(0, 50 - 5 * wrong))
     logger.info("Data check: total=%s correct=%s wrong=%s score=%.2f/50", total, correct, wrong, score)
     if mismatches:
         logger.warning("Data mismatch examples (up to 20):")

@@ -22,7 +22,7 @@ from dataclasses import dataclass
 
 import cua_bench as cb
 from tasks.common_config import GeneralTaskConfig
-from tasks.finance.annual_report.subtask_eval_utils import (
+from utils.finance_evaluation import (
     verify_dataset_samples_remote,
     verify_files_remote,
     win_join,
