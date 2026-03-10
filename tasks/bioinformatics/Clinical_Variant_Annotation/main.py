@@ -12,23 +12,36 @@ from utils.evaluation import llm_vision_judge, EvaluationContext
 logger = logging.getLogger(__name__)
 
 
-WSL_ROOT = "/mnt/c/Users/User/Desktop/tasks"
-
-
 @dataclass
 class TaskConfig(GeneralTaskConfig):
     TASK_TAG: str = "Clinical_Variant_Annotation"
     TASK_CATEGORY: str = "bioinformatics"
     OS_TYPE: str = "windows"
-    REMOTE_ROOT_DIR: str = r"C:\Users\User\Desktop\tasks"
 
     # Ground truth
     PATHOGENIC_POS: str = "43106487"
     EXPECTED_VARIANT_COUNT: int = 200
 
+    # Output filenames
+    VARIANT_COUNT_FILE: str = "variant_count.txt"
+    VEP_RESULTS_FILE: str = "vep_results.csv"
+    GNOMAD_RESULTS_FILE: str = "gnomad_results.csv"
+    CLINVAR_RESULTS_FILE: str = "clinvar_results.csv"
+    FINAL_CANDIDATES_FILE: str = "final_candidates.csv"
+    IGV_SCREENSHOT_FILE: str = "igv_screenshot.png"
+
+    @property
+    def wsl_root(self) -> str:
+        """Convert Windows REMOTE_ROOT_DIR to its WSL /mnt/... equivalent."""
+        path = self.REMOTE_ROOT_DIR.replace("\\", "/")
+        if len(path) >= 2 and path[1] == ":":
+            drive = path[0].lower()
+            path = f"/mnt/{drive}{path[2:]}"
+        return path
+
     @property
     def wsl_task_dir(self) -> str:
-        return f"{WSL_ROOT}/{self.TASK_CATEGORY}/{self.TASK_TAG}"
+        return f"{self.wsl_root}/{self.TASK_CATEGORY}/{self.TASK_TAG}"
 
     @property
     def wsl_output_dir(self) -> str:
@@ -115,19 +128,18 @@ async def start(task_cfg, session: cb.DesktopSession):
         await session.remove_file(task_cfg.metadata["remote_output_dir"])
         await session.makedirs(task_cfg.metadata["remote_output_dir"])
 
+        out = task_cfg.metadata["remote_output_dir"]
         await session.run_command(
-            f'powershell -Command "Set-Content -Path \'{task_cfg.metadata["remote_output_dir"]}\\vep_results.csv\' -Value \'CHROM,POS,REF,ALT,GENE,CONSEQUENCE,IMPACT,SIFT,POLYPHEN\'"'
-        )
-
-        await session.run_command(
-            f'powershell -Command "Set-Content -Path \'{task_cfg.metadata["remote_output_dir"]}\\gnomad_results.csv\' -Value \'CHROM,POS,REF,ALT,ALLELE_FREQ\'"'
+            f'powershell -Command "Set-Content -Path \'{out}\\{config.VEP_RESULTS_FILE}\' -Value \'CHROM,POS,REF,ALT,GENE,CONSEQUENCE,IMPACT,SIFT,POLYPHEN\'"'
         )
         await session.run_command(
-            f'powershell -Command "Set-Content -Path \'{task_cfg.metadata["remote_output_dir"]}\\clinvar_results.csv\' -Value \'CHROM,POS,REF,ALT,CLINVAR_RESULT\'"'
+            f'powershell -Command "Set-Content -Path \'{out}\\{config.GNOMAD_RESULTS_FILE}\' -Value \'CHROM,POS,REF,ALT,ALLELE_FREQ\'"'
         )
-    
         await session.run_command(
-            f'powershell -Command "Set-Content -Path \'{task_cfg.metadata["remote_output_dir"]}\\final_candidates.csv\' -Value \'CHROM,POS,REF,ALT,JUSTIFICATION\'"'
+            f'powershell -Command "Set-Content -Path \'{out}\\{config.CLINVAR_RESULTS_FILE}\' -Value \'CHROM,POS,REF,ALT,CLINVAR_RESULT\'"'
+        )
+        await session.run_command(
+            f'powershell -Command "Set-Content -Path \'{out}\\{config.FINAL_CANDIDATES_FILE}\' -Value \'CHROM,POS,REF,ALT,JUSTIFICATION\'"'
         )
 
         await session.run_command(
@@ -148,7 +160,7 @@ async def evaluate(task_cfg, session: cb.DesktopSession) -> list[float]:
     # ── Checkpoint 0: Variant Count (weight: 0.1) ──
     try:
        
-        variant_count_bytes = await session.read_bytes(f"{output_dir}\\variant_count.txt")
+        variant_count_bytes = await session.read_bytes(f"{output_dir}\\{config.VARIANT_COUNT_FILE}")
         if variant_count_bytes:
             text = variant_count_bytes.decode().strip()
             numbers = re.findall(r'\d+', text)
@@ -164,7 +176,7 @@ async def evaluate(task_cfg, session: cb.DesktopSession) -> list[float]:
 
     # ── Checkpoint 1: gnomAD Results (weight: 0.2) ──
     try:
-        gnomad_bytes = await session.read_bytes(f"{output_dir}\\gnomad_results.csv")
+        gnomad_bytes = await session.read_bytes(f"{output_dir}\\{config.GNOMAD_RESULTS_FILE}")
         if gnomad_bytes:
             gnomad_text = gnomad_bytes.decode()
             lines = [l.strip() for l in gnomad_text.strip().split("\n") if l.strip()]
@@ -173,7 +185,7 @@ async def evaluate(task_cfg, session: cb.DesktopSession) -> list[float]:
             has_multiple_rows = len(data_lines) >= 2
 
             # BRCA1 variant should have no frequency or very low frequency
-            brca1_line = next((l for l in data_lines if "43106487" in l), None)
+            brca1_line = next((l for l in data_lines if task_cfg.metadata["pathogenic_pos"] in l), None)
             brca1_rare = False
             if brca1_line:
                 fields = [f.strip() for f in brca1_line.split(",")]
@@ -215,14 +227,14 @@ async def evaluate(task_cfg, session: cb.DesktopSession) -> list[float]:
 
     # ── Checkpoint 2: VEP Results (weight: 0.2) ──
     try:
-        vep_bytes = await session.read_bytes(f"{output_dir}\\vep_results.csv")
+        vep_bytes = await session.read_bytes(f"{output_dir}\\{config.VEP_RESULTS_FILE}")
         if vep_bytes:
             vep_text = vep_bytes.decode()
             lines = [l.strip() for l in vep_text.strip().split("\n") if l.strip()]
             data_lines = [l for l in lines if not l.upper().startswith("CHROM")]
 
             has_rows = len(data_lines) >= 2
-            brca1_annotated = any("43106487" in l and "BRCA1" in l.upper() for l in data_lines)
+            brca1_annotated = any(task_cfg.metadata["pathogenic_pos"] in l and "BRCA1" in l.upper() for l in data_lines)
             has_consequence = any("missense" in l.lower() for l in data_lines)
 
             if has_rows and brca1_annotated and has_consequence:
@@ -240,7 +252,7 @@ async def evaluate(task_cfg, session: cb.DesktopSession) -> list[float]:
 
     # ── Checkpoint 3: ClinVar Results (weight: 0.1) ──
     try:
-        clinvar_bytes = await session.read_bytes(f"{output_dir}\\clinvar_results.csv")
+        clinvar_bytes = await session.read_bytes(f"{output_dir}\\{config.CLINVAR_RESULTS_FILE}")
         if clinvar_bytes:
             clinvar_text = clinvar_bytes.decode()
             lines = [l.strip() for l in clinvar_text.strip().split("\n") if l.strip()]
@@ -248,7 +260,7 @@ async def evaluate(task_cfg, session: cb.DesktopSession) -> list[float]:
 
             has_rows = len(data_lines) >= 1
 
-            brca1_line = next((l for l in data_lines if "43106487" in l), None)
+            brca1_line = next((l for l in data_lines if task_cfg.metadata["pathogenic_pos"] in l), None)
             brca1_pathogenic = False
             if brca1_line:
                 brca1_pathogenic = "pathogenic" in brca1_line.lower()
@@ -268,14 +280,14 @@ async def evaluate(task_cfg, session: cb.DesktopSession) -> list[float]:
 
     # ── Checkpoint 4: Final Candidates (weight: 0.2) ──
     try:
-        candidates_bytes = await session.read_bytes(f"{output_dir}\\final_candidates.csv")
+        candidates_bytes = await session.read_bytes(f"{output_dir}\\{config.FINAL_CANDIDATES_FILE}")
 
         if candidates_bytes:
             candidates_text = candidates_bytes.decode()
             lines = [l.strip() for l in candidates_text.strip().split("\n") if l.strip()]
             data_lines = [l for l in lines if not l.upper().startswith("CHROM")]
 
-            variant_line = next((l for l in data_lines if "43106487" in l), None)
+            variant_line = next((l for l in data_lines if task_cfg.metadata["pathogenic_pos"] in l), None)
             variant_identified = False
             has_justification = False
             if variant_line:
@@ -302,7 +314,7 @@ async def evaluate(task_cfg, session: cb.DesktopSession) -> list[float]:
     # ── Checkpoint 5: IGV Screenshot (weight: 0.2) ──
     try:
         file_name = "igv_screenshot"
-        target_file_path = f"{output_dir}\\igv_screenshot.png"
+        target_file_path = f"{output_dir}\\{config.IGV_SCREENSHOT_FILE}"
         target_image_bytes = await session.read_bytes(target_file_path)
 
         prompt_with_question = lambda question: f"""You are evaluating an IGV screenshot for a clinical genomics task.
