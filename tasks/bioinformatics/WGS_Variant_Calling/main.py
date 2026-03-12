@@ -17,6 +17,7 @@ class TaskConfig(GeneralTaskConfig):
     TASK_TAG: str = "WGS_Variant_Calling"
     TASK_CATEGORY: str = "bioinformatics"
     OS_TYPE: str = "windows"
+    CONDA_ENV: str = "wf1-env"
 
     # Evaluation thresholds
     MIN_MAPPING_RATE: float = 95.0
@@ -85,7 +86,7 @@ class TaskConfig(GeneralTaskConfig):
 
         Environment:
         - An Ubuntu (WSL) terminal is already open at {self.wsl_task_dir}
-        - Conda environment `bio-benchmark` is pre-activated with: bwa, samtools, gatk, bcftools, fastqc, multiqc, tabix, rtg-tools
+        - Conda environment `{self.CONDA_ENV}` is pre-activated with: bwa, samtools, gatk, bcftools, fastqc, multiqc, tabix, rtg-tools
 
         Requirements:
         Execute a standard germline variant calling pipeline following GATK Best Practices, from raw reads to a filtered \
@@ -154,9 +155,9 @@ async def start(task_cfg, session: cb.DesktopSession):
             f'powershell -Command "Set-Content -Path \'{task_cfg.metadata["remote_output_dir"]}\\{config.RTG_SUMMARY_FILE}\' -Value \'Type,Precision,Sensitivity,F_measure\'"'
         )
 
-        # Ensure conda auto-activates bio-benchmark in WSL
+        # Ensure conda auto-activates wf1-env in WSL
         await session.run_command(
-            'wsl bash -c "echo \'conda activate bio-benchmark\' >> ~/.bashrc"'
+            f'wsl bash -c "sed -i \'/conda activate/d\' ~/.bashrc && echo \'conda activate {config.CONDA_ENV}\' >> ~/.bashrc"'
         )
 
         # Open WSL terminal at the task directory
