@@ -49,6 +49,14 @@ Make your changes to the codebase. Remember to:
 - Write clear and concise code
 - Update documentation if necessary
 
+## Task Authoring
+
+If you are contributing a new benchmark task folder, start with:
+
+- `docs/task_impl_guides/AGENT_GUIDE.md`
+
+That guide set is the external collaborator workflow for taking a local dataset and task description through planning, implementation, VM testing, and PR handoff.
+
 ### 4. Test Your Changes
 
 While we don't have an extensive test suite yet, please test your changes manually to ensure they work as expected.
